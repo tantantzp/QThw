@@ -1,0 +1,255 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"><head>
+<!-- IE8 兼容 -->
+<meta http-equiv="X-UA-Compatible" content="IE=EmulateIE7" />
+
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link rel="shortcut icon" type="image/x-icon" href="/public/icon/favicon.ico" />
+<!-- 通用css -->
+
+<link href="/publish/csen/css/common.css" rel="stylesheet" type="text/css" />
+<link href="/publish/csen/css/grid.css" rel="stylesheet" type="text/css" />
+<!-- 引入jquery1.4 -->
+<script src="/public/jquery/jquery-1.4.min.js" type="text/javascript"></script>
+<script language="javascript" type="text/javascript">
+/*
+*截取信息简介
+*summaryStr:String 信息简介
+*lengTh:int 截取的长度
+*/
+ function cutSummary(summaryStr,lengTh){
+   if(summaryStr.length>lengTh){
+     summaryStr=summaryStr.substring(0,lengTh)+"...";
+   }
+   document.write(summaryStr);
+ }
+/*
+*jQuery:所有外域链接在新窗口打开
+*/
+$(document).ready(function() {
+ $("a[href*='http://']:not([href*='"+location.hostname+"']),[href*='https://']:not([href*='"+location.hostname+"'])")
+ .addClass("external")
+ .attr("target","_blank")
+});
+</script>
+
+    
+   
+   
+
+   
+
+  <title>
+Department of Computer Science and Technology
+</title><link href="/publish/csen/css/style_second.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<SCRIPT language="JavaScript" src="/public/plugin/source/global.js"></SCRIPT>
+<!-- 导航下拉菜单 -->
+<link type="text/css" rel="stylesheet" href="/public/plugin/source/nav/css/mt_dropdown.css" />
+
+<SCRIPT language="JavaScript" src="/public/plugin/source/nav/js/mt_dropdownc.min.js"></SCRIPT>
+
+<SCRIPT language="JavaScript" src="/public/plugin/source/nav/js/mt_dropdown_initialize.min.js"></SCRIPT>
+
+<script language="JavaScript">
+
+<!--
+
+function MM_openBrWindow(theURL,winName,features) { //v2.0
+
+  window.open(theURL,winName,features);
+
+}
+$(document).ready(function(){
+
+  init();
+
+});
+
+//-->
+</script>
+
+
+<!-- 导航下拉菜单 --><SCRIPT language="JavaScript" src="/public/plugin/source/global_twain.js"></SCRIPT>
+
+ <!--container开始处-->
+ <div  id="container">
+  <!--header开始处-->
+ 
+<div id="logo">
+    <a href=http://www.tsinghua.edu.cn title="清华大学"></a>
+   </div>
+   <!--logo结束处-->
+   <!--header_mid开始处-->
+   <div id="header_mid">
+    <h1>计算机科学与技术系</h1>
+    <p>Department of Computer Science and Technology</p>
+   </div>
+   <!--header_mid结束处-->
+   <!--header_r开始处-->
+   <div id="header_r">
+    <ul>
+     <li><a href="/publish/cs/index.html" title="计算机科学与技术系中文网">中文版</a></li>
+     <li><a href="http://www.tsinghua.edu.cn">清华主页</a></li>
+     <li>search</li>
+     <li class="set_border">
+     <form id="searchForm" action="#" method="post" target="_blank">
+
+
+<input type="hidden" id="searchVpath" name="vpath" value=""/>
+     <input type="text" name="Q"  class="txt" tabindex="1" />
+     </form>
+</li>
+    </ul>
+   </div>
+   <!--header_r结束处-->  <!--header结束处-->
+  <!--nav开始处-->
+
+<SCRIPT language="JavaScript">
+function initMenuData(){
+if (mtDropDown.isSupported()) {
+var ms = new mtDropDownSet(mtDropDown.direction.down, 0, 0, mtDropDown.reference.bottomLeft);
+var menu4885 = ms.addMenu(document.getElementById("menu_4885"));
+menu4885.addItem("Introduction","/publish/csen/4892/index.html","");
+        menu4885.addItem("History","/publish/csen/4893/index.html","");
+        menu4885.addItem("Department News","/publish/csen/4894/index.html","");
+        var menu4886 = ms.addMenu(document.getElementById("menu_4886"));
+menu4886.addItem("Undergraduate Programs","/publish/csen/4901/index.html","");
+        var subMenu4886_0 = menu4886.addMenu(menu4886.items[0]);
+       subMenu4886_0.addItem("Student Admission","/publish/csen/4901/index.html","");
+    subMenu4886_0.addItem("Curriculum","/publish/csen/4902/index.html","");
+    subMenu4886_0.addItem("Special Programs","/publish/csen/4903/index.html","");
+    subMenu4886_0.addItem("Extracurricular Activities","/publish/csen/4904/index.html","");
+      menu4886.addItem("Master Program","/publish/csen/4905/index.html","");
+        var subMenu4886_1 = menu4886.addMenu(menu4886.items[1]);
+       subMenu4886_1.addItem("Student Admission","/publish/csen/4905/index.html","");
+    subMenu4886_1.addItem("Curriculum","/publish/csen/4906/index.html","");
+      menu4886.addItem("Ph.D Program","/publish/csen/4907/index.html","");
+        var subMenu4886_2 = menu4886.addMenu(menu4886.items[2]);
+       subMenu4886_2.addItem("Student Admission","/publish/csen/4907/index.html","");
+    subMenu4886_2.addItem("Curriculum","/publish/csen/4908/index.html","");
+    subMenu4886_2.addItem("Academic Exchange Program","/publish/csen/4909/index.html","");
+      menu4886.addItem("International Student Program","/publish/csen/4910/index.html","");
+        var subMenu4886_3 = menu4886.addMenu(menu4886.items[3]);
+       subMenu4886_3.addItem("Student Admission","/publish/csen/4910/index.html","");
+    subMenu4886_3.addItem("Curriculum","/publish/csen/4911/index.html","");
+    subMenu4886_3.addItem("Events","/publish/csen/4912/index.html","");
+      menu4886.addItem("Educational Achievement","/publish/csen/4899/index.html","");
+        menu4886.addItem("Teaching Lab","/publish/csen/4900/index.html","");
+        var menu4887 = ms.addMenu(document.getElementById("menu_4887"));
+menu4887.addItem("Research Areas","/publish/csen/4915/index.html","");
+        var subMenu4887_0 = menu4887.addMenu(menu4887.items[0]);
+       subMenu4887_0.addItem("Computer Systems","/publish/csen/4915/index.html","");
+    subMenu4887_0.addItem("Computer Networks","/publish/csen/4916/index.html","");
+    subMenu4887_0.addItem("Information Processing","/publish/csen/4917/index.html","");
+    subMenu4887_0.addItem("Computer Vision & Media Computing","/publish/csen/4918/index.html","");
+    subMenu4887_0.addItem("Data,Knowledge & Software Engineering","/publish/csen/4919/index.html","");
+    subMenu4887_0.addItem("Pervasive Computing","/publish/csen/4920/index.html","");
+    subMenu4887_0.addItem("Electronic Design Automation","/publish/csen/4921/index.html","");
+      menu4887.addItem("Labs/Insititutions","/publish/csen/4914/index.html","");
+        var menu4888 = ms.addMenu(document.getElementById("menu_4888"));
+menu4888.addItem("CAS & CAE members","/publish/csen/4922/index.html","");
+        menu4888.addItem("Full Professor","/publish/csen/4923/index.html","");
+        menu4888.addItem("Associate Professor","/publish/csen/4924/index.html","");
+        menu4888.addItem("Assistant Professor","/publish/csen/4925/index.html","");
+        menu4888.addItem("Visiting chair professor groups","/publish/csen/4926/index.html","");
+        var menu4889 = ms.addMenu(document.getElementById("menu_4889"));
+menu4889.addItem("Lectures","/publish/csen/4927/index.html","");
+        menu4889.addItem("Job Opportunity","/publish/csen/4928/index.html","");
+        mtDropDown.renderAll();
+}
+} 
+</SCRIPT>
+<div id="nav">
+    <ul>
+      <li><a href="/publish/csen/index.html">Home</a></li>
+      <li id="menu_4885"><a href="/publish/csen/4892/index.html">About</a></li>
+      <li id="menu_4886"><a href="/publish/csen/4886/index.html">Education</a></li>
+      <li id="menu_4887"><a href="/publish/csen/4887/index.html">Research</a></li>
+      <li id="menu_4888"><a href="/publish/csen/4922/index.html">Faculty</a></li>
+      <li id="menu_4889"><a href="/publish/csen/4927/index.html">Resource</a></li>
+      <li id="menu_4890"><a href="/publish/csen/4890/index.html">Contact</a></li>
+    </ul>
+   </div>
+<script language="JavaScript">initMenuData();</script>  <!--nav结束处-->
+  <!--s_content开始处-->
+  <div id="s_content">
+   <!--detail_2开始处-->
+   <div class="detail_2">
+            
+            <!-- c_top start -->
+<ul class="nav_01"><li>Your Location：</li><li><a href="/publish/csen/index.html">Home</a> &nbsp;&gt;&nbsp;</li><li>Teacher&nbsp;&gt;&nbsp;</li><li>Content</li><li><a href="javascript:history.go(-1);" class="returnPre">Go back</a></li>
+</ul>
+            <!-- c_bottom end -->
+            
+            <!-- start -->
+            <div class="box_detail">
+                   <!--s2_right_con开始处-->
+                             <div id="s2_right_con">
+<img src="/publish/csen/4623/20101224201854354286982/20101224201931248529281.jpg" />
+<ul>
+    <li id="teacher-name"><strong>Xiaoyan ZHU</strong></li>
+    <li id="teacher-title">Professor</li>
+    <li id="teacher-department">Department of Computer Science and Technology</li>
+    <li id="teacher-time">Joined Department: 1993</li>
+    <li class="teacher-contact"><span class="contact-title">Email:</span><span class="contact-content"><a onfocus="undefined" href="mailto:zxy-dcs@tsinghua.edu.cn">zxy-dcs@tsinghua.edu.cn</a></span></li>
+    <li class="teacher-contact"><span class="contact-title">URL:</span><span class="contact-content"><a onfocus="undefined" href="http://www.csai.tsinghua.edu.cn/~zxy/">http://www.csai.tsinghua.edu.cn/~zxy/</a></span></li>
+    <li class="teacher-contact"><span class="contact-title">Phone:</span><span class="contact-content">+86-10-62796831</span></li>
+    <li class="teacher-contact"><span class="contact-title">Fax:</span><span class="contact-content">+86-10-62782266</span>&nbsp;</li>
+</ul>
+<h4>Education background</h4>
+<p align="left">Bachelor of Automation, University of Science and Technology Beijing, China, 1981;</p>
+<p>Master of Automation, Kobe University, Japan, 1989;</p>
+<p>Ph.D. in Information Engineering, Nagoya Institute of Technology, Japan, 1990.</p>
+ <h4>Social service</h4>
+<p>Beijing Computer Federation: Deputy Director (2004-);</p>
+<p>Department of Computer Science and Technology, Tsinghua University: Vice Dean (2004-2007);</p>
+<p>State Key Laboratory of Intelligent Technology and System, Tsinghua University: Deputy Director (2002-).</p>
+<h4>Areas of Research Interests/ Research Projects</h4>
+<p align="left">Intelligent Information Processing, Machine Learning, Text Mining</p>
+<p>Bioinformatics</p>
+<p>National Basic Research Program of China (The 973 Program): Large-Scale and Real-Text Oriented Chinese Computing: Theories, Methods and Tools (1998-2002);</p>
+<p>National 863 High-Tech Program: Research on Bio-Information: Extraction, Evaluation and Integration (2007-2008);</p>
+<p>International Project funded by International Development and Research Center (Canada): Breaking the Barriers to Internet Access (2009-2014).</p>
+<h4>Research Status</h4>
+<p>I am interested in a wide range of research topics in intelligent information processing. Before 2004, my group focused on Optical Character Recognition (OCR), Speech Signal Processing and Human-Computer Interaction. The theoretical achievements of our work have been applied to two systems-OCR Engine (a system for handwritten character recognition) and Aurora (a system developed for blind and visually impaired computer users). Thanks to our OCR Engine's high accuracy, it had been used in the Fifth National Census of China in 2000. The Aurora system provides users with a set of helpful tools including screen reader, speech recognition server, Braille translator, and email editor. Aurora has a large population of organizational (schools for the blind) and individual users in China, and was adopted by China's First Computer Certification Test for the Blind. Starting 2004, our work has been focusing on Text Mining-Biomedical Text mining and Question Answering (QA) in particular.</p>
+<p>Information distance is a fundamental concept in our theoretical research. To measure informational similarity between individual objects, we proposed conditional information distance model, MIN information distance model and multiple-object information distance model, respectively. These models extend the traditional information distance theory, and provide creative and effective ways to practical application. We have successfully applied these models to many text mining tasks such as pattern optimization in biomedical text mining, information distance between a question and its answer in QA, content similarity measurement in multiple document summarization, and typical/overall document extraction in product review summarization. Our multiple-document summarization system successively ranked 1st in TAC (Text Analysis Conference) 2008 and 2009, a well-recognized international evaluation for Natural Language Processing methodologies.</p>
+<p>Improving user experience in internet information acquisition is the long-term goal of our research. Based our research results in text mining, we have developed online systems to facilitate users in acquiring domain-specific or general information from the internet. These systems include ONBIRES (Ontology-Based Biological Relation Extraction System), QUANTA (Question Answering System), and PROCAR (Product Review Mining System). Our bioinformatics text mining system ranked 1st in several tests of BioCreative II-a critical assessment of information extraction systems in bioinformatics domain, and has attracted the attentions of NCBI (United States National Center for Biotechnology Information)-a prestigious institute which provides biomedical databases and research tools for scientific users. Beginning in 2008, our collaboration with NCBI focuses on the areas of function summarization, and gene/protein name entity identification. At present, NCBI is planning to apply our biomedical texting mining techniques in its biomedical literature search engine named PubMed. Fairly soon, our techniques will serve world-wide biomedical scientific users through PubMed. Our Question-Answering (QA) system aimed at providing users with direct answers to any general questions (e.g. weather report, stock quote or currency exchange). These answers are extracted from the internet. Our QA system can be customized to accommodate different information sources, forming search engine-based QA, encyclopedia-based QA and community-based QA, respectively. This promotes its efficiency while retaining generality, and is most useful in a mobile scenario. We expect our internet information acquisition service would be available to anyone, in anytime and at anywhere.</p>
+<p>My internet information acquisition research is currently supported by Canada's International Development Research Centre (IDRC). IRDC provided us one million Canadian dollars as financial support, and appointed me as the IDRC Research Chair in Information Technology to conduct this research</p>
+<h4>Honors And Awards</h4>
+<p>Science and Technology Progress Award by Ministry of Education, Second Class-An Off-line Handwriting Recognition System for Chinese Characters and Numbers (1997);</p>
+<p>National Award for Science and Technology Progress, Second Class-OCR Character Input System for the Fifth Census in China (2004);</p>
+<p>IDRC Research Chair in Information Technology (2009).</p>
+<h4>Academic Achievement</h4>
+<p align="left">[1] M. Huang, S. Ding, H. Wang and X. Zhu. Mining Physical Protein-protein Interactions from Literature. Genome Biology 2008, 9 (Suppl 2):S12</p>
+<p>[2] H.N. Wang, M.L. Huang, and X.Y. Zhu. Extract Interaction Detection Methods from the Biological Literature. BMC Bioinformatics 2009, 10(Suppl 1):S55</p>
+<p>[3] H.N. Wang, S.L. Ding, M.L. Huang and X.Y. Zhu. Exploiting and Integrating Rich Features for Biological Literature Classification. BMC Bioinformatics, 2008, 9(Suppl 3):S4</p>
+<p>[4] Y. Hao, X.Y. Zhu, M.L. Huang, and M.Li. Discovering patterns to extract protein-protein interactions from the literature: Part II. Bioinformatics, August 1, 2005; 21(15): 3294-3300.(5.7)3294-3300.(5.7)</p>
+<p>[5] M.L. Huang, X.Y. Zhu, Y. Hao, D.G. Payan, K.B Qu and M. Li. Discovering patterns to extract protein-protein interactions from full texts. Bioinformatics, July, 2004.</p>
+<p>[6] S.L. Ding, G. Cong, C. Yew and X,Y. Zhu. Using Conditional Random Fields to Extract Contexts and Answer of Questions from Online Forums. Proc. Intl. Conf. on ACL, Columbus, Ohio, America, 2008.</p>
+<p>[7] F.T.&nbsp;Li,&nbsp;Y.&nbsp;Tang,&nbsp;M.L.&nbsp;Huang&nbsp;and&nbsp;X.Y.&nbsp;Zhu.&nbsp;Answering&nbsp;Opinion&nbsp;Questions&nbsp;with&nbsp;</p>
+<p>Random&nbsp;Walks&nbsp;on&nbsp;Graphs.&nbsp;Proc.&nbsp;the&nbsp;Joint&nbsp;Conf.&nbsp;ACL&nbsp;and&nbsp;Intl. Conf. on&nbsp;Natural&nbsp;Language&nbsp;Processing&nbsp;(ACL-IJCNLP&nbsp;2009),&nbsp;Singapore,&nbsp;pp.&nbsp;737--745. 2009.</p>
+<p>[8] X. Zhang, Y. Hao, X.Y. Zhu and M. Li. Information Distance from a Question to an Answer. Proc. ACM SIG KDD, 2007, California, United State, pp.874-883.</p>
+<p>[9] H.N. Wang, M.L. Huang, and X.Y. Zhu. A Generative Probabilistic Model for Multi-Label Classification. Proc. IEEE Intl. Conf. on Data Mining (ICDM2008),Pisa, Italy, 2008.</p>
+<p>[10] C. Long, M.L. Huang, X.Y. Zhu, and M. Li. Multi-document Summarization by Information Distance. Proc. IEEE Intl. Conf. on Data Mining (ICDM 2009), Miami, USA, 2009.</p>
+<p>[11] C. Long, X.Y. Zhu, M. Li, and B. Ma. Information Shared by Many Objects. Proc. Intl. ACM Conf. on Information and Knowledge Management, (CIKM2008), California, USA, 2008.</p>
+<p>[12] L. Zhuang, F. Jing and X.Y. Zhu: Movie review mining and summarization, Proc. Intl. ACM Conf. on Information and Knowledge Management, (CIKM2006), Arlington, VA, USA, 2006.</p>
+<!--replace end-->
+                  </div>
+     <!--s2_right_con结束处-->            </div>
+            <!-- end -->
+                                       
+       </div>
+   <!--detail_2结束处--> 
+  </div>
+  <!--s_content结束处-->
+  <!--footer开始处-->
+
+<div id="footer">
+ <p class="copy">Copyright &copy;2009-2011&nbsp;Department of Computer Science and Technology &nbsp;All Rights Reserved</p>
+</div>  <!--footer结束处-->
+ </div>
+ <!--contaienr结束处-->
+</body>
+</html>

@@ -1,0 +1,288 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"><head>
+<!-- IE8 兼容 -->
+<meta http-equiv="X-UA-Compatible" content="IE=EmulateIE7" />
+
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link rel="shortcut icon" type="image/x-icon" href="/public/icon/favicon.ico" />
+<!-- 通用css -->
+
+<link href="/publish/csen/css/common.css" rel="stylesheet" type="text/css" />
+<link href="/publish/csen/css/grid.css" rel="stylesheet" type="text/css" />
+<!-- 引入jquery1.4 -->
+<script src="/public/jquery/jquery-1.4.min.js" type="text/javascript"></script>
+<script language="javascript" type="text/javascript">
+/*
+*截取信息简介
+*summaryStr:String 信息简介
+*lengTh:int 截取的长度
+*/
+ function cutSummary(summaryStr,lengTh){
+   if(summaryStr.length>lengTh){
+     summaryStr=summaryStr.substring(0,lengTh)+"...";
+   }
+   document.write(summaryStr);
+ }
+/*
+*jQuery:所有外域链接在新窗口打开
+*/
+$(document).ready(function() {
+ $("a[href*='http://']:not([href*='"+location.hostname+"']),[href*='https://']:not([href*='"+location.hostname+"'])")
+ .addClass("external")
+ .attr("target","_blank")
+});
+</script>
+
+    
+   
+   
+
+   
+
+  <title>
+Department of Computer Science and Technology
+</title><link href="/publish/csen/css/style_second.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<SCRIPT language="JavaScript" src="/public/plugin/source/global.js"></SCRIPT>
+<!-- 导航下拉菜单 -->
+<link type="text/css" rel="stylesheet" href="/public/plugin/source/nav/css/mt_dropdown.css" />
+
+<SCRIPT language="JavaScript" src="/public/plugin/source/nav/js/mt_dropdownc.min.js"></SCRIPT>
+
+<SCRIPT language="JavaScript" src="/public/plugin/source/nav/js/mt_dropdown_initialize.min.js"></SCRIPT>
+
+<script language="JavaScript">
+
+<!--
+
+function MM_openBrWindow(theURL,winName,features) { //v2.0
+
+  window.open(theURL,winName,features);
+
+}
+$(document).ready(function(){
+
+  init();
+
+});
+
+//-->
+</script>
+
+
+<!-- 导航下拉菜单 --><SCRIPT language="JavaScript" src="/public/plugin/source/global_twain.js"></SCRIPT>
+
+ <!--container开始处-->
+ <div  id="container">
+  <!--header开始处-->
+ 
+<div id="logo">
+    <a href=http://www.tsinghua.edu.cn title="清华大学"></a>
+   </div>
+   <!--logo结束处-->
+   <!--header_mid开始处-->
+   <div id="header_mid">
+    <h1>计算机科学与技术系</h1>
+    <p>Department of Computer Science and Technology</p>
+   </div>
+   <!--header_mid结束处-->
+   <!--header_r开始处-->
+   <div id="header_r">
+    <ul>
+     <li><a href="/publish/cs/index.html" title="计算机科学与技术系中文网">中文版</a></li>
+     <li><a href="http://www.tsinghua.edu.cn">清华主页</a></li>
+     <li>search</li>
+     <li class="set_border">
+     <form id="searchForm" action="#" method="post" target="_blank">
+
+
+<input type="hidden" id="searchVpath" name="vpath" value=""/>
+     <input type="text" name="Q"  class="txt" tabindex="1" />
+     </form>
+</li>
+    </ul>
+   </div>
+   <!--header_r结束处-->  <!--header结束处-->
+  <!--nav开始处-->
+
+<SCRIPT language="JavaScript">
+function initMenuData(){
+if (mtDropDown.isSupported()) {
+var ms = new mtDropDownSet(mtDropDown.direction.down, 0, 0, mtDropDown.reference.bottomLeft);
+var menu4885 = ms.addMenu(document.getElementById("menu_4885"));
+menu4885.addItem("Introduction","/publish/csen/4892/index.html","");
+        menu4885.addItem("History","/publish/csen/4893/index.html","");
+        menu4885.addItem("Department News","/publish/csen/4894/index.html","");
+        var menu4886 = ms.addMenu(document.getElementById("menu_4886"));
+menu4886.addItem("Undergraduate Programs","/publish/csen/4901/index.html","");
+        var subMenu4886_0 = menu4886.addMenu(menu4886.items[0]);
+       subMenu4886_0.addItem("Student Admission","/publish/csen/4901/index.html","");
+    subMenu4886_0.addItem("Curriculum","/publish/csen/4902/index.html","");
+    subMenu4886_0.addItem("Special Programs","/publish/csen/4903/index.html","");
+    subMenu4886_0.addItem("Extracurricular Activities","/publish/csen/4904/index.html","");
+      menu4886.addItem("Master Program","/publish/csen/4905/index.html","");
+        var subMenu4886_1 = menu4886.addMenu(menu4886.items[1]);
+       subMenu4886_1.addItem("Student Admission","/publish/csen/4905/index.html","");
+    subMenu4886_1.addItem("Curriculum","/publish/csen/4906/index.html","");
+      menu4886.addItem("Ph.D Program","/publish/csen/4907/index.html","");
+        var subMenu4886_2 = menu4886.addMenu(menu4886.items[2]);
+       subMenu4886_2.addItem("Student Admission","/publish/csen/4907/index.html","");
+    subMenu4886_2.addItem("Curriculum","/publish/csen/4908/index.html","");
+    subMenu4886_2.addItem("Academic Exchange Program","/publish/csen/4909/index.html","");
+      menu4886.addItem("International Student Program","/publish/csen/4910/index.html","");
+        var subMenu4886_3 = menu4886.addMenu(menu4886.items[3]);
+       subMenu4886_3.addItem("Student Admission","/publish/csen/4910/index.html","");
+    subMenu4886_3.addItem("Curriculum","/publish/csen/4911/index.html","");
+    subMenu4886_3.addItem("Events","/publish/csen/4912/index.html","");
+      menu4886.addItem("Educational Achievement","/publish/csen/4899/index.html","");
+        menu4886.addItem("Teaching Lab","/publish/csen/4900/index.html","");
+        var menu4887 = ms.addMenu(document.getElementById("menu_4887"));
+menu4887.addItem("Research Areas","/publish/csen/4915/index.html","");
+        var subMenu4887_0 = menu4887.addMenu(menu4887.items[0]);
+       subMenu4887_0.addItem("Computer Systems","/publish/csen/4915/index.html","");
+    subMenu4887_0.addItem("Computer Networks","/publish/csen/4916/index.html","");
+    subMenu4887_0.addItem("Information Processing","/publish/csen/4917/index.html","");
+    subMenu4887_0.addItem("Computer Vision & Media Computing","/publish/csen/4918/index.html","");
+    subMenu4887_0.addItem("Data,Knowledge & Software Engineering","/publish/csen/4919/index.html","");
+    subMenu4887_0.addItem("Pervasive Computing","/publish/csen/4920/index.html","");
+    subMenu4887_0.addItem("Electronic Design Automation","/publish/csen/4921/index.html","");
+      menu4887.addItem("Labs/Insititutions","/publish/csen/4914/index.html","");
+        var menu4888 = ms.addMenu(document.getElementById("menu_4888"));
+menu4888.addItem("CAS & CAE members","/publish/csen/4922/index.html","");
+        menu4888.addItem("Full Professor","/publish/csen/4923/index.html","");
+        menu4888.addItem("Associate Professor","/publish/csen/4924/index.html","");
+        menu4888.addItem("Assistant Professor","/publish/csen/4925/index.html","");
+        menu4888.addItem("Visiting chair professor groups","/publish/csen/4926/index.html","");
+        var menu4889 = ms.addMenu(document.getElementById("menu_4889"));
+menu4889.addItem("Lectures","/publish/csen/4927/index.html","");
+        menu4889.addItem("Job Opportunity","/publish/csen/4928/index.html","");
+        mtDropDown.renderAll();
+}
+} 
+</SCRIPT>
+<div id="nav">
+    <ul>
+      <li><a href="/publish/csen/index.html">Home</a></li>
+      <li id="menu_4885"><a href="/publish/csen/4892/index.html">About</a></li>
+      <li id="menu_4886"><a href="/publish/csen/4886/index.html">Education</a></li>
+      <li id="menu_4887"><a href="/publish/csen/4887/index.html">Research</a></li>
+      <li id="menu_4888"><a href="/publish/csen/4922/index.html">Faculty</a></li>
+      <li id="menu_4889"><a href="/publish/csen/4927/index.html">Resource</a></li>
+      <li id="menu_4890"><a href="/publish/csen/4890/index.html">Contact</a></li>
+    </ul>
+   </div>
+<script language="JavaScript">initMenuData();</script>  <!--nav结束处-->
+  <!--s_content开始处-->
+  <div id="s_content">
+   <!--detail_2开始处-->
+   <div class="detail_2">
+            
+            <!-- c_top start -->
+<ul class="nav_01"><li>Your Location：</li><li><a href="/publish/csen/index.html">Home</a> &nbsp;&gt;&nbsp;</li><li>Teacher&nbsp;&gt;&nbsp;</li><li>Content</li><li><a href="javascript:history.go(-1);" class="returnPre">Go back</a></li>
+</ul>
+            <!-- c_bottom end -->
+            
+            <!-- start -->
+            <div class="box_detail">
+                   <!--s2_right_con开始处-->
+                             <div id="s2_right_con">
+<img src="/publish/csen/4623/20101223231437873460518/20101224161141618843908.jpg" />
+<ul class="rr">
+    <li id="teacher-name"><strong>Sheqin Dong</strong></li>
+    <li id="teacher-title">Associate Professor</li>
+    <li id="teacher-department">Department of Computer Science and Technology</li>
+    <li id="teacher-time">Joined Department: 1999</li>
+    <li class="teacher-contact"><span class="contact-title">Email:</span><span class="contact-content"><a href="mailto:dongsq@tsinghua.edu.cn">dongsq@tsinghua.edu.cn</a></span></li>
+    <li class="teacher-contact"><span class="contact-title">URL:</span><span class="contact-content"><a href="http://cs.tsinghua.edu.cn/dongsq.html">http://cs.tsinghua.edu.cn/dongsq.html</a></span></li>
+    <li class="teacher-contact"><span class="contact-title">Phone:</span><span class="contact-content">+86-10-62785564</span></li>
+    <li class="teacher-contact"><span class="contact-title">Fax:</span><span class="contact-content">+86-10-62781489</span></li>
+</ul>
+<h4>Education background</h4>
+<p align="left">Bachelor of Computer Science &amp; Technology, Harbin Institute of Technology, Harbin, China, 1985;</p><p>
+Master of Semiconductor Physics &amp; Device, Harbin Institute of Technology, Harbin, China, 1987;</p><p>
+Ph.D. in Mechantronic Control &amp; Automation, Harbin Institute of Technology, Harbin, China, 1996;</p><p>
+Post-Doctoral Fellow, State Key Lab of CAD &amp; CG, Zhejiang University, Hangzhou, China, 1999.</p>
+ <h4>Social service</h4>
+<p align="left">Department of Computer Science &amp; Technology, Tsinghua University: Section Chief of Graduate Students (2000-2003);</p><p>
+Department of Computer Science &amp; Technology, Tsinghua University: Director of EDA Lab (2000-2008);</p><p>
+ACM/IEEE ASP-DAC: Program Committee Member (2010-2011);</p><p>
+Science and Technology Committee of Haidian District of Beijing City: Expert Committee Member (2003-);</p><p>
+Joint Conference of Information Science: Program Co-chair and Advisory Committee Member (2007-2008);</p><p>
+Waseda University: Visiting Scholar, Visiting Professor (2007-2009);</p><p>
+The Chinese University of Hong Kong: Associate Researcher.</p>
+<h4>Areas of Research Interests/ Research Projects</h4>
+<p align="left">VLSI Physical Design, SOC Design and Packaging</p><p>
+Optimization Algorithm and its Applications</p><p>
+Application-Specific Architecture Design and Chip Design</p>
+<p>&quot;Tsinghua University-Waseda University&quot; International Cooperation Project: SoC Design and Automation (2006-);</p><p>
+&quot;Tsinghua University-Toshiba&quot; International Cooperation Project: Research on Physical Design of Analog Circuit (2007-2010);</p><p>
+National Natural Science Foundation of China: Programmable and Configurable SoC Architecture and Key Technologies (2006-2008);</p><p>
+National Natural Science Foundation of China: Solution Space Smoothing and its Application in Floorplanning and Interconnection Resources Planning (2005-2007);</p><p>
+National Natural Science Foundation of China: Research on Floorplanning and Placement of Mixed Signal SoC (2004-2006);</p><p>
+Joint Project of National Natural Science Foundation and Hong Kong RGC: Research on Least-Flexibility First Optimization Algorithm and its Applications (2003-2005);</p><p>
+&quot;Tsinghua University-Seiko (Jedat)&quot; International Cooperation Project: Layout Automation of Analog Circuits (2002-2005).</p>
+<h4>Research Status</h4>
+<p>My research group addresses fundamental problems in VLSI physical design, and has proposed many novel algorithms in this area. Some of them have been successfully embedded in the EDA tools of Japanese or American companies. Based on the achievements of my group, FAIST (Foundation for Advancement of Industry, Science and Technology) of Kitakyushu and Waseda University co-founded an EDA research base for my department in 2006. It is located in Kitakyushu Science and Research Park, and I have been the PI of this cooperation research base since then.</p><p>
+To solve the problem of floor planning and placement, my group has proposed a novel non-slicing floorplan representation: CBL (Corner Block List). This representation is extended to cover the optimal solution and an ergodic neighborhood transformation is proposed. Based on these, my group also proposed many algorithms to solve various constraints in floorplanning and placement. A novel fixed-outline zero-dead-space floorplanning algorithm is also proposed. It has become the new key basic technology to solve hard problems in physical design of floorplacement. Some of these algorithms have been used in EDA tools.</p><p>
+My group has also invented two new optimization algorithms. One is the search space smoothing algorithm that can search in the solution space using both global and local smoothing effects. The other is less-flexibility first algorithm. The two algorithms have been used to solve floorplanning, 3D packing and FPGA floorplanning problems. </p><p>
+Mixed signal SoC physical design and its automation has been virgin soil in EDA area. My group has proposed a novel signal flow method which includes many algorithms to address this challenge. These algorithms include layout constraints automatic extraction, constraints automatic grading, and constraint-driven automatic layout with consideration of symmetry, mismatch, group, signal sensitivity, thermal, etc. The algorithms have been embedded in the EDA tools of Japanese and American companies.</p><p>
+My group also proposed algorithms on FPGA planning, 2.5D and 3D integration, thermal planning for high density integration, X-and-Y interconnection architecture planning, BUS planning, multi-voltage system optimization, and network-on-chip optimization.</p>
+<h4>Honors And Awards</h4>
+<p align="left">Science and Technology Progress Award by City of Beijing, Second Class-SOC Physical Design CAD Technology and Applications (2007);</p><p>
+Nature Science Award by Ministry of Education, Second Class-Research on Optimization and Verification of VLSI Physical Design (2006);</p><p>
+&quot;Lin Feng&quot; Award for Education and Management of Graduate Students by Tsinghua University, First Class (2002).</p>
+<h4>Academic Achievement</h4>
+<p align="left">[1] Xu He, Sheqin Dong, Yuchun Ma, Signal Through-the-Silicon Via Planning and Pin Assignment for Thermal and Wire Length Optimization in 3D ICs, Integration, the VLSI Journal. 2010</p><p>
+[2] Bei Yu(*), Sheqin Dong, et al, Voltage and Level-Shifter Assignment Driven Floorplanning,IEICE Transaction on Fundamentals of Electronics, Communications and Computer Sciences,Vol. E92-A, No.12, Dec.2009</p><p>
+[3] Yaoguang Wei, Sheqin Dong, Xianlong Hong, APWL-Y:an accurate and efficient wirelength estimation technique for hexagon/triangle placement, Integration, the VLSI Journal, Integration, the VLSI Journal, 40 (2007), p406-419</p><p>
+[4] Chen S, Dong SQ, Hong XL, Yici Cai, Chung-Kuan Cheng, Jun Gu, &quot;VLSI block placement with alignment constraints&quot;, IEEE TRANSACTIONS ON CIRCUITS AND SYSTEMS 53 (8): 622-626 AUG 2006</p><p>
+[5] Yuchun Ma, Xianlong Hong, Sheqin Dong, Yici Cai, Chung-Kuan Cheng, Jun Gu, &quot;An Integrated Floorplanning with an Efficient Buffer Planning Algorithm&quot;, IEEE Transactions on CAD of Integrated Circuits and Systems, Vol. 24 (No. 4) (2005)</p><p>
+[6] Xianlong Hong, Sheqin Dong, Gang Huang, Yici Cai, C.K. Cheng, Jun Gu, &quot;Non-slicing Floorplan and Placement using Corner Block List Topological Representation&quot;, IEEE Transaction on CAS, Vol. 51 (No. 5) (2004), pp228-233</p><p>
+[7] Yuchun Ma, Xianlong Hong, Sheqin Dong, Yici Cai, Chung-Kuan Cheng, Jun Gu, &quot;Stairway Compaction using Corner Block List and Its Applications with Rectilinear Blocks&quot;, ACM Transactions on Design Automation of Electronic Systems, Vol. 9 (No. 2) (2004), p199-211</p><p>
+[8] Yuchun Ma, Xianlong Hong, Sheqin Dong, Yici Cai, Chung-Kuan Cheng, Jun Gu, &quot;Floorplanning with Abutment Constraints Based on Corner Block List&quot;, Integration, the VLSI Journal, Vol. 31 (No. 1) (2001), p65-77</p><p>
+[9] Sheqin Dong, Xianlong Hong, Song Chen, Xing Qi, Ruijie Wang, &quot;VLSI Module Placement with Preplaced Modules and Considering Congestion Using Solution Space Smoothing&quot;, IEICE Transactions on Fundamental of Electronics, Communications and Computer Science, Vol. E86-A, (No.12) (2003), pp3136-3147</p><p>
+[10] Yuchun Ma, Xianlong Hong, Sheqin Dong, Yici Cai, Chung-Kuan Cheng, Jun Gu, &quot;VLSI Floorplanning with Boundary Constraints Using Corner Block List Representation&quot;, IEICE Transactions on Fundamental of Electronics, Communications and Computer Science, Vol. E84A (No. 11) (2001), p2697-2704</p><p>
+[11] Bei Yu, Sheqin Dong, et al, Floorplanning and Topology Generation for Application-Specific Network-on-Chip,ACM/IEEE ASP-DAC 2010,</p><p>
+[12] Ou He, Sheqin Dong, Jinian Bian, Satoshi Goto, C.K.Cheng, Bus Via Reduction Based on Floorplan Revising, ACM/IEEE GLSVLSI Rhode Island, USA,May 16-18, 2010</p><p>
+[13] Tao Lin, Sheqin Dong, Bei Yu, Song Chen, Satoshi Goto, A Revisit to Voltage Partitioning Problem, ACM/IEEE GLSVLSI Rhode Island, USA,May 16-18, 2010</p><p>
+[14] Wentao Sui, Sheqin Dong, Jinian Bian, Wirelength-Driven Force-Directed 3D FPGA Placement,ACM/IEEE GLSVLSI Rhode Island, USA,May 16-18, 2010</p><p>
+[15] Wenxu Sheng, Sheqin Dong, Yuliang Wu, Satoshi Goto, Fixed Outline Multi-Bend Bus Driven Floorplanning,ACM/IEEE ISQED 2010, USA,</p><p>
+[16] Xu He, Sheqin Dong,Simultaneous Buffer and Interlayer Via Planning for 3D Floorplanning, ACM/IEEE ISQED 2009, USA, pp740-745</p><p>
+[17] Ou He, Sheqin Dong, Jinian Bian, Satoshi Goto, C.K. Cheng, A Novel Fixed outline Floorplanner with Zero Deadspace for Hierarchical Design, ACM/IEEE International conference on CAD, 2008, USA,pp16-23</p><p>
+[18] Jiayi Liu, Sheqin Dong, Xianlong Hong, Yibo Wang (Tsinghua Univ., China), Satoshi Goto (Waseda Univ., Japan), Symmetry Constraint based on Mismatch Analysis for Analog Layout in SOI Technology, The 13th IEEE/ACM Asia and South Pacific Design Automation Conference (ASPDAC2008), Korean, January,2008</p><p>
+[19] Jiayi Liu, Sheqin Dong, Yuchun Ma, Di Long, Xianlong Hong, &quot;Thermal-driven Symmetry Constraint for Analog Layout with CBL Representation&quot; The 12th IEEE/ACM Asia and South Pacific Design Automation Conference (ASPDAC2007), Yokohama, Japan, 2007.1</p><p>
+[20] Hongjie Bai, Sheqin Dong, Xianlong Hong, Congestion driven buffer planning for X-Architecture, ACM/IEEE ISQED 2007, USA,pp835-840</p><p>
+[21] Kang Zhao, Jinian Bian, Sheqin Dong, Yang Song, Satoshi Goto, &quot;Fast Custom Instruction Identification Algorithm based on Basic Convex Pattern Model for Supporting ASIP Automated Design&quot;, IEICE Trans. Fundamentals, Vol. E91-A, No.6, pp. 1478-1487, June 2008.</p><p>
+[22] Kang Zhao, Jinian Bian, Sheqin Dong, Yang Song, Satoshi Goto, &quot;Exploring Partitions based on Search Space Smoothing for Heterogeneous Multiprocessor System&quot;, IEICE Trans. Fundamentals, Special Section on Nonlinear Theory and its Applications, Vol. E91-A, No.6, pp.2456-2464, Sep.2008.</p><p>
+[23] Hong Xianlong, Ma Yuchun, Dong Sheqin, Cai Yici, C.K. Cheng, Jun Gu, &quot;A Floorplanning Representation Corner Block List and The Corner Block List Based Floorplanning Algorithm with Boundary Constraint&quot;, SCIENCE IN CHINA (Series F), Vol. 47 (No. 1) (2004), p1-19</p><p>
+[24] Song Chen, X. Hong, S. Dong, Y. Ma, Y. Cai, C.K. Cheng, J. Gu, &quot;A Buffer Planning Algorithm for Chip-Level Floorplanning&quot;, SCIENCE IN CHINA SERIES F-INFORMATION SCIENCES 47 (6): 763-776 DEC 2004</p><p>
+[25] Yuchun Ma, Xianlong Hong, Sheqin Dong, C.K.Cheng, Jun Gu, &quot;General Floorplans with L/T-shaped blocks using corner block list&quot;, Journal of Computer Science and Technology vol.21, no. 6, Nov,2006 pp.922-926</p><p>
+[26] Dong Sheqin, Hong Xianlong, Wu Youliang, Gu Jun, &quot;Deterministic VLSI Block Placement Algorithm Using Less Flexibility First Principle&quot;, Journal of Computer Science and Technology (JCST), Vol. 18 (No. 6) (2003), p739-746</p><p>
+[27] Song Chen, Xianlong Hong, Sheqin Dong, Yuchun Ma, C-K Cheng, Jun Gu, &quot;Fast Evaluation of Bounded Slice-line Grid&quot;, Journal of Computer Science and Technology (JCST), Vol. 19 (No. 6) (2004), p973-980</p><p>
+[28] Sheqin Dong, Shuo Zhou, Xianlong Hong, Chungkuan Cheng, Jun Gu, Yici Cai, &quot;An Optimum Placement Search Algorithm Based on Extended Corner Block List&quot;, Journal of Computer Science and Technology (JCST), Vol. 17 (No. 6) (2002), p699-707</p><p>
+[29] Di Long; Xianlong Hong; Sheqin Dong;&quot;Signal-path driven partition and placement for analog circuit&quot; Design Automation, 2006. Asia and South Pacific Conference on 24-27 Jan. 2006 Page(s):6</p><p>
+[30] Renshen WANG, Sheqin DONG Xianlong HONG, &quot;An Improved P-admissible Floorplan Representation Based on Corner Block List&quot;, 2005.1, The 10th IEEE/ACM Asia and South Pacific Design Automation Conference (ASPDAC2005), Shanghai, China, p1115-1118</p><p>
+[31] Jun Yuan, Sheqin Dong, Xianlong Hong, Yuliang Wu, &quot;LFF Algorithm for Heterogeneous FPGA Floorplanning&quot;, 2005.1, The 10th IEEE/ACM Asia and South Pacific Design Automation Conference (ASPDAC2005), Shanghai, China, p1123-1126</p><p>
+[32] Yuchun Ma, Xianlong Hong, Sheqin Dong, Yici Cai, C-K Cheng, Jun Gu, &quot;An Integrated Floorplanning with an Efficient Buffer Planning Algorithm&quot;, 2003.3, ACM/SIGDA International Symposium on Physical Design, USA</p><p>
+[33] Yuchun Ma, Xianlong Hong, Sheqin Dong, Song Chen, Yici Cai, C-K Cheng, Jun Gu, &quot;Dynamic Global Buffer Planning Optimization Based on Detail Block Locating and Congestion Analysis&quot;, 2003.6, IEEE/ACM 40th Design Automation Conference, Los Angeles, USA, p 806-811</p><p>
+[34] Shuo Zhou, Sheqin Dong, Xianlong Hong,Yici Cai, C-K Cheng, Jun Gu, &quot;ECBL: An Extended Corner Block List with Solution Space including Optimum Placement&quot;, 2001.3, ACM/SIGDA International Symposium on Physical Design, USA, pp150-155</p><p>
+[35] Yuchun Ma, Xianlong Hong, Sheqin Dong, Yici Cai, C-K Cheng, Jun Gu, &quot;Floorplanning with Abutment Constraints and L-Shaped/T-Shaped Blocks based on Corner Block List&quot;, 2001.6, IEEE/ACM 38th Design Automation Conference, Las Vegas, USA, p770-775</p><p>
+[36] Xianlong Hong, Gamg Huang, Yici Cai, Sheqin Dong, Jiangchun Gu, C.K. Cheng, Jun Gu, &quot;Corner Block List: An Effective and Efficient Topological Representation of Non-Slicing Floorplan&quot;, 2000.11.5, IEEE/ACM International Conference on CAD, p8-12</p>
+                  </div>
+     <!--s2_right_con结束处-->            </div>
+            <!-- end -->
+                                       
+       </div>
+   <!--detail_2结束处--> 
+  </div>
+  <!--s_content结束处-->
+  <!--footer开始处-->
+
+<div id="footer">
+ <p class="copy">Copyright &copy;2009-2011&nbsp;Department of Computer Science and Technology &nbsp;All Rights Reserved</p>
+</div>  <!--footer结束处-->
+ </div>
+ <!--contaienr结束处-->
+</body>
+</html>

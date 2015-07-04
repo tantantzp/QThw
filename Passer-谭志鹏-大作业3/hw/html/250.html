@@ -1,0 +1,250 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"><head>
+<!-- IE8 兼容 -->
+<meta http-equiv="X-UA-Compatible" content="IE=EmulateIE7" />
+
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link rel="shortcut icon" type="image/x-icon" href="/public/icon/favicon.ico" />
+<!-- 通用css -->
+
+<link href="/publish/csen/css/common.css" rel="stylesheet" type="text/css" />
+<link href="/publish/csen/css/grid.css" rel="stylesheet" type="text/css" />
+<!-- 引入jquery1.4 -->
+<script src="/public/jquery/jquery-1.4.min.js" type="text/javascript"></script>
+<script language="javascript" type="text/javascript">
+/*
+*截取信息简介
+*summaryStr:String 信息简介
+*lengTh:int 截取的长度
+*/
+ function cutSummary(summaryStr,lengTh){
+   if(summaryStr.length>lengTh){
+     summaryStr=summaryStr.substring(0,lengTh)+"...";
+   }
+   document.write(summaryStr);
+ }
+/*
+*jQuery:所有外域链接在新窗口打开
+*/
+$(document).ready(function() {
+ $("a[href*='http://']:not([href*='"+location.hostname+"']),[href*='https://']:not([href*='"+location.hostname+"'])")
+ .addClass("external")
+ .attr("target","_blank")
+});
+</script>
+
+    
+   
+   
+
+   
+
+  <title>
+Department of Computer Science and Technology
+</title><link href="/publish/csen/css/style_second.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<SCRIPT language="JavaScript" src="/public/plugin/source/global.js"></SCRIPT>
+<!-- 导航下拉菜单 -->
+<link type="text/css" rel="stylesheet" href="/public/plugin/source/nav/css/mt_dropdown.css" />
+
+<SCRIPT language="JavaScript" src="/public/plugin/source/nav/js/mt_dropdownc.min.js"></SCRIPT>
+
+<SCRIPT language="JavaScript" src="/public/plugin/source/nav/js/mt_dropdown_initialize.min.js"></SCRIPT>
+
+<script language="JavaScript">
+
+<!--
+
+function MM_openBrWindow(theURL,winName,features) { //v2.0
+
+  window.open(theURL,winName,features);
+
+}
+$(document).ready(function(){
+
+  init();
+
+});
+
+//-->
+</script>
+
+
+<!-- 导航下拉菜单 --><SCRIPT language="JavaScript" src="/public/plugin/source/global_twain.js"></SCRIPT>
+
+ <!--container开始处-->
+ <div  id="container">
+  <!--header开始处-->
+ 
+<div id="logo">
+    <a href=http://www.tsinghua.edu.cn title="清华大学"></a>
+   </div>
+   <!--logo结束处-->
+   <!--header_mid开始处-->
+   <div id="header_mid">
+    <h1>计算机科学与技术系</h1>
+    <p>Department of Computer Science and Technology</p>
+   </div>
+   <!--header_mid结束处-->
+   <!--header_r开始处-->
+   <div id="header_r">
+    <ul>
+     <li><a href="/publish/cs/index.html" title="计算机科学与技术系中文网">中文版</a></li>
+     <li><a href="http://www.tsinghua.edu.cn">清华主页</a></li>
+     <li>search</li>
+     <li class="set_border">
+     <form id="searchForm" action="#" method="post" target="_blank">
+
+
+<input type="hidden" id="searchVpath" name="vpath" value=""/>
+     <input type="text" name="Q"  class="txt" tabindex="1" />
+     </form>
+</li>
+    </ul>
+   </div>
+   <!--header_r结束处-->  <!--header结束处-->
+  <!--nav开始处-->
+
+<SCRIPT language="JavaScript">
+function initMenuData(){
+if (mtDropDown.isSupported()) {
+var ms = new mtDropDownSet(mtDropDown.direction.down, 0, 0, mtDropDown.reference.bottomLeft);
+var menu4885 = ms.addMenu(document.getElementById("menu_4885"));
+menu4885.addItem("Introduction","/publish/csen/4892/index.html","");
+        menu4885.addItem("History","/publish/csen/4893/index.html","");
+        menu4885.addItem("Department News","/publish/csen/4894/index.html","");
+        var menu4886 = ms.addMenu(document.getElementById("menu_4886"));
+menu4886.addItem("Undergraduate Programs","/publish/csen/4901/index.html","");
+        var subMenu4886_0 = menu4886.addMenu(menu4886.items[0]);
+       subMenu4886_0.addItem("Student Admission","/publish/csen/4901/index.html","");
+    subMenu4886_0.addItem("Curriculum","/publish/csen/4902/index.html","");
+    subMenu4886_0.addItem("Special Programs","/publish/csen/4903/index.html","");
+    subMenu4886_0.addItem("Extracurricular Activities","/publish/csen/4904/index.html","");
+      menu4886.addItem("Master Program","/publish/csen/4905/index.html","");
+        var subMenu4886_1 = menu4886.addMenu(menu4886.items[1]);
+       subMenu4886_1.addItem("Student Admission","/publish/csen/4905/index.html","");
+    subMenu4886_1.addItem("Curriculum","/publish/csen/4906/index.html","");
+      menu4886.addItem("Ph.D Program","/publish/csen/4907/index.html","");
+        var subMenu4886_2 = menu4886.addMenu(menu4886.items[2]);
+       subMenu4886_2.addItem("Student Admission","/publish/csen/4907/index.html","");
+    subMenu4886_2.addItem("Curriculum","/publish/csen/4908/index.html","");
+    subMenu4886_2.addItem("Academic Exchange Program","/publish/csen/4909/index.html","");
+      menu4886.addItem("International Student Program","/publish/csen/4910/index.html","");
+        var subMenu4886_3 = menu4886.addMenu(menu4886.items[3]);
+       subMenu4886_3.addItem("Student Admission","/publish/csen/4910/index.html","");
+    subMenu4886_3.addItem("Curriculum","/publish/csen/4911/index.html","");
+    subMenu4886_3.addItem("Events","/publish/csen/4912/index.html","");
+      menu4886.addItem("Educational Achievement","/publish/csen/4899/index.html","");
+        menu4886.addItem("Teaching Lab","/publish/csen/4900/index.html","");
+        var menu4887 = ms.addMenu(document.getElementById("menu_4887"));
+menu4887.addItem("Research Areas","/publish/csen/4915/index.html","");
+        var subMenu4887_0 = menu4887.addMenu(menu4887.items[0]);
+       subMenu4887_0.addItem("Computer Systems","/publish/csen/4915/index.html","");
+    subMenu4887_0.addItem("Computer Networks","/publish/csen/4916/index.html","");
+    subMenu4887_0.addItem("Information Processing","/publish/csen/4917/index.html","");
+    subMenu4887_0.addItem("Computer Vision & Media Computing","/publish/csen/4918/index.html","");
+    subMenu4887_0.addItem("Data,Knowledge & Software Engineering","/publish/csen/4919/index.html","");
+    subMenu4887_0.addItem("Pervasive Computing","/publish/csen/4920/index.html","");
+    subMenu4887_0.addItem("Electronic Design Automation","/publish/csen/4921/index.html","");
+      menu4887.addItem("Labs/Insititutions","/publish/csen/4914/index.html","");
+        var menu4888 = ms.addMenu(document.getElementById("menu_4888"));
+menu4888.addItem("CAS & CAE members","/publish/csen/4922/index.html","");
+        menu4888.addItem("Full Professor","/publish/csen/4923/index.html","");
+        menu4888.addItem("Associate Professor","/publish/csen/4924/index.html","");
+        menu4888.addItem("Assistant Professor","/publish/csen/4925/index.html","");
+        menu4888.addItem("Visiting chair professor groups","/publish/csen/4926/index.html","");
+        var menu4889 = ms.addMenu(document.getElementById("menu_4889"));
+menu4889.addItem("Lectures","/publish/csen/4927/index.html","");
+        menu4889.addItem("Job Opportunity","/publish/csen/4928/index.html","");
+        mtDropDown.renderAll();
+}
+} 
+</SCRIPT>
+<div id="nav">
+    <ul>
+      <li><a href="/publish/csen/index.html">Home</a></li>
+      <li id="menu_4885"><a href="/publish/csen/4892/index.html">About</a></li>
+      <li id="menu_4886"><a href="/publish/csen/4886/index.html">Education</a></li>
+      <li id="menu_4887"><a href="/publish/csen/4887/index.html">Research</a></li>
+      <li id="menu_4888"><a href="/publish/csen/4922/index.html">Faculty</a></li>
+      <li id="menu_4889"><a href="/publish/csen/4927/index.html">Resource</a></li>
+      <li id="menu_4890"><a href="/publish/csen/4890/index.html">Contact</a></li>
+    </ul>
+   </div>
+<script language="JavaScript">initMenuData();</script>  <!--nav结束处-->
+  <!--s_content开始处-->
+  <div id="s_content">
+   <!--detail_2开始处-->
+   <div class="detail_2">
+            
+            <!-- c_top start -->
+<ul class="nav_01"><li>Your Location：</li><li><a href="/publish/csen/index.html">Home</a> &nbsp;&gt;&nbsp;</li><li>Teacher&nbsp;&gt;&nbsp;</li><li>Content</li><li><a href="javascript:history.go(-1);" class="returnPre">Go back</a></li>
+</ul>
+            <!-- c_bottom end -->
+            
+            <!-- start -->
+            <div class="box_detail">
+                   <!--s2_right_con开始处-->
+                             <div id="s2_right_con">
+<img src="/publish/csen/4623/20101225162709004146703/20101225162747191706919.jpg" />
+<ul>
+    <li id="teacher-name"><strong>Runyao DUAN</strong></li>
+    <li id="teacher-title">Assistant Professor</li>
+    <li id="teacher-department">Department of Computer Science and Technology</li>
+    <li id="teacher-time">Joined Department: 2006</li>
+    <li class="teacher-contact"><span class="contact-title">Email:</span><span class="contact-content"><a onfocus="undefined" href="mailto:dry@tsinghua.edu.cn">dry@tsinghua.edu.cn</a></span></li>
+    <li class="teacher-contact"><span class="contact-title">URL:</span></li>
+    <li class="teacher-contact"><span class="contact-title">Phone:</span><span class="contact-content">+86-10-62796261</span></li>
+    <li class="teacher-contact"><span class="contact-title">Fax:</span><span class="contact-content">+86-10-62782266</span></li>
+</ul>
+<h4>Education background</h4>
+<p align="left">Bachelor of Computer Science, Tsinghua University, Beijing, China, 2002;</p>
+<p>Ph.D. in Computer Science, Tsinghua University, Beijing, China, 2006.</p>
+ <h4>Social service</h4>
+<p>University of Technology Sydney: Director of Quantum Computation Laboratory (2008-).</p>
+<h4>Areas of Research Interests/ Research Projects</h4>
+<p>Quantum Computation, Quantum Information Theory</p>
+<p>National Natural Science Foundation of China: Quantum State Discrimination and the Calculation of Channel Capacity (2008-2010);</p>
+<p>National 863 High-Tech Program: Quantum Computation Models (2006-2008).</p>
+<h4>Research Status</h4>
+<p>I have been studying quantum information, especially weird phenomenon and new applications of quantum entanglement since 2002. By now, several important contributions have been made to the following fundamental topics in quantum information: quantum state/operation discrimination, zero-error communication with noisy quantum channels, and entanglement transformation theory. I have published more than 36 papers on prominent international journals and presented 4 papers at international conferences. These efforts have been widely recognized and have stimulated a lot research interests. My most significant contributions are as follows:</p>
+<p>1. Characterization of the distinguishability of quantum operations: One fundamental problem in quantum information is to characterize the perfect distinguishability of quantum operations, which consist of all physically realizable operations allowed by quantum mechanics. Many other important information processing tasks can be treated as special cases of this problem. Since the seminal work proposed by Childs, Preskill, and Renes in 1999, this problem has been studied extensively and many interesting partial results have been reported. However, it remains open whether two general quantum operations are perfectly distinguishable. I, in collaboration with Prof. Yuan Feng and Prof. Mingsheng Ying, have made three key contributions to the above topic. Most notably, we have obtained a feasible, necessary and sufficient condition for the perfect distinguishability of quantum operations, and thus finally solved the above long-standing open problem. The referees of Physical Review Letters remarked that (our paper) &quot;is a solid piece of research, which significantly advances our knowledge and understanding of quantum processes and operations&quot;.</p>
+<p>2. Quantum Zero-Error Information Theory: Together with Yaoyun Shi (Univ. of Michigan), I have discovered a rather surprising difference between quantum and classical channels in zero-error communication scenario. There are quantum channels that cannot perfectly transmit classical information through a single use, but through two uses. One of referees of Physical Review Letters said that (our result) &quot;is a really nice piece of quantum information science&quot;. Later, I have further refined this discovery by exhibiting various super-activation effects. These efforts have greatly developed the quantum zero-error information theory, and have stimulated broad research interests of many distinguished researchers.</p>
+<h4>Honors And Awards</h4>
+<p>China Computer Federation: Distinguished Ph.D. Dissertation Award (2006);</p>
+<p>Tsinghua University: Distinguished Ph.D. Dissertation Award, First Class (2006);</p>
+<p>Academic Rising Star Award by Tsinghua University (2006);</p>
+<p>Microsoft Research Fellowship Award (2005).</p>
+<h4>Academic Achievement</h4>
+<p align="left">[1] X. Chen, R. Y. Duan, Z. F. Ji and B. Zeng. Quantum state reduction for universal measurement based computation. Accepted by<em> Physical Review Letters </em>on 1 Jun. 2010.</p>
+<p>[2] R. Y. Duan, Y. Feng and M. S. Ying. Perfect distinguishability of quantum operations. <em>Physical Review Letters<strong>, </strong></em>vol. 103, no. 21, pp. 210501.1-210501.4, 2009.</p>
+<p>[3] E. Chitambar and R. Y. Duan. Nonlocal entanglement transformations achievable by separable operations. <em>Physical Review Letters</em>, vol. 103, no. 11, pp. 110502.1-110502.4, 2009.</p>
+<p>[4] R. Y. Duan, Y. Feng, X. Yu and M. S. Ying. Distinguishability of quantum states by separable operations. <em>IEEE Transactions on Information Theory</em>, vol. 55, no. 3, pp.1320-1330, 2009.</p>
+<p>[5] Z. F. Ji, G. M. Wang, R. Y. Duan, Y. Feng and M. S. Ying. Parameter estimation of quantum channels. <em>IEEE Transactions on Information Theory</em>, vol. 54, no. 11, pp. 5172-5185, 2008.</p>
+<p>[6]<strong> </strong>R. Y. Duan and Y. Y. Shi. Entanglement between two uses of a multipartite noisy quantum channel enables perfect transmission of classical information, <em>Physical Review Letters</em>, vol. 101, no. 2, pp. 020501.1-020501.4, 2008.</p>
+<p>[7]<strong> </strong>R. Y. Duan, Y. Feng and M. S. Ying. Local distinguishability of multipartite unitary operations. <em>Physical Review Letters<strong>, </strong></em>vol. 100, no. 2, pp. 020503.1-020503.4, 2008.</p>
+<p>[8] E. Chitambar, R. Y. Duan and Y. Y. Shi. Tripartite entanglement transformations and tensor rank. <em>Physical Review Letters</em>, vol. 101, no. 14, pp. 140502.1-140502.4, 2008.</p>
+<p>[9] R. Y. Duan, Y. Feng and M. S. Ying. Entanglement is not necessary for perfect discrimination between unitary operations. <em>Physical Review Letters</em>, vol. 98, no. 10, pp. 100503.1-100503.4, 2007.</p>
+<p>[10] R. Y. Duan, Y. Feng, Z. F. Ji and M. S. Ying. Distinguishing arbitrary multipartite basis unambiguously using local operations and classical communication. <em>Physical Review Letters</em>, vol. 98, no. 2, pp. 0230502.1-0230502.4, 2007.</p>
+<p>[11] R. Y. Duan, Y. Feng and M. S. Ying. Partial recovery of quantum entanglement<a id="OLE_LINK4" onfocus="undefined" name="OLE_LINK4">. <em>IEEE Transactions on Information Theory</em></a>, vol. 52, no. 7, pp.3080-3104, 2006.</p>
+<p>[12] Z. F. Ji, Y. Feng, R. Y. Duan and M. S. Ying. Identification and distance measures of measurement apparatus. <em>Physical Review Letters</em>, vol. 96, no. 20, pp. 200401.1-200401. 4, 2006.</p>
+<p>[13] Y. Feng, R. Y. Duan and M. S. Ying. Catalyst-assisted probabilistic entanglement transformations. IEEE Transactions on Information Theory, vol. 51, no. 3, pp. 1090-1101, 2005.</p>
+<p>[14] X. M. Sun, R. Y. Duan, and M. S. Ying. The existence of quantum entanglement catalysts. <em>IEEE Transactions on Information Theory</em>, vol. 51, no. 1, pp.75-80, 2005.</p>
+                  </div>
+     <!--s2_right_con结束处-->            </div>
+            <!-- end -->
+                                       
+       </div>
+   <!--detail_2结束处--> 
+  </div>
+  <!--s_content结束处-->
+  <!--footer开始处-->
+
+<div id="footer">
+ <p class="copy">Copyright &copy;2009-2011&nbsp;Department of Computer Science and Technology &nbsp;All Rights Reserved</p>
+</div>  <!--footer结束处-->
+ </div>
+ <!--contaienr结束处-->
+</body>
+</html>

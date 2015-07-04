@@ -1,0 +1,274 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"><head>
+<!-- IE8 兼容 -->
+<meta http-equiv="X-UA-Compatible" content="IE=EmulateIE7" />
+
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link rel="shortcut icon" type="image/x-icon" href="/public/icon/favicon.ico" />
+<!-- 通用css -->
+
+<link href="/publish/csen/css/common.css" rel="stylesheet" type="text/css" />
+<link href="/publish/csen/css/grid.css" rel="stylesheet" type="text/css" />
+<!-- 引入jquery1.4 -->
+<script src="/public/jquery/jquery-1.4.min.js" type="text/javascript"></script>
+<script language="javascript" type="text/javascript">
+/*
+*截取信息简介
+*summaryStr:String 信息简介
+*lengTh:int 截取的长度
+*/
+ function cutSummary(summaryStr,lengTh){
+   if(summaryStr.length>lengTh){
+     summaryStr=summaryStr.substring(0,lengTh)+"...";
+   }
+   document.write(summaryStr);
+ }
+/*
+*jQuery:所有外域链接在新窗口打开
+*/
+$(document).ready(function() {
+ $("a[href*='http://']:not([href*='"+location.hostname+"']),[href*='https://']:not([href*='"+location.hostname+"'])")
+ .addClass("external")
+ .attr("target","_blank")
+});
+</script>
+
+    
+   
+   
+
+   
+
+  <title>
+Department of Computer Science and Technology
+</title><link href="/publish/csen/css/style_second.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<SCRIPT language="JavaScript" src="/public/plugin/source/global.js"></SCRIPT>
+<!-- 导航下拉菜单 -->
+<link type="text/css" rel="stylesheet" href="/public/plugin/source/nav/css/mt_dropdown.css" />
+
+<SCRIPT language="JavaScript" src="/public/plugin/source/nav/js/mt_dropdownc.min.js"></SCRIPT>
+
+<SCRIPT language="JavaScript" src="/public/plugin/source/nav/js/mt_dropdown_initialize.min.js"></SCRIPT>
+
+<script language="JavaScript">
+
+<!--
+
+function MM_openBrWindow(theURL,winName,features) { //v2.0
+
+  window.open(theURL,winName,features);
+
+}
+$(document).ready(function(){
+
+  init();
+
+});
+
+//-->
+</script>
+
+
+<!-- 导航下拉菜单 --><SCRIPT language="JavaScript" src="/public/plugin/source/global_twain.js"></SCRIPT>
+
+ <!--container开始处-->
+ <div  id="container">
+  <!--header开始处-->
+ 
+<div id="logo">
+    <a href=http://www.tsinghua.edu.cn title="清华大学"></a>
+   </div>
+   <!--logo结束处-->
+   <!--header_mid开始处-->
+   <div id="header_mid">
+    <h1>计算机科学与技术系</h1>
+    <p>Department of Computer Science and Technology</p>
+   </div>
+   <!--header_mid结束处-->
+   <!--header_r开始处-->
+   <div id="header_r">
+    <ul>
+     <li><a href="/publish/cs/index.html" title="计算机科学与技术系中文网">中文版</a></li>
+     <li><a href="http://www.tsinghua.edu.cn">清华主页</a></li>
+     <li>search</li>
+     <li class="set_border">
+     <form id="searchForm" action="#" method="post" target="_blank">
+
+
+<input type="hidden" id="searchVpath" name="vpath" value=""/>
+     <input type="text" name="Q"  class="txt" tabindex="1" />
+     </form>
+</li>
+    </ul>
+   </div>
+   <!--header_r结束处-->  <!--header结束处-->
+  <!--nav开始处-->
+
+<SCRIPT language="JavaScript">
+function initMenuData(){
+if (mtDropDown.isSupported()) {
+var ms = new mtDropDownSet(mtDropDown.direction.down, 0, 0, mtDropDown.reference.bottomLeft);
+var menu4885 = ms.addMenu(document.getElementById("menu_4885"));
+menu4885.addItem("Introduction","/publish/csen/4892/index.html","");
+        menu4885.addItem("History","/publish/csen/4893/index.html","");
+        menu4885.addItem("Department News","/publish/csen/4894/index.html","");
+        var menu4886 = ms.addMenu(document.getElementById("menu_4886"));
+menu4886.addItem("Undergraduate Programs","/publish/csen/4901/index.html","");
+        var subMenu4886_0 = menu4886.addMenu(menu4886.items[0]);
+       subMenu4886_0.addItem("Student Admission","/publish/csen/4901/index.html","");
+    subMenu4886_0.addItem("Curriculum","/publish/csen/4902/index.html","");
+    subMenu4886_0.addItem("Special Programs","/publish/csen/4903/index.html","");
+    subMenu4886_0.addItem("Extracurricular Activities","/publish/csen/4904/index.html","");
+      menu4886.addItem("Master Program","/publish/csen/4905/index.html","");
+        var subMenu4886_1 = menu4886.addMenu(menu4886.items[1]);
+       subMenu4886_1.addItem("Student Admission","/publish/csen/4905/index.html","");
+    subMenu4886_1.addItem("Curriculum","/publish/csen/4906/index.html","");
+      menu4886.addItem("Ph.D Program","/publish/csen/4907/index.html","");
+        var subMenu4886_2 = menu4886.addMenu(menu4886.items[2]);
+       subMenu4886_2.addItem("Student Admission","/publish/csen/4907/index.html","");
+    subMenu4886_2.addItem("Curriculum","/publish/csen/4908/index.html","");
+    subMenu4886_2.addItem("Academic Exchange Program","/publish/csen/4909/index.html","");
+      menu4886.addItem("International Student Program","/publish/csen/4910/index.html","");
+        var subMenu4886_3 = menu4886.addMenu(menu4886.items[3]);
+       subMenu4886_3.addItem("Student Admission","/publish/csen/4910/index.html","");
+    subMenu4886_3.addItem("Curriculum","/publish/csen/4911/index.html","");
+    subMenu4886_3.addItem("Events","/publish/csen/4912/index.html","");
+      menu4886.addItem("Educational Achievement","/publish/csen/4899/index.html","");
+        menu4886.addItem("Teaching Lab","/publish/csen/4900/index.html","");
+        var menu4887 = ms.addMenu(document.getElementById("menu_4887"));
+menu4887.addItem("Research Areas","/publish/csen/4915/index.html","");
+        var subMenu4887_0 = menu4887.addMenu(menu4887.items[0]);
+       subMenu4887_0.addItem("Computer Systems","/publish/csen/4915/index.html","");
+    subMenu4887_0.addItem("Computer Networks","/publish/csen/4916/index.html","");
+    subMenu4887_0.addItem("Information Processing","/publish/csen/4917/index.html","");
+    subMenu4887_0.addItem("Computer Vision & Media Computing","/publish/csen/4918/index.html","");
+    subMenu4887_0.addItem("Data,Knowledge & Software Engineering","/publish/csen/4919/index.html","");
+    subMenu4887_0.addItem("Pervasive Computing","/publish/csen/4920/index.html","");
+    subMenu4887_0.addItem("Electronic Design Automation","/publish/csen/4921/index.html","");
+      menu4887.addItem("Labs/Insititutions","/publish/csen/4914/index.html","");
+        var menu4888 = ms.addMenu(document.getElementById("menu_4888"));
+menu4888.addItem("CAS & CAE members","/publish/csen/4922/index.html","");
+        menu4888.addItem("Full Professor","/publish/csen/4923/index.html","");
+        menu4888.addItem("Associate Professor","/publish/csen/4924/index.html","");
+        menu4888.addItem("Assistant Professor","/publish/csen/4925/index.html","");
+        menu4888.addItem("Visiting chair professor groups","/publish/csen/4926/index.html","");
+        var menu4889 = ms.addMenu(document.getElementById("menu_4889"));
+menu4889.addItem("Lectures","/publish/csen/4927/index.html","");
+        menu4889.addItem("Job Opportunity","/publish/csen/4928/index.html","");
+        mtDropDown.renderAll();
+}
+} 
+</SCRIPT>
+<div id="nav">
+    <ul>
+      <li><a href="/publish/csen/index.html">Home</a></li>
+      <li id="menu_4885"><a href="/publish/csen/4892/index.html">About</a></li>
+      <li id="menu_4886"><a href="/publish/csen/4886/index.html">Education</a></li>
+      <li id="menu_4887"><a href="/publish/csen/4887/index.html">Research</a></li>
+      <li id="menu_4888"><a href="/publish/csen/4922/index.html">Faculty</a></li>
+      <li id="menu_4889"><a href="/publish/csen/4927/index.html">Resource</a></li>
+      <li id="menu_4890"><a href="/publish/csen/4890/index.html">Contact</a></li>
+    </ul>
+   </div>
+<script language="JavaScript">initMenuData();</script>  <!--nav结束处-->
+  <!--s_content开始处-->
+  <div id="s_content">
+   <!--detail_2开始处-->
+   <div class="detail_2">
+            
+            <!-- c_top start -->
+<ul class="nav_01"><li>Your Location：</li><li><a href="/publish/csen/index.html">Home</a> &nbsp;&gt;&nbsp;</li><li>Teacher&nbsp;&gt;&nbsp;</li><li>Content</li><li><a href="javascript:history.go(-1);" class="returnPre">Go back</a></li>
+</ul>
+            <!-- c_bottom end -->
+            
+            <!-- start -->
+            <div class="box_detail">
+                   <!--s2_right_con开始处-->
+                             <div id="s2_right_con">
+<img src="/publish/csen/4623/20101224175818781941815/20101224175857179941997.jpg" />
+<ul>
+    <li id="teacher-name"><strong>Bin LIU</strong></li>
+    <li id="teacher-title">Professor</li>
+    <li id="teacher-department">Department of Computer Science and Technology</li>
+    <li id="teacher-time">Joined Department: 1995</li>
+    <li class="teacher-contact"><span class="contact-title">Email:</span><span class="contact-content"><a onfocus="undefined" href="mailto:liub@tsinghua.edu.cn">liub@tsinghua.edu.cn</a></span></li>
+    <li class="teacher-contact"><span class="contact-title">URL:</span><span class="contact-content"><a onfocus="undefined" href="http://s-router.cs.tsinghua.edu.cn/~liubin">http://s-router.cs.tsinghua.edu.cn/~liubin</a></span></li>
+    <li class="teacher-contact"><span class="contact-title">Phone:</span><span class="contact-content">+86-10-62773441</span></li>
+    <li class="teacher-contact"><span class="contact-title">Fax:</span><span class="contact-content">+86-10-62771138</span></li>
+</ul>
+<h4>Education background</h4>
+<p>Bachelor of Computer Science and Engineering, Northwestern Polytechnical University, Xi'an, China, 1985;</p>
+<p>Master of Computer Science and Engineering, Northwestern Polytechnical University, Xi'an, China, 1988;</p>
+<p>Ph.D. in Computer Science and Engineering, Northwestern Polytechnical University, Xi'an, China, 1993.</p>
+ <h4>Social service</h4>
+<p>Security and Communication Networks, Wiley: Associate Editor;</p>
+<p>ICC 2011: Program Co-Chair (2011);</p>
+<p>IWQoS 2010: Program Co-Chair (2010);</p>
+<p>ICC 2008: Program Co-Chair (2008);</p>
+<p>IEEE JSAC Special Issues on High Speed Network Security: Guest-Editor (2006).</p>
+<h4>Areas of Research Interests/ Research Projects</h4>
+<p align="left">High Performance Switches/Routers</p>
+<p>Parallel Computing Architecture</p>
+<p>Traffic Measurement &amp; Management</p>
+<p>High Speed Network Security</p>
+<p align="left">National 863 High-Tech Program: Core Router (1999-2001);</p>
+<p>Key Project of Ministry of Trading and Economics: BSP-80 Super Large Capability Switch with ATM/ISDN (1996-1998);</p>
+<p>National 211 Key Project: Distributed Multimedia Supporting Platform (1997-1999);</p>
+<p>National Science Foundation for Distinguished Young Scholars: Basic Research on Routing and Switching of Next Generation Internet (2007-2010);</p>
+<p>National 863 High-Tech Program: Service-aware Multi-layer Routing and Switching (2007-2009);</p>
+<p>National Natural Science Foundation of China: Service-aware Oriented Protocol Parsing and Utility-based Scheduling (2009-2011).</p>
+<h4>Research Status</h4>
+<p align="left">In my more than 20 years' research and teaching career, I have been working on computer architecture, telecommunication and computer network, and have accumulated rich experiences. I have published more than 180 papers, most of which in high-quality journals and IEEE conferences or workshops. I have 14 patents, with 5 patents pending. I have been a PI/PD or co-PI of research projects with funding of more than 54 million Chinese Yuan (roughly $7.5 million USD) in total. Many of my innovations have been transferred to industry or commercialized. Some of these technologies have already led to great economic and social impact, including:</p>
+<p>1. <strong>Network Processor Prototype</strong>. I led a research team in developing the first network processor prototype in China from 2002 to 2005 and fabricated the router's line-card by applying this prototype, which passed the strict tests on real equipments.</p>
+<p>2. <strong>Core Routers</strong>. As a principle investigator/chief professor of a key project of national 863 high-tech plan, I led a team in developing a high performance scalable core router with capacity of 128Gbps from 1999 to 2001, which was transferred to BITWAY NETWORKS Inc. China. The router has been commercialized and deployed extensively in China TELECOM, CERNET and China UniCOM.</p>
+<p>3. <strong>Large-Capacity Broadband/Narrowband Hybrid Switch</strong>. As a pluralistic CTO of Weifang Beida Jade Bird Huaguang Technology Inc. from 1996 to 1998, I led a team of 150 people in building a BSP-80 Broadband/Narrowband Hybrid Switch with super-large capacity of carrier-level and putting it into operations in Chinese telecommunication networks.</p>
+<p>4. <strong>Featured ISDN Switch Fabric</strong>. I developed a 64k*64k single-board intelligent ISDN switch in 1997, which was transferred to ZTE (the second largest telecommunication company in China). The built equipment have been sold to Europe and Africa, and greatly contributed to ZTE switches' competitive power in the national market and abroad.</p>
+<h4>Honors And Awards</h4>
+<p>China Computer Federation: Wang Xuan Award, Second Class (2008);</p>
+<p>National Natural Science Foundation: Distinguished Young Scholar Award (2006);</p>
+<p>National Outstanding Young Scientist Award (2001);</p>
+<p>Mao Yi-sheng Science and Technology Awards by Mao Yi-sheng Science and Technology Education Foundation: Beijing Youth Science and Technology Award (2001);</p>
+<p>National Outstanding University Young Lecturer Award (2000);</p>
+<p>Ministry of Education: Trans-Century Excellent Talents Award (1999);</p>
+<p>National Technical Innovation Award, Third Class-ISDN-oriented Parallel Multi-Functional Intelligent Switching (1999);</p>
+<p>Science and Technology Progress Award by Ministry of Education, Second Class-ISDN-oriented Parallel Multi-Functional Intelligent Switching (1998).</p>
+<h4>Academic Achievement</h4>
+<p align="left">[1] Xiaohua Tian, Yu Cheng, Bin Liu, &quot;Design of a scalable multicast scheme with an application-network cross-layer approach,&quot; IEEE Transactions on Multimedia, 11(6): 1160-1169, 2009.</p>
+<p>[2] Kai Zheng, Chengchen Hu, Hongbin Lu, Bin Liu, A TCAM-based distributed parallel IP lookup scheme and performance analysis, IEEE/ACM Transactions on Networking, Vol. 14, No. 4, pp. 863-875, Aug. 2006.</p>
+<p>[3] Lu H B, Zheng K, Liu B, Zhang X, Liu Y H. A memory-efficient parallel string matching architecture for high speed intrusion detection, IEEE Journal on Selected Areas in Communications (JSAC): special issue on high speed network security, Vol. 24, No. 10, pp.1793-1804, Oct. 2006.</p>
+<p>[4] Kai Zheng, Hao Che, Zhijun Wang, Bin Liu, Xin Zhang, DPPC-RE: TCAM-based distributed parallel packet classification with range encoding, IEEE Transactions on Computers, Vol. 55, No. 8, pp. 947-961, Aug. 2006.</p>
+<p>[5] Hao Che, Zhijun Wang, Kai Zheng, and Bin Liu, Dynamic range encoding scheme for TCAM coprocessors, IEEE Transactions on Computers, Vol. 57, No. 7, pp. 902-915, Jul. 2008.</p>
+<p>[6] Kai Zheng, Zhen Liu, Bin Liu, A scalable IPv6 lookup scheme via dynamic variable-stride bitmap compression, Elsevier Computer Communications, Vol. 29, No. 16, pp. 3037-3050, Oct. 2006.</p>
+<p>[7] Zhichun Li, Gao Xiao, Yi Tang, Hongyu Gao, Yan Chen, Bin Liu and Junchen Jiang, NetShield: Massive Semantics-based Vulnerability Signature Matching for High-speed Networks, ACM SIGCOMM 2010 Conference, Aug. 30-Sept. 3, 2010, New Delhi, India (33/276, Acceptance rate: 11.9%) .</p>
+<p>[8] Chengchen Hu, Bin Liu, Kai Chen, Yan Chen, Chunming Wu and Yu Cheng, DISCO: Memory Efficient and Accurate Flow Statistics for Network Measurement, The 30th International Conference on Distributed Computing Systems (ICDCS 2010), June 21-25, 2010, Genoa, Italy (84/585, Acceptance rate: 14.4%) .</p>
+<p>[9] Mingui Zhang, Bin Liu and Beichuan Zhang, Safeguarding Data Delivery by Decoupling Path Propagation and Adoption. In Proceedings of IEEE INFOCOM, Mini-Conference, March 15-19, 2010, San Diego, CA, USA. (276/1575 regular, 106/1575 mini-conference, Acceptance rate: 24.2%).</p>
+<p>[10] Chengchen Hu, Kai Cheng, Yan Chen and Bin Liu, Evaluating Potential Routing Diversity for Internet Failure recovery, IEEE INFOCOM 2010 (mini-conference). In Proceedings of IEEE INFOCOM, Mini-Conference, March 15-19, 2010, San Diego, CA, USA. (276/1575 regular, 106/1575 mini-conference, Acceptance rate: 24.2%).</p>
+<p>[11] Yue Zhang, Bin Liu, Lei Shi, Jingnan Yao and Laxmi Bhuyan, Quantum-adaptive scheduling for multi-core network processors, in Proceeding of the 28th International Conference on Distributed Computing Systems (ICDCS 2008), Beijing, China, June 17 - 20, 2008. (Acceptance rate: 16%)</p>
+<p>[12] Chengchen Hu, Sheng Wang, Jia Tian, Yu Chen, Yan Chen, Bin Liu, Accurate and efficient traffic monitoring using adaptive non-linear sampling method&quot;, in Proceeding of 27th IEEE INFOCOM 2008, Phoenix, USA, April 2008. (Acceptance rate: 20.5%)</p>
+<p>[13] Yang Xu, Bin Liu, Gao Xia Gao and Dong Lin, Iteration-shared scheduling algorithms abolishing the departure-time-compatible graph in switch-memory-switch switches, in Proceeding of 26th IEEE INFOCOM 2007, Anchorage, Alaska, USA, 6-12 May, 2007. (Acceptance rate: 18%)</p>
+<p>[14] Lei Shi, Yue Zhang, JIanming Yu, Bo Xu, Bin Liu and Jun Li, On the extreme parallelism inside next-generation network processors, in Proceeding of 26th IEEE INFOCOM 2007, Anchorage, Alaska, USA, 6-12 May, 2007. (Acceptance rate: 18%)</p>
+<p>[15] Chengchen Hu, Yi Tang, Xuefei Chen and Bin Liu, Per-flow queueing by dynamic queue sharing, in Proceeding of 26th IEEE INFOCOM 2007, Anchorage, Alaska, USA, 6-12 May, 2007. (Acceptance rate: 18%)</p>
+<p>[16] X. Zhang, B. Liu, W. Li, Y. Xi, David Bermingham and X. J. Wang, IPv6-oriented 4*OC768 packet classification scheme with deriving-merging partition and field-variable encoding algorithm, in Proceeding of the 25th IEEE INFOCOM 2006, Barcelona, Spain, April 23-29, 2006. (Acceptance rate: 18%)</p>
+<p>[17] L. Shi, B. Liu, W. J. Li and B.B. Wu, DS-PPS: A practical framework to guarantee differentiated QoS in terabit routers with parallel packet switch, in Proceeding of the 25th IEEE INFOCOM 2006, Barcelona, Spain, April 23-29, 2006. (Acceptance rate: 18%)</p>
+<p>[18] KAI Zheng, Hao Che, Zhijun Wang and LIU Bin, TCAM-based distributed parallel packet classification algorithm with range-matching solution, in Proceeding of the 24th IEEE INFOCOM 2005, Miami, USA, March 13-17, 2005. (Acceptance rate: 17.2%)</p>
+<p>[19] Wenjie Li, Bin Liu, Lei Shi, Yang Xu, Dapeng Wu, Preemptive packet-mode scheduling to improve TCP performance, in Proceeding of the Thirteenth International Workshop on Quality of Service (IWQoS 2005), pp. 246-258, University of Passau, Germany, June 20-23, 2005. (Acceptance rate: 19.2%)</p>
+<p>[20] KAI Zheng, Hu Chengchen, LU Hong Bin and LIU Bin, An ultra high throughput and power efficient TCAM-based IP lookup engine , in Proceedings of the IEEE INFOCOM 2004 , Hong Kong, Mar. 7-11, 2005 (Acceptance rate: 18.4%)</p>
+                  </div>
+     <!--s2_right_con结束处-->            </div>
+            <!-- end -->
+                                       
+       </div>
+   <!--detail_2结束处--> 
+  </div>
+  <!--s_content结束处-->
+  <!--footer开始处-->
+
+<div id="footer">
+ <p class="copy">Copyright &copy;2009-2011&nbsp;Department of Computer Science and Technology &nbsp;All Rights Reserved</p>
+</div>  <!--footer结束处-->
+ </div>
+ <!--contaienr结束处-->
+</body>
+</html>

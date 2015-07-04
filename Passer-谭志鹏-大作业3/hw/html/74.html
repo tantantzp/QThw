@@ -1,0 +1,260 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"><head>
+<!-- IE8 兼容 -->
+<meta http-equiv="X-UA-Compatible" content="IE=EmulateIE7" />
+
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link rel="shortcut icon" type="image/x-icon" href="/public/icon/favicon.ico" />
+<!-- 通用css -->
+
+<link href="/publish/csen/css/common.css" rel="stylesheet" type="text/css" />
+<link href="/publish/csen/css/grid.css" rel="stylesheet" type="text/css" />
+<!-- 引入jquery1.4 -->
+<script src="/public/jquery/jquery-1.4.min.js" type="text/javascript"></script>
+<script language="javascript" type="text/javascript">
+/*
+*截取信息简介
+*summaryStr:String 信息简介
+*lengTh:int 截取的长度
+*/
+ function cutSummary(summaryStr,lengTh){
+   if(summaryStr.length>lengTh){
+     summaryStr=summaryStr.substring(0,lengTh)+"...";
+   }
+   document.write(summaryStr);
+ }
+/*
+*jQuery:所有外域链接在新窗口打开
+*/
+$(document).ready(function() {
+ $("a[href*='http://']:not([href*='"+location.hostname+"']),[href*='https://']:not([href*='"+location.hostname+"'])")
+ .addClass("external")
+ .attr("target","_blank")
+});
+</script>
+
+    
+   
+   
+
+   
+
+  <title>
+Department of Computer Science and Technology
+</title><link href="/publish/csen/css/style_second.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<SCRIPT language="JavaScript" src="/public/plugin/source/global.js"></SCRIPT>
+<!-- 导航下拉菜单 -->
+<link type="text/css" rel="stylesheet" href="/public/plugin/source/nav/css/mt_dropdown.css" />
+
+<SCRIPT language="JavaScript" src="/public/plugin/source/nav/js/mt_dropdownc.min.js"></SCRIPT>
+
+<SCRIPT language="JavaScript" src="/public/plugin/source/nav/js/mt_dropdown_initialize.min.js"></SCRIPT>
+
+<script language="JavaScript">
+
+<!--
+
+function MM_openBrWindow(theURL,winName,features) { //v2.0
+
+  window.open(theURL,winName,features);
+
+}
+$(document).ready(function(){
+
+  init();
+
+});
+
+//-->
+</script>
+
+
+<!-- 导航下拉菜单 --><SCRIPT language="JavaScript" src="/public/plugin/source/global_twain.js"></SCRIPT>
+
+ <!--container开始处-->
+ <div  id="container">
+  <!--header开始处-->
+ 
+<div id="logo">
+    <a href=http://www.tsinghua.edu.cn title="清华大学"></a>
+   </div>
+   <!--logo结束处-->
+   <!--header_mid开始处-->
+   <div id="header_mid">
+    <h1>计算机科学与技术系</h1>
+    <p>Department of Computer Science and Technology</p>
+   </div>
+   <!--header_mid结束处-->
+   <!--header_r开始处-->
+   <div id="header_r">
+    <ul>
+     <li><a href="/publish/cs/index.html" title="计算机科学与技术系中文网">中文版</a></li>
+     <li><a href="http://www.tsinghua.edu.cn">清华主页</a></li>
+     <li>search</li>
+     <li class="set_border">
+     <form id="searchForm" action="#" method="post" target="_blank">
+
+
+<input type="hidden" id="searchVpath" name="vpath" value=""/>
+     <input type="text" name="Q"  class="txt" tabindex="1" />
+     </form>
+</li>
+    </ul>
+   </div>
+   <!--header_r结束处-->  <!--header结束处-->
+  <!--nav开始处-->
+
+<SCRIPT language="JavaScript">
+function initMenuData(){
+if (mtDropDown.isSupported()) {
+var ms = new mtDropDownSet(mtDropDown.direction.down, 0, 0, mtDropDown.reference.bottomLeft);
+var menu4885 = ms.addMenu(document.getElementById("menu_4885"));
+menu4885.addItem("Introduction","/publish/csen/4892/index.html","");
+        menu4885.addItem("History","/publish/csen/4893/index.html","");
+        menu4885.addItem("Department News","/publish/csen/4894/index.html","");
+        var menu4886 = ms.addMenu(document.getElementById("menu_4886"));
+menu4886.addItem("Undergraduate Programs","/publish/csen/4901/index.html","");
+        var subMenu4886_0 = menu4886.addMenu(menu4886.items[0]);
+       subMenu4886_0.addItem("Student Admission","/publish/csen/4901/index.html","");
+    subMenu4886_0.addItem("Curriculum","/publish/csen/4902/index.html","");
+    subMenu4886_0.addItem("Special Programs","/publish/csen/4903/index.html","");
+    subMenu4886_0.addItem("Extracurricular Activities","/publish/csen/4904/index.html","");
+      menu4886.addItem("Master Program","/publish/csen/4905/index.html","");
+        var subMenu4886_1 = menu4886.addMenu(menu4886.items[1]);
+       subMenu4886_1.addItem("Student Admission","/publish/csen/4905/index.html","");
+    subMenu4886_1.addItem("Curriculum","/publish/csen/4906/index.html","");
+      menu4886.addItem("Ph.D Program","/publish/csen/4907/index.html","");
+        var subMenu4886_2 = menu4886.addMenu(menu4886.items[2]);
+       subMenu4886_2.addItem("Student Admission","/publish/csen/4907/index.html","");
+    subMenu4886_2.addItem("Curriculum","/publish/csen/4908/index.html","");
+    subMenu4886_2.addItem("Academic Exchange Program","/publish/csen/4909/index.html","");
+      menu4886.addItem("International Student Program","/publish/csen/4910/index.html","");
+        var subMenu4886_3 = menu4886.addMenu(menu4886.items[3]);
+       subMenu4886_3.addItem("Student Admission","/publish/csen/4910/index.html","");
+    subMenu4886_3.addItem("Curriculum","/publish/csen/4911/index.html","");
+    subMenu4886_3.addItem("Events","/publish/csen/4912/index.html","");
+      menu4886.addItem("Educational Achievement","/publish/csen/4899/index.html","");
+        menu4886.addItem("Teaching Lab","/publish/csen/4900/index.html","");
+        var menu4887 = ms.addMenu(document.getElementById("menu_4887"));
+menu4887.addItem("Research Areas","/publish/csen/4915/index.html","");
+        var subMenu4887_0 = menu4887.addMenu(menu4887.items[0]);
+       subMenu4887_0.addItem("Computer Systems","/publish/csen/4915/index.html","");
+    subMenu4887_0.addItem("Computer Networks","/publish/csen/4916/index.html","");
+    subMenu4887_0.addItem("Information Processing","/publish/csen/4917/index.html","");
+    subMenu4887_0.addItem("Computer Vision & Media Computing","/publish/csen/4918/index.html","");
+    subMenu4887_0.addItem("Data,Knowledge & Software Engineering","/publish/csen/4919/index.html","");
+    subMenu4887_0.addItem("Pervasive Computing","/publish/csen/4920/index.html","");
+    subMenu4887_0.addItem("Electronic Design Automation","/publish/csen/4921/index.html","");
+      menu4887.addItem("Labs/Insititutions","/publish/csen/4914/index.html","");
+        var menu4888 = ms.addMenu(document.getElementById("menu_4888"));
+menu4888.addItem("CAS & CAE members","/publish/csen/4922/index.html","");
+        menu4888.addItem("Full Professor","/publish/csen/4923/index.html","");
+        menu4888.addItem("Associate Professor","/publish/csen/4924/index.html","");
+        menu4888.addItem("Assistant Professor","/publish/csen/4925/index.html","");
+        menu4888.addItem("Visiting chair professor groups","/publish/csen/4926/index.html","");
+        var menu4889 = ms.addMenu(document.getElementById("menu_4889"));
+menu4889.addItem("Lectures","/publish/csen/4927/index.html","");
+        menu4889.addItem("Job Opportunity","/publish/csen/4928/index.html","");
+        mtDropDown.renderAll();
+}
+} 
+</SCRIPT>
+<div id="nav">
+    <ul>
+      <li><a href="/publish/csen/index.html">Home</a></li>
+      <li id="menu_4885"><a href="/publish/csen/4892/index.html">About</a></li>
+      <li id="menu_4886"><a href="/publish/csen/4886/index.html">Education</a></li>
+      <li id="menu_4887"><a href="/publish/csen/4887/index.html">Research</a></li>
+      <li id="menu_4888"><a href="/publish/csen/4922/index.html">Faculty</a></li>
+      <li id="menu_4889"><a href="/publish/csen/4927/index.html">Resource</a></li>
+      <li id="menu_4890"><a href="/publish/csen/4890/index.html">Contact</a></li>
+    </ul>
+   </div>
+<script language="JavaScript">initMenuData();</script>  <!--nav结束处-->
+  <!--s_content开始处-->
+  <div id="s_content">
+   <!--detail_2开始处-->
+   <div class="detail_2">
+            
+            <!-- c_top start -->
+<ul class="nav_01"><li>Your Location：</li><li><a href="/publish/csen/index.html">Home</a> &nbsp;&gt;&nbsp;</li><li>Teacher&nbsp;&gt;&nbsp;</li><li>Content</li><li><a href="javascript:history.go(-1);" class="returnPre">Go back</a></li>
+</ul>
+            <!-- c_bottom end -->
+            
+            <!-- start -->
+            <div class="box_detail">
+                   <!--s2_right_con开始处-->
+                             <div id="s2_right_con">
+<img src="/publish/csen/4623/20101224180412120560724/20101224180445411281522.jpg" />
+<ul>
+    <li id="teacher-name"><strong>Yuanchun SHI</strong></li>
+    <li id="teacher-title">Professor</li>
+    <li id="teacher-department">Department of Computer Science and Technology</li>
+    <li id="teacher-time">Joined Department: 1993</li>
+    <li class="teacher-contact"><span class="contact-title">Email:</span><span class="contact-content"><a onfocus="undefined" href="mailto:shiyc@tsinghua.edu.cn">shiyc@tsinghua.edu.cn</a></span></li>
+    <li class="teacher-contact"><span class="contact-title">URL:</span><span class="contact-content"><a onfocus="undefined" href="http://media.cs.tsinghua.edu.cn/~pervasive">http://media.cs.tsinghua.edu.cn/~pervasive</a></span></li>
+    <li class="teacher-contact"><span class="contact-title">Phone:</span><span class="contact-content">+86-10-62772472</span></li>
+    <li class="teacher-contact"><span class="contact-title">Fax:</span><span class="contact-content">+86-10-62795871</span></li>
+</ul>
+<h4>Education background</h4>
+<p align="left">Bachelor of Computer Science, Tsinghua University, Beijing, China, 1989;</p>
+<p>Master of Computer Science, Tsinghua University, Beijing, China, 1993;</p>
+<p>Ph.D. in Computer Science, Tsinghua University, Beijing, China, 1999.</p>
+ <h4>Social service</h4>
+<p>Academic Committee, Department of Computer Science &amp; Technology: Vice Chair (2006-);</p>
+<p>Institute of Human-Computer Interaction &amp; Media Integration, Department of Computer Science &amp; Technology: Director (2002-);</p>
+<p>China Computer Federation: Executive Council Member (2008-), Chair of Pervasive Computing Technical Committee (2005-);</p>
+<p>WFEO CIC: Vice President (2008-);</p>
+<p>China E-Learning Technology Standardization Committee: Secretary-General (2003-);</p>
+<p>Ubicomp 2011: General Chair (2011).</p>
+<h4>Areas of Research Interests/ Research Projects</h4>
+<p align="left">Human Computer Interaction</p>
+<p>Pervasive computing</p>
+<p>Network Multimedia</p>
+<p>National 863 High-Tech Program: Fundamental Hardware/Software Technologies and System for Pervasive Computing (2009-2010);</p>
+<p>National 863 High-Tech Program: Large-Scale Multi-User Interactive Tabletop System (2009-2010);</p>
+<p>National Natural Science Foundation of China: Layered Streaming Strategy in Overlay Network (2008-2010);</p>
+<p>MSRA Cooperative Research Project: Usage Pattern of Mobile Phone based on Sensor Data Analysis (2010-2011);</p>
+<p>NOKIA Cooperative Research Project: Interaction Solutions for Mobile Social Networking (2009-2010).</p>
+<h4>Research Status</h4>
+<p>My research group pay attention to human computer interaction, pervasive computing, network multimedia and e-learning technologies.</p>
+<p>We proposed protocols like TORM (Totally Ordered Reliable Multicasting) and PowerP2P (for layered streaming) to provide good QoS for multimedia communication over Internet. TORM was adopted by an enterprise in 2004 in their successful development of IPTV business.</p>
+<p>My research group set up Smart Space lab in 2000 to study Pervasive Computing problems. We've developed a software platform for spontaneous interoperation among devices and users in smart space. Based on this platform, several multimodal interfaces and indoor location sensors were developed. We have also built prototype systems of Smart Classroom, SEMIC (intelligent meeting environment) and Smart Home. This comprehensive research leads the pervasive computing research in China in a sense. I initiated the Technical Committee of Pervasive Computing in China Computer Federation in 2005 and was elected as the chair.</p>
+<p>I've been paying more attention to natural human computer interfaces and efficient user interaction recently. We've been developing uTable-a large interactive tabletop system-since 2006. uTable allows multiple users to collaboratively work on the surface of a high-definition projection table by finger gestures, pen and tangible objects. We also research on the usage patterns of mobile phone based on sensor data analysis and have proposed hand gesture detection technologies for novel interactive applications. GUI optimizing and Web page adaptation are interesting topics for which we've proposed a more efficient model and analyzed methodologies and tools, respectively.</p>
+<h4>Honors And Awards</h4>
+<p align="left">Science and Technology Progress Award by Ministry of Education, First Class-Key Technologies and Demonstration Project of Tele-Education (2009);</p>
+<p>Science and Technology Progress Award by Ministry of Education, Second Class-Large-Scale E-Learning System (2005);</p>
+<p>New Century Talents Award by Ministry of Education (2005);</p>
+<p>The 9th National 5-Year Plan of High-Tech Development: Outstanding Researcher Award (2001).</p>
+<h4>Academic Achievement</h4>
+<p>[1] Xin Xiao, Yuanchun Shi, Qian Zhang, Jianhua Shen, Yuan Gao. Toward Systematical Data Scheduling for Layered Streaming in Peer-to-Peer Networks: Can We Go Farther IEEE Transactions on Parallel and Distributed Systems, vol.21, no.5, pp.685-697, 2010&nbsp;</p>
+<p>[2] Xin Yang, Yuanchun Shi. Enhanced Gestalt Theory Guided Web Page Segmentation for Mobile Browsing. Proc. International Conference on Web Intelligence (WI), 2009, pp. 46-49.</p>
+<p>[3] Xin Yang, Peifeng Xiang, Yuanchun Shi. Finding User's Interest Blocks using Significant Implicit Evidence for Web Browsing on Small Screen Devices. The World Wide Web Journal , vol. 12, no. 2, pp. 213-234. 2009</p>
+<p>[4] Xin Xiao, Yuanchun Shi, Yuan Gao, Qian Zhang. LayerP2P: A New Data Scheduling Approach for Layered Streaming in Heterogeneous Networks. Proc. IEEE Conference on Computer Communications (INFOCOM), pp. 603-611. 2009</p>
+<p>[5] Yue Suo, Naoki Miyata, Hiroki Morikawa, Toru Ishida, Yuanchun Shi. Open Smart Classroom: Extensible and Scalable Learning System in Smart Space using Web Service Technology. IEEE Transactions on Knowledge and Data Engineering, vol. 21, no. 6, pp. 1-15, 2009</p>
+<p>[6] Yue Suo, Jingyu Li, Yuanchun Shi, Peifeng Xiang. Baton: A Service Manager for Better Sustaining Agent Coordination in Smart Spaces. International Journal of Pervasive Computing and Communications, vol. 5, no. 2, pp. 104-126, 2009</p>
+<p>[7] Baopeng Zhang, Yuanchun Shi, Xin Xiao. A Policy-Driven Service Composition Method for Adaptation in Pervasive Computing Environment. The Computer Journal, 2007</p>
+<p>[8] Xin Xiao, Yuanchun Shi, Yuan Gao. On Optimal Scheduling for Layered Video Streaming in Heterogeneous Peer-to-Peer Networks. Proc. ACM International Conference on Multimedia (ACMMM), pp. 785-788. 2008</p>
+<p>[9] Hao Jiang, Eyal Ofek, Neema Moraveji, Yuanchun Shi. Direct Pointer: Direct Manipulation for Large-Display Interaction using Handheld Cameras. Proc. SIGCHI Conference on Human Factors in Computing Systems (CHI), pp. 1107-1110.2006</p>
+<p>[10] Yuanchun Shi, Weikai Xie, Guangyou Xu The Smart Classroom: Merging Technologies for Seamless Tele-education. IEEE Pervasive Computing, vol. 2, no. 2, pp.47-55, 2003</p>
+<p>[11] Guangyou Xu, Yuanchun Shi, Weikai Xie. Pervasive Computing. Chinese Journal of Computers, 26(9): 57-69, 2003 (in Chinese)</p>
+<!--replace end-->
+                  </div>
+     <!--s2_right_con结束处-->            </div>
+            <!-- end -->
+                                       
+       </div>
+   <!--detail_2结束处--> 
+  </div>
+  <!--s_content结束处-->
+  <!--footer开始处-->
+
+<div id="footer">
+ <p class="copy">Copyright &copy;2009-2011&nbsp;Department of Computer Science and Technology &nbsp;All Rights Reserved</p>
+</div>  <!--footer结束处-->
+ </div>
+ <!--contaienr结束处-->
+</body>
+</html>

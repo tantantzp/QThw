@@ -1,0 +1,266 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"><head>
+<!-- IE8 兼容 -->
+<meta http-equiv="X-UA-Compatible" content="IE=EmulateIE7" />
+
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link rel="shortcut icon" type="image/x-icon" href="/public/icon/favicon.ico" />
+<!-- 通用css -->
+
+<link href="/publish/csen/css/common.css" rel="stylesheet" type="text/css" />
+<link href="/publish/csen/css/grid.css" rel="stylesheet" type="text/css" />
+<!-- 引入jquery1.4 -->
+<script src="/public/jquery/jquery-1.4.min.js" type="text/javascript"></script>
+<script language="javascript" type="text/javascript">
+/*
+*截取信息简介
+*summaryStr:String 信息简介
+*lengTh:int 截取的长度
+*/
+ function cutSummary(summaryStr,lengTh){
+   if(summaryStr.length>lengTh){
+     summaryStr=summaryStr.substring(0,lengTh)+"...";
+   }
+   document.write(summaryStr);
+ }
+/*
+*jQuery:所有外域链接在新窗口打开
+*/
+$(document).ready(function() {
+ $("a[href*='http://']:not([href*='"+location.hostname+"']),[href*='https://']:not([href*='"+location.hostname+"'])")
+ .addClass("external")
+ .attr("target","_blank")
+});
+</script>
+
+    
+   
+   
+
+   
+
+  <title>
+Department of Computer Science and Technology
+</title><link href="/publish/csen/css/style_second.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<SCRIPT language="JavaScript" src="/public/plugin/source/global.js"></SCRIPT>
+<!-- 导航下拉菜单 -->
+<link type="text/css" rel="stylesheet" href="/public/plugin/source/nav/css/mt_dropdown.css" />
+
+<SCRIPT language="JavaScript" src="/public/plugin/source/nav/js/mt_dropdownc.min.js"></SCRIPT>
+
+<SCRIPT language="JavaScript" src="/public/plugin/source/nav/js/mt_dropdown_initialize.min.js"></SCRIPT>
+
+<script language="JavaScript">
+
+<!--
+
+function MM_openBrWindow(theURL,winName,features) { //v2.0
+
+  window.open(theURL,winName,features);
+
+}
+$(document).ready(function(){
+
+  init();
+
+});
+
+//-->
+</script>
+
+
+<!-- 导航下拉菜单 --><SCRIPT language="JavaScript" src="/public/plugin/source/global_twain.js"></SCRIPT>
+
+ <!--container开始处-->
+ <div  id="container">
+  <!--header开始处-->
+ 
+<div id="logo">
+    <a href=http://www.tsinghua.edu.cn title="清华大学"></a>
+   </div>
+   <!--logo结束处-->
+   <!--header_mid开始处-->
+   <div id="header_mid">
+    <h1>计算机科学与技术系</h1>
+    <p>Department of Computer Science and Technology</p>
+   </div>
+   <!--header_mid结束处-->
+   <!--header_r开始处-->
+   <div id="header_r">
+    <ul>
+     <li><a href="/publish/cs/index.html" title="计算机科学与技术系中文网">中文版</a></li>
+     <li><a href="http://www.tsinghua.edu.cn">清华主页</a></li>
+     <li>search</li>
+     <li class="set_border">
+     <form id="searchForm" action="#" method="post" target="_blank">
+
+
+<input type="hidden" id="searchVpath" name="vpath" value=""/>
+     <input type="text" name="Q"  class="txt" tabindex="1" />
+     </form>
+</li>
+    </ul>
+   </div>
+   <!--header_r结束处-->  <!--header结束处-->
+  <!--nav开始处-->
+
+<SCRIPT language="JavaScript">
+function initMenuData(){
+if (mtDropDown.isSupported()) {
+var ms = new mtDropDownSet(mtDropDown.direction.down, 0, 0, mtDropDown.reference.bottomLeft);
+var menu4885 = ms.addMenu(document.getElementById("menu_4885"));
+menu4885.addItem("Introduction","/publish/csen/4892/index.html","");
+        menu4885.addItem("History","/publish/csen/4893/index.html","");
+        menu4885.addItem("Department News","/publish/csen/4894/index.html","");
+        var menu4886 = ms.addMenu(document.getElementById("menu_4886"));
+menu4886.addItem("Undergraduate Programs","/publish/csen/4901/index.html","");
+        var subMenu4886_0 = menu4886.addMenu(menu4886.items[0]);
+       subMenu4886_0.addItem("Student Admission","/publish/csen/4901/index.html","");
+    subMenu4886_0.addItem("Curriculum","/publish/csen/4902/index.html","");
+    subMenu4886_0.addItem("Special Programs","/publish/csen/4903/index.html","");
+    subMenu4886_0.addItem("Extracurricular Activities","/publish/csen/4904/index.html","");
+      menu4886.addItem("Master Program","/publish/csen/4905/index.html","");
+        var subMenu4886_1 = menu4886.addMenu(menu4886.items[1]);
+       subMenu4886_1.addItem("Student Admission","/publish/csen/4905/index.html","");
+    subMenu4886_1.addItem("Curriculum","/publish/csen/4906/index.html","");
+      menu4886.addItem("Ph.D Program","/publish/csen/4907/index.html","");
+        var subMenu4886_2 = menu4886.addMenu(menu4886.items[2]);
+       subMenu4886_2.addItem("Student Admission","/publish/csen/4907/index.html","");
+    subMenu4886_2.addItem("Curriculum","/publish/csen/4908/index.html","");
+    subMenu4886_2.addItem("Academic Exchange Program","/publish/csen/4909/index.html","");
+      menu4886.addItem("International Student Program","/publish/csen/4910/index.html","");
+        var subMenu4886_3 = menu4886.addMenu(menu4886.items[3]);
+       subMenu4886_3.addItem("Student Admission","/publish/csen/4910/index.html","");
+    subMenu4886_3.addItem("Curriculum","/publish/csen/4911/index.html","");
+    subMenu4886_3.addItem("Events","/publish/csen/4912/index.html","");
+      menu4886.addItem("Educational Achievement","/publish/csen/4899/index.html","");
+        menu4886.addItem("Teaching Lab","/publish/csen/4900/index.html","");
+        var menu4887 = ms.addMenu(document.getElementById("menu_4887"));
+menu4887.addItem("Research Areas","/publish/csen/4915/index.html","");
+        var subMenu4887_0 = menu4887.addMenu(menu4887.items[0]);
+       subMenu4887_0.addItem("Computer Systems","/publish/csen/4915/index.html","");
+    subMenu4887_0.addItem("Computer Networks","/publish/csen/4916/index.html","");
+    subMenu4887_0.addItem("Information Processing","/publish/csen/4917/index.html","");
+    subMenu4887_0.addItem("Computer Vision & Media Computing","/publish/csen/4918/index.html","");
+    subMenu4887_0.addItem("Data,Knowledge & Software Engineering","/publish/csen/4919/index.html","");
+    subMenu4887_0.addItem("Pervasive Computing","/publish/csen/4920/index.html","");
+    subMenu4887_0.addItem("Electronic Design Automation","/publish/csen/4921/index.html","");
+      menu4887.addItem("Labs/Insititutions","/publish/csen/4914/index.html","");
+        var menu4888 = ms.addMenu(document.getElementById("menu_4888"));
+menu4888.addItem("CAS & CAE members","/publish/csen/4922/index.html","");
+        menu4888.addItem("Full Professor","/publish/csen/4923/index.html","");
+        menu4888.addItem("Associate Professor","/publish/csen/4924/index.html","");
+        menu4888.addItem("Assistant Professor","/publish/csen/4925/index.html","");
+        menu4888.addItem("Visiting chair professor groups","/publish/csen/4926/index.html","");
+        var menu4889 = ms.addMenu(document.getElementById("menu_4889"));
+menu4889.addItem("Lectures","/publish/csen/4927/index.html","");
+        menu4889.addItem("Job Opportunity","/publish/csen/4928/index.html","");
+        mtDropDown.renderAll();
+}
+} 
+</SCRIPT>
+<div id="nav">
+    <ul>
+      <li><a href="/publish/csen/index.html">Home</a></li>
+      <li id="menu_4885"><a href="/publish/csen/4892/index.html">About</a></li>
+      <li id="menu_4886"><a href="/publish/csen/4886/index.html">Education</a></li>
+      <li id="menu_4887"><a href="/publish/csen/4887/index.html">Research</a></li>
+      <li id="menu_4888"><a href="/publish/csen/4922/index.html">Faculty</a></li>
+      <li id="menu_4889"><a href="/publish/csen/4927/index.html">Resource</a></li>
+      <li id="menu_4890"><a href="/publish/csen/4890/index.html">Contact</a></li>
+    </ul>
+   </div>
+<script language="JavaScript">initMenuData();</script>  <!--nav结束处-->
+  <!--s_content开始处-->
+  <div id="s_content">
+   <!--detail_2开始处-->
+   <div class="detail_2">
+            
+            <!-- c_top start -->
+<ul class="nav_01"><li>Your Location：</li><li><a href="/publish/csen/index.html">Home</a> &nbsp;&gt;&nbsp;</li><li>Teacher&nbsp;&gt;&nbsp;</li><li>Content</li><li><a href="javascript:history.go(-1);" class="returnPre">Go back</a></li>
+</ul>
+            <!-- c_bottom end -->
+            
+            <!-- start -->
+            <div class="box_detail">
+                   <!--s2_right_con开始处-->
+                             <div id="s2_right_con">
+<img src="/publish/csen/4623/20101223231342918741150/20101224153847221651775.jpg" />
+<ul class="rr">
+    <li id="teacher-name"><strong>Yong CUI</strong></li>
+    <li id="teacher-title">Associate Professor</li>
+    <li id="teacher-department">Department of Computer Science and Technology</li>
+    <li id="teacher-time">Joined Department: 2004</li>
+    <li class="teacher-contact"><span class="contact-title">Email:</span><span class="contact-content"><a href="mailto:cuiyong@tsinghua.edu.cn">cuiyong@tsinghua.edu.cn</a></span></li>
+    <li class="teacher-contact"><span class="contact-title">URL:</span><span class="contact-content"><a href="http://network.cs.tsinghua.edu.cn/teacher/cuiyong/cy/index.html">http://network.cs.tsinghua.edu.cn/teacher/cuiyong/cy/index.html</a></span></li>
+    <li class="teacher-contact"><span class="contact-title">Phone:</span><span class="contact-content">+86-10-62603059</span></li>
+    <li class="teacher-contact"><span class="contact-title">Fax:</span><span class="contact-content">+86-10-62771138</span></li>
+</ul>
+<h4>Education background</h4>
+<p align="left">Bachelor of Computer Science &amp; Technology, Tsinghua University, Beijing, China, 1999;</p><p>
+Ph.D. of Computer Science &amp; Technology, Tsinghua University, Beijing, China, 2004.</p>
+ <h4>Social service</h4>
+<p>China Communications Standards Association: Council Member (2006-).</p>
+<h4>Areas of Research Interests/ Research Projects</h4>
+<p align="left">Network Architecture, Next Generation Internet </p><p>
+Wireless Network and Mobile Computing</p>
+<p>National Natural Science Foundation of China: Mobility Management and Key Technologies of Heterogeneous Wireless Mesh Network (2009-2011); </p><p>
+Ericsson Joint Research Project: Policy-based Rule Generation for Simultaneous Multiple Accesses in Mobile IP (2008-2009);</p><p>
+Sino-Swiss Inter-Governmental Joint Project (China International S&amp;T Cooperation Program): Wireless Internet Protocol and Resources Optimization with Guaranteed Quality of Service (2008-2009);</p><p>
+China Mobile Joint Research Project: Multi-Connection and Multi-Layer IP Mobility Management based on Policy Perception (2008-2008);</p><p>
+National Basic Research Program of China (The 973 Program): Ubiquitous Network Mobility Management (2007-2010);</p><p>
+National 863 High-Tech Program: IPv4-IPv6 Transition Technologies for New Generation Network Architecture (2006-2008);</p><p>
+China Next Generation Internet (CNGI) Project: CNGI QoS Mechanisms, Key Technologies of Networking and their Implementations (2005-2006);</p><p>
+Joint Project with Huawei Technologies: Evolutionary Research on IPv6 Edge Network Technologies (2009-2010);</p><p>
+International Joint (Sino-Finnish) Project, National Natural Science Foundation of China: Collaborative Research on Heterogeneous Mobile Mesh Networks (2010-2012);</p><p>
+Funding by National Development and Reform Commission: General Design of Key Technologies in IPv4/IPv6 Transition (2008-2010);</p><p>
+National 863 High-Tech Program: Research on Universal Platform for Reconfigurable Routing Switching (2008-2010).</p>
+<h4>Research Status</h4>
+<p>IPv4/IPv6 transition technology has been the major constraint in modern Internet development. My research team has initially proposed the 4over6 mesh architecture in the world, and designed and implemented 4over6 mesh protocol based on dynamic non-dominant tunnel. This has won high attention from IETF, and thus Softwire group was established. Based on this protocol, many national patents have been filed. I have published many papers in influential journals in the network field such as IEEE Internet Computing, and accomplished RFC 5565 and RFC 5747. Internet Assigned Number Authority (IANA) has assigned a specific sub-address cluster identifier SAFI=67 to identify 4over6 function of network nodes. This protocol has been deployed to large-scale test on CERNET2, providing significant solution for pure IPv6 backbone building and IPv6 transition. It has been remarked as an international initiative by the technical appraisal committee including ten CAS and CAE fellows, and won the First-class Prize of Science and Technology Progress Award by Ministry of Education in 2007. </p><p>
+Core routers are the key equipment of the Internet. I have participated in the overall design of IPv6 core routers, proposed IPv4 over IPv6 tunnel, and been responsible for the design and implementation of the subsystem. Having passed technical appraisal, our overall technology reaches international advanced and national top level. It has made major innovation in four key technologies including the tunnel setup scheme of realizing IPv4 on IPv6 networks. Among them, IPv4 over IPv6 tunnel and other two technologies have reached international advanced level. I have received the Second-class Award of National Science and Technology Progress Award, and Significant Technological Innovation Award by Ministry of Industry and Information Technology.</p><p>
+Wireless network and mobile computing are significant directions of future Internet. I have studied the collaborative optimization routing framework based on backbone and access networks. Game optimization has been made on network transmission and user access. Multi-channel multi-path mesh backbone routing protocol has been designed using cross-level technologies. Besides, data center-oriented wireless mesh networking architecture and its key technologies have been proposed. Based on those research results, many important papers have been published, and my research group has been supported by Natural Science Foundation, international joint programs, and other funding.</p>
+<h4>Honors And Awards</h4>
+<p>Influential Invention Award of China Information Industry-Key Technologies in IPv6 Core Router (2004);</p><p>
+Science and Technology Progress Award by <a target="_blank" href="http://www.javvin.com/wireless/CCSA.html">China&nbsp;Communications Standards Association</a> (CCSA), First Class-IPv6 Core Router (2004);</p><p>
+National Science and Technology Progress Award, Second Class-IPv6 Core Router (2005);</p><p>
+China Computer Federation: Wang Xuan Award, First Class-IPv6 Core Router (2006);</p><p>
+Science and Technology Progress Award by Ministry of Education, First Class-Demonstration Project of China Next Generation Internet (CNGI): Core Network CNGI-CERNET2/6IX (2007);</p><p>
+Nova Program of Science and Technology by City of Beijing (Type A) (2008).</p>
+<h4>Academic Achievement</h4>
+<p>[1] Jianping Wu, Yong Cui, etc. 4over6 Transit Solution using IP Encapsulation and MP-BGP Extensions, IETF RFC 5747, 2010</p><p>
+[2] Jianping Wu, Yong Cui, etc. Softwire Mesh Framework, IETF RFC 5655, June 2009</p><p>
+[3] Yong Cui, Mingwei Xu, etc. &quot;IPv4/IPv6 Coexistence Framework (PET)&quot;, IETF Internet draft, July, 2009.</p><p>
+[4] Yong Cui, Wenjie Hu, Sasu Tarkoma, Antti Yl -J ski. Probabilistic Routing for Multiple Flows in Wireless Multi-hop Networks. The 34th IEEE Conference on Local Computer Networks (LCN), 2009</p><p>
+[5] Yong Cui, Jianping Wu, Turgay Korkmaz. Supporting Multiple Metrics in QoS-Aware BGP. Accepted by Science in China Series F: Information Sciences. June 2009.</p><p>
+[6] Shengling Wang, Yong Cui, Ke Xu, Sajal K.Das, Jianping Wu. Adaptive Range-Based Mobile Multicast. The 15th ACM Annual International Conference on Mobile Computing and Networking (ACM Mobicom) workshop on mobile internet through cellular networks, Beijing, China, 2009.</p><p>
+[7] Dan Li, Jianping Wu, Yong Cui, Defending against Buffer Map Cheating in DONet-like P2P Streaming, IEEE Transactions on Multimedia. Vol. 11, No. 3, pp 535-542. Apr. 2009. </p><p>
+[8] Yong Cui, Ming-wei Xu, Jian-ping Wu &amp; Xing Li. IETF Softwire Unicast and Multicast Frame-work for IPv6 Transition. Science in China Series F: Information Sciences 51(11): 1692-1702 (2008).</p><p>
+[9] Yong Cui, Ke Xu, Jianping Wu, Linjian Song: CBroadcast: an Application Layer Multicast mechanism based on combination of central control and self-organisation. International Journal of Ad Hoc and Ubiquitous Computing (IJAHUC) 2008, 2(4): 232-238. </p><p>
+[10] Pradosh Mohapatra, Chris Metz, Yong Cui. Layer 3 VPN Services over IPv6 Backbone Networks: Requirements, Technology, &amp; Standardization efforts. IEEE Communications Magazine, Volume: 45, Issue: 4, pp 32-37, April 2007. </p><p>
+[11] Dan Li, Jianping Wu, Yong Cui, Jiangchuan Liu. QoS-aware Streaming in Overlay Multicast Considering the Selfishness in Construction Action. IEEE INFOCOM 2007, 1154-1162. </p><p>
+[12] Jianping Wu, Yong Cui, Xing Li, etc. The Transition to IPv6, Part I: 4over6 for the China Education and Research Network, IEEE Internet Computing. May 2006, p 80-85. </p><p>
+[13] Yong Cui, Jianping Wu, Xing Li, etc. The Transition to IPv6, Part II: The Softwire Mesh Framework Solution. IEEE Internet Computing, vol. 10, no. 5, pp. 76-80, Sept/Oct, 2006.9.</p><p>
+[14] Jianping Wu, Dan Li, Yong Cui. Stability of ALM Tree under Selfish Receivers: A Simulation Study. Computer communications. Sep 5 2006.29(15): 2895-2903.</p><p>
+[15] Yong Cui, Jianping Wu, Ke Xu. Precomputation for intra-domain QoS routing. Computer Networks 47 (2005) 923-937. Computer Networks 47 (2005) 923-937. </p><p>
+[16] Yong Cui, Ke Xu, Jianping Wu, etc. Multi-constrained routing based on simulated annealing, 2003, IEEE ICC '03. 1718 - 1722 vol.3.</p><p>
+[17] Yong Cui, Ke Xu, Jianping Wu, Mingwei Xu. Precomputation for finding paths with two additive weights. Communications, 2003, ICC '03, IEEE International Conference. 2003(11-15 May): 636 - 640 vol.1.</p><p>
+[18] Yong Cui, Ke, Xu Jianping Wu. Precomputation for multiconstrained QoS routing in high-speed networks. INFOCOM 2003, twenty-Second Annual Joint Conferences of the IEEE Computer and Communications Societies, IEEE. 2003 (30 March-3 April): 1414 - 1424 vol.2. (Indexed by EI: 03357617486)<strong> </strong></p>
+                  </div>
+     <!--s2_right_con结束处-->            </div>
+            <!-- end -->
+                                       
+       </div>
+   <!--detail_2结束处--> 
+  </div>
+  <!--s_content结束处-->
+  <!--footer开始处-->
+
+<div id="footer">
+ <p class="copy">Copyright &copy;2009-2011&nbsp;Department of Computer Science and Technology &nbsp;All Rights Reserved</p>
+</div>  <!--footer结束处-->
+ </div>
+ <!--contaienr结束处-->
+</body>
+</html>

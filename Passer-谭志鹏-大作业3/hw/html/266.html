@@ -1,0 +1,269 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"><head>
+<!-- IE8 兼容 -->
+<meta http-equiv="X-UA-Compatible" content="IE=EmulateIE7" />
+
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link rel="shortcut icon" type="image/x-icon" href="/public/icon/favicon.ico" />
+<!-- 通用css -->
+
+<link href="/publish/csen/css/common.css" rel="stylesheet" type="text/css" />
+<link href="/publish/csen/css/grid.css" rel="stylesheet" type="text/css" />
+<!-- 引入jquery1.4 -->
+<script src="/public/jquery/jquery-1.4.min.js" type="text/javascript"></script>
+<script language="javascript" type="text/javascript">
+/*
+*截取信息简介
+*summaryStr:String 信息简介
+*lengTh:int 截取的长度
+*/
+ function cutSummary(summaryStr,lengTh){
+   if(summaryStr.length>lengTh){
+     summaryStr=summaryStr.substring(0,lengTh)+"...";
+   }
+   document.write(summaryStr);
+ }
+/*
+*jQuery:所有外域链接在新窗口打开
+*/
+$(document).ready(function() {
+ $("a[href*='http://']:not([href*='"+location.hostname+"']),[href*='https://']:not([href*='"+location.hostname+"'])")
+ .addClass("external")
+ .attr("target","_blank")
+});
+</script>
+
+    
+   
+   
+
+   
+
+  <title>
+Department of Computer Science and Technology
+</title><link href="/publish/csen/css/style_second.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<SCRIPT language="JavaScript" src="/public/plugin/source/global.js"></SCRIPT>
+<!-- 导航下拉菜单 -->
+<link type="text/css" rel="stylesheet" href="/public/plugin/source/nav/css/mt_dropdown.css" />
+
+<SCRIPT language="JavaScript" src="/public/plugin/source/nav/js/mt_dropdownc.min.js"></SCRIPT>
+
+<SCRIPT language="JavaScript" src="/public/plugin/source/nav/js/mt_dropdown_initialize.min.js"></SCRIPT>
+
+<script language="JavaScript">
+
+<!--
+
+function MM_openBrWindow(theURL,winName,features) { //v2.0
+
+  window.open(theURL,winName,features);
+
+}
+$(document).ready(function(){
+
+  init();
+
+});
+
+//-->
+</script>
+
+
+<!-- 导航下拉菜单 --><SCRIPT language="JavaScript" src="/public/plugin/source/global_twain.js"></SCRIPT>
+
+ <!--container开始处-->
+ <div  id="container">
+  <!--header开始处-->
+ 
+<div id="logo">
+    <a href=http://www.tsinghua.edu.cn title="清华大学"></a>
+   </div>
+   <!--logo结束处-->
+   <!--header_mid开始处-->
+   <div id="header_mid">
+    <h1>计算机科学与技术系</h1>
+    <p>Department of Computer Science and Technology</p>
+   </div>
+   <!--header_mid结束处-->
+   <!--header_r开始处-->
+   <div id="header_r">
+    <ul>
+     <li><a href="/publish/cs/index.html" title="计算机科学与技术系中文网">中文版</a></li>
+     <li><a href="http://www.tsinghua.edu.cn">清华主页</a></li>
+     <li>search</li>
+     <li class="set_border">
+     <form id="searchForm" action="#" method="post" target="_blank">
+
+
+<input type="hidden" id="searchVpath" name="vpath" value=""/>
+     <input type="text" name="Q"  class="txt" tabindex="1" />
+     </form>
+</li>
+    </ul>
+   </div>
+   <!--header_r结束处-->  <!--header结束处-->
+  <!--nav开始处-->
+
+<SCRIPT language="JavaScript">
+function initMenuData(){
+if (mtDropDown.isSupported()) {
+var ms = new mtDropDownSet(mtDropDown.direction.down, 0, 0, mtDropDown.reference.bottomLeft);
+var menu4885 = ms.addMenu(document.getElementById("menu_4885"));
+menu4885.addItem("Introduction","/publish/csen/4892/index.html","");
+        menu4885.addItem("History","/publish/csen/4893/index.html","");
+        menu4885.addItem("Department News","/publish/csen/4894/index.html","");
+        var menu4886 = ms.addMenu(document.getElementById("menu_4886"));
+menu4886.addItem("Undergraduate Programs","/publish/csen/4901/index.html","");
+        var subMenu4886_0 = menu4886.addMenu(menu4886.items[0]);
+       subMenu4886_0.addItem("Student Admission","/publish/csen/4901/index.html","");
+    subMenu4886_0.addItem("Curriculum","/publish/csen/4902/index.html","");
+    subMenu4886_0.addItem("Special Programs","/publish/csen/4903/index.html","");
+    subMenu4886_0.addItem("Extracurricular Activities","/publish/csen/4904/index.html","");
+      menu4886.addItem("Master Program","/publish/csen/4905/index.html","");
+        var subMenu4886_1 = menu4886.addMenu(menu4886.items[1]);
+       subMenu4886_1.addItem("Student Admission","/publish/csen/4905/index.html","");
+    subMenu4886_1.addItem("Curriculum","/publish/csen/4906/index.html","");
+      menu4886.addItem("Ph.D Program","/publish/csen/4907/index.html","");
+        var subMenu4886_2 = menu4886.addMenu(menu4886.items[2]);
+       subMenu4886_2.addItem("Student Admission","/publish/csen/4907/index.html","");
+    subMenu4886_2.addItem("Curriculum","/publish/csen/4908/index.html","");
+    subMenu4886_2.addItem("Academic Exchange Program","/publish/csen/4909/index.html","");
+      menu4886.addItem("International Student Program","/publish/csen/4910/index.html","");
+        var subMenu4886_3 = menu4886.addMenu(menu4886.items[3]);
+       subMenu4886_3.addItem("Student Admission","/publish/csen/4910/index.html","");
+    subMenu4886_3.addItem("Curriculum","/publish/csen/4911/index.html","");
+    subMenu4886_3.addItem("Events","/publish/csen/4912/index.html","");
+      menu4886.addItem("Educational Achievement","/publish/csen/4899/index.html","");
+        menu4886.addItem("Teaching Lab","/publish/csen/4900/index.html","");
+        var menu4887 = ms.addMenu(document.getElementById("menu_4887"));
+menu4887.addItem("Research Areas","/publish/csen/4915/index.html","");
+        var subMenu4887_0 = menu4887.addMenu(menu4887.items[0]);
+       subMenu4887_0.addItem("Computer Systems","/publish/csen/4915/index.html","");
+    subMenu4887_0.addItem("Computer Networks","/publish/csen/4916/index.html","");
+    subMenu4887_0.addItem("Information Processing","/publish/csen/4917/index.html","");
+    subMenu4887_0.addItem("Computer Vision & Media Computing","/publish/csen/4918/index.html","");
+    subMenu4887_0.addItem("Data,Knowledge & Software Engineering","/publish/csen/4919/index.html","");
+    subMenu4887_0.addItem("Pervasive Computing","/publish/csen/4920/index.html","");
+    subMenu4887_0.addItem("Electronic Design Automation","/publish/csen/4921/index.html","");
+      menu4887.addItem("Labs/Insititutions","/publish/csen/4914/index.html","");
+        var menu4888 = ms.addMenu(document.getElementById("menu_4888"));
+menu4888.addItem("CAS & CAE members","/publish/csen/4922/index.html","");
+        menu4888.addItem("Full Professor","/publish/csen/4923/index.html","");
+        menu4888.addItem("Associate Professor","/publish/csen/4924/index.html","");
+        menu4888.addItem("Assistant Professor","/publish/csen/4925/index.html","");
+        menu4888.addItem("Visiting chair professor groups","/publish/csen/4926/index.html","");
+        var menu4889 = ms.addMenu(document.getElementById("menu_4889"));
+menu4889.addItem("Lectures","/publish/csen/4927/index.html","");
+        menu4889.addItem("Job Opportunity","/publish/csen/4928/index.html","");
+        mtDropDown.renderAll();
+}
+} 
+</SCRIPT>
+<div id="nav">
+    <ul>
+      <li><a href="/publish/csen/index.html">Home</a></li>
+      <li id="menu_4885"><a href="/publish/csen/4892/index.html">About</a></li>
+      <li id="menu_4886"><a href="/publish/csen/4886/index.html">Education</a></li>
+      <li id="menu_4887"><a href="/publish/csen/4887/index.html">Research</a></li>
+      <li id="menu_4888"><a href="/publish/csen/4922/index.html">Faculty</a></li>
+      <li id="menu_4889"><a href="/publish/csen/4927/index.html">Resource</a></li>
+      <li id="menu_4890"><a href="/publish/csen/4890/index.html">Contact</a></li>
+    </ul>
+   </div>
+<script language="JavaScript">initMenuData();</script>  <!--nav结束处-->
+  <!--s_content开始处-->
+  <div id="s_content">
+   <!--detail_2开始处-->
+   <div class="detail_2">
+            
+            <!-- c_top start -->
+<ul class="nav_01"><li>Your Location：</li><li><a href="/publish/csen/index.html">Home</a> &nbsp;&gt;&nbsp;</li><li>Teacher&nbsp;&gt;&nbsp;</li><li>Content</li><li><a href="javascript:history.go(-1);" class="returnPre">Go back</a></li>
+</ul>
+            <!-- c_bottom end -->
+            
+            <!-- start -->
+            <div class="box_detail">
+                   <!--s2_right_con开始处-->
+                             <div id="s2_right_con">
+<img src="/publish/csen/4623/20101223231521414412464/20101224161918519851004.jpg" />
+<ul class="rr">
+<li id="teacher-name"><strong>Zhihui DU</strong></li>
+<li id="teacher-title">Associate Professor</li>
+<li id="teacher-department">Department of Computer Science and Technology</li>
+<li id="teacher-time">Joined Department: 2000</li>
+<li class="teacher-contact"><span class="contact-title">Email:</span><span class="contact-content"><a href="mailto:duzh@tsinghua.edu.cn">duzh@tsinghua.edu.cn</a></span></li>
+<li class="teacher-contact"><span class="contact-title">URL:</span><span class="contact-content"><a href="http://hpclab.cs.tsinghua.edu.cn/%7Eduzh">http://hpclab.cs.tsinghua.edu.cn/~duzh</a></span></li>
+
+<li class="teacher-contact"><span class="contact-title">Phone:</span><span class="contact-content">+86-10-62782530</span></li>
+<li class="teacher-contact"><span class="contact-title">Fax:</span><span class="contact-content">+86-10-62782530</span></li>
+</ul>
+<h4>Education background</h4>
+<p align="left">Bachelor of Computer  Science, Tianjin University,  Tianjin, China, 1992;<br>
+  Master of Computer  Science &amp; Technology, Peking University, Beijing, China, 1995;<br>
+
+  Ph.D. in Computer  Science &amp; Technology, Peking University, China, 1998.</p>
+
+ <h4>Social service</h4>
+<p>China Software Industry Association: Vice Secretary of the Specialty  Association of Mathematical &amp; Scientific Software (SAMSS) (2007-). </p>
+
+<h4>Areas of Research Interests/ Research Projects</h4>
+<p align="left">High Performance  Computing <br>
+  Grid Computing</p>
+<p>"National Excellent Course Integration" Project by Ministry of  Education: A Media Streaming Cluster System (2007-2010);<br>
+  Beijing Natural Science Foundation Project: Research on Hierarchical  Task Scheduling Algorithms for Supercomputers (2008-2010);<br>
+
+  National Basic Research Program of China (The 973 Program): Research  on Distributed Computing Theory and Methods for Large Electric Power Grids (2004-2009);<br>
+  National Natural Science Foundation of China: Node Clustering-based  Hierarchical Message Scheduling Model and Algorithm (2008-2008);<br>
+  National Natural Science Foundation of China: Contractor-based  Mechanism and Model for Supporting Grid Service QoS (2006-2008);<br>
+  National 863 High-Tech Program of China: Research and Development  of Simulative Grids (2004-2005).</p>
+
+<h4>Research Status</h4>
+<p>My research focuses on the research and development of cluster  systems. With my colleagues, I have designed and built several cluster systems,  including one TOP 500 supercomputer. I also attempt to apply high-performance  computing technologies to the fields of computational science and engineering. My  research group has proposed many high-efficiency parallel algorithms for  cluster systems. I have designed a resource management architecture and several  QoS-assurance algorithms for grid computing. <br>
+  The books I wrote, <em>MPI  Parallel Programming</em>, and <em>Grid Computing</em> (as a co-author)<em>,</em> have big influence on  China's high-performance computing field. </p>
+<h4>Honors And Awards</h4>
+<p align="left">Science &amp; Technology  Progress Award by City of ShenZhen, First Class-DeepSuper-21C Supercomputer  System (2004);<br>
+  Science &amp; Technology  Progress Award by City of Shanghai, First Class-ZiQiang 2000 High Performance  Computer System SUHPCS (2001); <br>
+
+  Science &amp; Technology  Progress Award by Ministry of Education, Second Class-THNPSC-1 Supercomputer  System (2000).</p>
+<h4>Academic Achievement</h4>
+<p align="left">[1] Zhihui Du, Man  Wang, Yinong Chen , Yin Ye and Xudong Chai. "The Triangular Pyramid Scheduling  Model and Algorithm for PDES in Grid". Simulation Modelling Practice and Theory  17 (2009) 1678-1689<br>
+  [2]Yunpeng Chai,  Zhihui Du, Yinong Chen. A Stepwise Optimization Algorithm of Clustered  Streaming Media Servers. The Journal of Systems and Software 82 (2009) 1344-1361<br>
+  [3] Kun Wang, Zhihui  Du, Yinong Chen, and Sanli Li, "V3COCA: An effective clustering algorithm  for complicated objects and its application in breast cancer research and  diagnosis", Simulation Modeling Practice and Theory, Volume 17, Issue 2,  February 2009, Pages 454-470<br>
+  [4] Song Hao,Zhihui Du, David  Bader and Yin Ye, A Partition-Merge based Cache-Conscious Parallel Sorting  Algorithm for CMP with Shared Cache. Accepted by International Conference on  Parallel Computing (ICPP2009) Sep.22-25,Vienna,   Austria<br>
+
+  [5] Wang, Man; Du,  Zhihui; Liu, Zhiqiang; Hao, Song; The Dynamic Priority Based Scheduling  Algorithm for Hard Real-Time Heterogeneous CMP Application, Journal of  Algorithms &amp; Computational Technology, Volume 2, Number 3, September 2008 ,  pp. 409-427<br>
+  [6] Xiaoying Wang,  Zhihui Du, Yinong Chen, Sanli Li. Virtualization-based Autonomic Resource  Management for Multi-tier Web Applications in Shared Data Center. The Journal  of Systems &amp; Software, 2008, 81(9): 1591-1608<br>
+  [7] Zhili Cheng,  Zhihui Du, Yinong Chen, Suihui Zhu, Man Wang. "Optimizing Service Data  Transmission in an OGSA Based Grid System", Journal of Algorithms &amp;  Computational Technology. Vol.1, No.2. pp: 251-272<br>
+  [8] Man Wang, Zhihui  Du, Zhili Cheng, Suihui Zhu, " A Pipeline Virtual Service Pre-Scheduling  Pattern and its Application in Astronomy Data Processing", Simulation:  Transactions of the Society for Modeling and Simulation International, January,  2007, Vol. 83, No. 1 pp:123-132<br>
+
+  [9] Yang, Feng; Du,  Zhihui; Tang, Ruichun. "Design of a virtual interface architecture based on IA-64". Qinghua Daxue Xuebao/Journal of Tsinghua University. Vol. 46. No. 4 pp576-579. In  Chinese<br>
+  [10] Zhihui Du,  Yinong Chen, Lei Wu, Suihui Zhu," Automatically Building Service Evaluation  Metadata in a Grid Environment", The 2006 International workshop on  Collaborative Computing, Integration, and Assurance. Gyeongju, Korea.  April 27-28, 2006.IEEE Computer Society Press. pp225-230<br>
+  [11] Zhu, Sui-Hui ,  Du, Zhi-Hui; Lam, W.K. Design and application of contractual computing  meta-service in grid environment. Chinese Journal of Computers, v 28, n 4,  April, 2005, p 486-494 In Chinese<br>
+  [12] Zhihui Du,  Francis C.M. Lau, Cho-Li Wang, Wai-kin Lam, Chuan He, Xiaoge Wang, Yu Chen and  Sanli Li,"Design of an OGSA-Based MetaService Architecture", Grid and  Cooperative Computing-GCC2004, LNCS 3251, 2004,167-174<br>
+  [13] Zhihui Du,  "GSAD Algorithm for Cluster System ", Journal of Tsinghua University,  Vol. 43, No.4, pp487-490,2003, In Chinese.<br>
+  [14] Zhihui Du, Yu  Chen, Peng Liu, "Grid Computing", Tsinghua University Publication, ISBN:  7-302-05939-X, 2002.10. in Chinese <br>
+
+  [15] Zhihui Du, Sanli  Li, Mengyue Wu, Shuyou Li, Jing Zhu, "Hybrid SPMD Simulated Annealing  Algorithm and Its Application", Journal of Computers,Vol.24, No.1,pp91-98,  Jan. 2001. In Chinese. <br>
+  [16] Zhihui Du, "MPI  Parallel Programming",Tsinghua University Publication,ISBN: 7-302-04566-6, 2001.8 in Chinese <br>
+  [17] Sanli Li, Zhihui  Du, Qunsheng Ma, Xiaoge Wang, "Network Parallel Supercomputer System  THNPSC-1", Journal of Computers, Vol.24, No.6. June 2001, pp627-632, In  Chinese <br> 
+  [18] Zhihui Du,  Wenkui Ding, Gengbin Zheng, Xiaoming Li, Zhuoqun Xu, "Research and  implementation of an HPF compilation system",Journal of  Software,Vol.10,No. 1, 1999,pp 60-67.In Chinese</p>
+
+                  </div>
+     <!--s2_right_con结束处-->            </div>
+            <!-- end -->
+                                       
+       </div>
+   <!--detail_2结束处--> 
+  </div>
+  <!--s_content结束处-->
+  <!--footer开始处-->
+
+<div id="footer">
+ <p class="copy">Copyright &copy;2009-2011&nbsp;Department of Computer Science and Technology &nbsp;All Rights Reserved</p>
+</div>  <!--footer结束处-->
+ </div>
+ <!--contaienr结束处-->
+</body>
+</html>

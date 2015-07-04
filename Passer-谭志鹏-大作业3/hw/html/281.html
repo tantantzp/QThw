@@ -1,0 +1,259 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"><head>
+<!-- IE8 兼容 -->
+<meta http-equiv="X-UA-Compatible" content="IE=EmulateIE7" />
+
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link rel="shortcut icon" type="image/x-icon" href="/public/icon/favicon.ico" />
+<!-- 通用css -->
+
+<link href="/publish/csen/css/common.css" rel="stylesheet" type="text/css" />
+<link href="/publish/csen/css/grid.css" rel="stylesheet" type="text/css" />
+<!-- 引入jquery1.4 -->
+<script src="/public/jquery/jquery-1.4.min.js" type="text/javascript"></script>
+<script language="javascript" type="text/javascript">
+/*
+*截取信息简介
+*summaryStr:String 信息简介
+*lengTh:int 截取的长度
+*/
+ function cutSummary(summaryStr,lengTh){
+   if(summaryStr.length>lengTh){
+     summaryStr=summaryStr.substring(0,lengTh)+"...";
+   }
+   document.write(summaryStr);
+ }
+/*
+*jQuery:所有外域链接在新窗口打开
+*/
+$(document).ready(function() {
+ $("a[href*='http://']:not([href*='"+location.hostname+"']),[href*='https://']:not([href*='"+location.hostname+"'])")
+ .addClass("external")
+ .attr("target","_blank")
+});
+</script>
+
+    
+   
+   
+
+   
+
+  <title>
+Department of Computer Science and Technology
+</title><link href="/publish/csen/css/style_second.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<SCRIPT language="JavaScript" src="/public/plugin/source/global.js"></SCRIPT>
+<!-- 导航下拉菜单 -->
+<link type="text/css" rel="stylesheet" href="/public/plugin/source/nav/css/mt_dropdown.css" />
+
+<SCRIPT language="JavaScript" src="/public/plugin/source/nav/js/mt_dropdownc.min.js"></SCRIPT>
+
+<SCRIPT language="JavaScript" src="/public/plugin/source/nav/js/mt_dropdown_initialize.min.js"></SCRIPT>
+
+<script language="JavaScript">
+
+<!--
+
+function MM_openBrWindow(theURL,winName,features) { //v2.0
+
+  window.open(theURL,winName,features);
+
+}
+$(document).ready(function(){
+
+  init();
+
+});
+
+//-->
+</script>
+
+
+<!-- 导航下拉菜单 --><SCRIPT language="JavaScript" src="/public/plugin/source/global_twain.js"></SCRIPT>
+
+ <!--container开始处-->
+ <div  id="container">
+  <!--header开始处-->
+ 
+<div id="logo">
+    <a href=http://www.tsinghua.edu.cn title="清华大学"></a>
+   </div>
+   <!--logo结束处-->
+   <!--header_mid开始处-->
+   <div id="header_mid">
+    <h1>计算机科学与技术系</h1>
+    <p>Department of Computer Science and Technology</p>
+   </div>
+   <!--header_mid结束处-->
+   <!--header_r开始处-->
+   <div id="header_r">
+    <ul>
+     <li><a href="/publish/cs/index.html" title="计算机科学与技术系中文网">中文版</a></li>
+     <li><a href="http://www.tsinghua.edu.cn">清华主页</a></li>
+     <li>search</li>
+     <li class="set_border">
+     <form id="searchForm" action="#" method="post" target="_blank">
+
+
+<input type="hidden" id="searchVpath" name="vpath" value=""/>
+     <input type="text" name="Q"  class="txt" tabindex="1" />
+     </form>
+</li>
+    </ul>
+   </div>
+   <!--header_r结束处-->  <!--header结束处-->
+  <!--nav开始处-->
+
+<SCRIPT language="JavaScript">
+function initMenuData(){
+if (mtDropDown.isSupported()) {
+var ms = new mtDropDownSet(mtDropDown.direction.down, 0, 0, mtDropDown.reference.bottomLeft);
+var menu4885 = ms.addMenu(document.getElementById("menu_4885"));
+menu4885.addItem("Introduction","/publish/csen/4892/index.html","");
+        menu4885.addItem("History","/publish/csen/4893/index.html","");
+        menu4885.addItem("Department News","/publish/csen/4894/index.html","");
+        var menu4886 = ms.addMenu(document.getElementById("menu_4886"));
+menu4886.addItem("Undergraduate Programs","/publish/csen/4901/index.html","");
+        var subMenu4886_0 = menu4886.addMenu(menu4886.items[0]);
+       subMenu4886_0.addItem("Student Admission","/publish/csen/4901/index.html","");
+    subMenu4886_0.addItem("Curriculum","/publish/csen/4902/index.html","");
+    subMenu4886_0.addItem("Special Programs","/publish/csen/4903/index.html","");
+    subMenu4886_0.addItem("Extracurricular Activities","/publish/csen/4904/index.html","");
+      menu4886.addItem("Master Program","/publish/csen/4905/index.html","");
+        var subMenu4886_1 = menu4886.addMenu(menu4886.items[1]);
+       subMenu4886_1.addItem("Student Admission","/publish/csen/4905/index.html","");
+    subMenu4886_1.addItem("Curriculum","/publish/csen/4906/index.html","");
+      menu4886.addItem("Ph.D Program","/publish/csen/4907/index.html","");
+        var subMenu4886_2 = menu4886.addMenu(menu4886.items[2]);
+       subMenu4886_2.addItem("Student Admission","/publish/csen/4907/index.html","");
+    subMenu4886_2.addItem("Curriculum","/publish/csen/4908/index.html","");
+    subMenu4886_2.addItem("Academic Exchange Program","/publish/csen/4909/index.html","");
+      menu4886.addItem("International Student Program","/publish/csen/4910/index.html","");
+        var subMenu4886_3 = menu4886.addMenu(menu4886.items[3]);
+       subMenu4886_3.addItem("Student Admission","/publish/csen/4910/index.html","");
+    subMenu4886_3.addItem("Curriculum","/publish/csen/4911/index.html","");
+    subMenu4886_3.addItem("Events","/publish/csen/4912/index.html","");
+      menu4886.addItem("Educational Achievement","/publish/csen/4899/index.html","");
+        menu4886.addItem("Teaching Lab","/publish/csen/4900/index.html","");
+        var menu4887 = ms.addMenu(document.getElementById("menu_4887"));
+menu4887.addItem("Research Areas","/publish/csen/4915/index.html","");
+        var subMenu4887_0 = menu4887.addMenu(menu4887.items[0]);
+       subMenu4887_0.addItem("Computer Systems","/publish/csen/4915/index.html","");
+    subMenu4887_0.addItem("Computer Networks","/publish/csen/4916/index.html","");
+    subMenu4887_0.addItem("Information Processing","/publish/csen/4917/index.html","");
+    subMenu4887_0.addItem("Computer Vision & Media Computing","/publish/csen/4918/index.html","");
+    subMenu4887_0.addItem("Data,Knowledge & Software Engineering","/publish/csen/4919/index.html","");
+    subMenu4887_0.addItem("Pervasive Computing","/publish/csen/4920/index.html","");
+    subMenu4887_0.addItem("Electronic Design Automation","/publish/csen/4921/index.html","");
+      menu4887.addItem("Labs/Insititutions","/publish/csen/4914/index.html","");
+        var menu4888 = ms.addMenu(document.getElementById("menu_4888"));
+menu4888.addItem("CAS & CAE members","/publish/csen/4922/index.html","");
+        menu4888.addItem("Full Professor","/publish/csen/4923/index.html","");
+        menu4888.addItem("Associate Professor","/publish/csen/4924/index.html","");
+        menu4888.addItem("Assistant Professor","/publish/csen/4925/index.html","");
+        menu4888.addItem("Visiting chair professor groups","/publish/csen/4926/index.html","");
+        var menu4889 = ms.addMenu(document.getElementById("menu_4889"));
+menu4889.addItem("Lectures","/publish/csen/4927/index.html","");
+        menu4889.addItem("Job Opportunity","/publish/csen/4928/index.html","");
+        mtDropDown.renderAll();
+}
+} 
+</SCRIPT>
+<div id="nav">
+    <ul>
+      <li><a href="/publish/csen/index.html">Home</a></li>
+      <li id="menu_4885"><a href="/publish/csen/4892/index.html">About</a></li>
+      <li id="menu_4886"><a href="/publish/csen/4886/index.html">Education</a></li>
+      <li id="menu_4887"><a href="/publish/csen/4887/index.html">Research</a></li>
+      <li id="menu_4888"><a href="/publish/csen/4922/index.html">Faculty</a></li>
+      <li id="menu_4889"><a href="/publish/csen/4927/index.html">Resource</a></li>
+      <li id="menu_4890"><a href="/publish/csen/4890/index.html">Contact</a></li>
+    </ul>
+   </div>
+<script language="JavaScript">initMenuData();</script>  <!--nav结束处-->
+  <!--s_content开始处-->
+  <div id="s_content">
+   <!--detail_2开始处-->
+   <div class="detail_2">
+            
+            <!-- c_top start -->
+<ul class="nav_01"><li>Your Location：</li><li><a href="/publish/csen/index.html">Home</a> &nbsp;&gt;&nbsp;</li><li>Teacher&nbsp;&gt;&nbsp;</li><li>Content</li><li><a href="javascript:history.go(-1);" class="returnPre">Go back</a></li>
+</ul>
+            <!-- c_bottom end -->
+            
+            <!-- start -->
+            <div class="box_detail">
+                   <!--s2_right_con开始处-->
+                             <div id="s2_right_con">
+<img src="/publish/csen/4623/20101224172326748763790/20101224172406118396685.jpg" />
+<ul class="rr">
+    <li id="teacher-name"><strong>Yankui SUN</strong></li>
+    <li id="teacher-title">Associate Professor</li>
+    <li id="teacher-department">Department of Computer Science and Technology</li>
+    <li id="teacher-time">Joined Department: 2000</li>
+    <li class="teacher-contact"><span class="contact-title">Email:</span><span class="contact-content"><a href="mailto:syk@tsinghua.edu.cn">syk@tsinghua.edu.cn</a></span></li>
+    <li class="teacher-contact"><span class="contact-title">URL:</span><span class="contact-content"><a href="http://vis.cs.tsinghua.edu.cn">http://vis.cs.tsinghua.edu.cn</a></span></li>
+    <li class="teacher-contact"><span class="contact-title">Phone:</span><span class="contact-content">+86-10-62782609</span></li>
+    <li class="teacher-contact"><span class="contact-title">Fax:</span><span class="contact-content">+86-10-62773118</span></li>
+</ul>
+<h4>Education background</h4>
+<p align="left">Bachelor of Fundamental Mathematics, Henan University, Kaifeng, China, 1985;</p><p>
+Master of Fundamental Mathematics, Jiangxi University, Nanchang, China, 1991;</p><p>
+Ph.D. in Manufacturing Engineering of Aeronautics and Astronautics, Beihang University, Beijing, China 1999.</p>
+<h4>Areas of Research Interests/ Research Projects</h4>
+<p align="left">Visualization, Image-based Modeling and Rendering, Image Processing </p><p>
+Wavelet Analysis and Applications</p>
+<p align="left">National Natural Science Foundation of China: Research on Image Classification and Layer Detection of Optical Coherence Tomography, and their Applications (2010-2012);</p><p>
+National Natural Science Foundation of China: Key Techniques of Multi-Resolution, High-Precision, and Interactive Visualization of Large-Scale Human Data (2005-2007);</p><p>
+National Natural Science Foundation of China: Image-based Modeling and Rendering based on Weak Perspective Model (2003-2005);</p><p>
+International Joint Project: Research on 3D Shape Recovery of Specular Surfaces (2005-2007);</p><p>
+HK-Macao Joint Research Project: Analysis and Visualization of LAM, Solar Wind Ion, and Energetic Particle Data from Chang'E-1 Exploration Satellite (2009-2010).</p>
+<h4>Research Status</h4>
+<p align="left">My research interests include visualization, image-based modeling and rendering (IBMR), medical image processing, and wavelet analysis and its application. </p><p>
+I have done various visualization research and application projects on terrain data, dental cast, visual human, and lunar surface and solar wind ion data provided by Chang'E-1 Exploration Satellite. </p><p>
+In IBMR, I have proposed an IBR algorithm based on Weak Perspective model, a 3D recovery method of specular surface using color highlight stripe and light source coding, a structured light inspection method on specular surfaces using Quaternary Coding, and an efficient algorithm to reconstruct 3D surface with two image pairs based on Helmholtz Reciprocity.</p><p>
+In recent years, supported by National 863 High-Tech Program and National Natural Science Foundation of China, I have been investigating post-processing issues of OCT images, such as image classification and layer detection. I have developed effective automated techniques of measuring pearl thickness, cornea thickness, and anterior chamber depth. I have also proposed an OCT image classification method. </p><p>
+Wavelet analysis is my favorite research field. In particular, I focus on wavelet construction, fast algorithm of wavelet transform, and its applications in geometric modeling and image processing. I began to study wavelet and its applications in geometric modeling and volume visualization in 1996 when I was a Ph.D. student in Beihang University. Then, as a postdoc in Tsinghua University, I shifted my focus to problems of symmetric lifting factorization, fast implementation of biorthogonal wavelet transform, and its application in DEM compression. In 2005, my book-Wavelet Analysis and its Applications-was published. In recent years, I mainly investigate the algebraic construction method of orthogonal and bi-orthogonal wavelet filters, the lifting construction method of dyadic wavelet, and two-dimensional stationary dyadic wavelet transforms.</p><p>
+My research contributions are as followed:</p><p>
+1) In wavelet, I proposed a constructive method of lifting constructing spline dyadic wavelets with arbitrary numbers of vanishing moments. For bi-orthogonal finite filters, I proved that there exists one and only one symmetric factorization of the polyphase matrix, and that the symmetric factorization can be determined directly and efficiently. Symmetric implementation and matrix representation of biorthogonal wavelet transforms are also given. Recently, I have proposed a two-dimensional stationary dyadic wavelet transform and its fast algorithm, which, different from classical two-dimensional dyadic wavelet transform, is essentially an extension of two-dimensional stationary wavelet transform for orthogonal/bi-orthogonal wavelet filters. Those theories and algorithms have great potential in research and application of dyadic wavelet.</p><p>
+2) I have proposed a novel method for automated classification of OCT images based on local features and earth mover's distance (EMD). It is the first work to use local features for solving the problem of OCT image classification.</p>
+<h4>Academic Achievement</h4>
+<p align="left">[1] Yankui Sun,Yong Chen, Hao Feng,Two-dimensional stationary dyadic wavelet transform, decimated dyadic discrete wavelet and the face recognition application,International Journal of wavelets, multiresolution and information processing, accepted</p><p>
+[2] Yankui Sun,Lifting Construction of Spline Dyadic Wavelet filters with any Number of Vanishing Moments,International Journal of wavelets, multiresolution and information processing, 7(5), pp.693-710,2009</p><p>
+[3] Yankui Sun, Fan Bao, Chen Ding. Research on Solving Algebraic Equation Set of Orthogonal and Biorthogonal Wavelet Under Vanishing Moment Constraint. Proceedings of 2007 International Conference on Wavelet Analysis and Pattern Recognition (ICWAPR2007), Beijing, China, pp.1847-1852,2007. </p><p>
+[4] Yan-kui SUN, A two-dimensional lifting scheme of integer wavelet transform for lossless image compression, IEEE International Conference on Image Processing (ICIP2004),Singapore, pp.497-500, 2004</p><p>
+[5] Yankui SUN, Symmetric lifting factorization and matrix representations of biorthogonal wavelet transforms. International Journal of wavelets, multiresolution and information processing , vol.1, no.4, pp.465-479,2003</p><p>
+[6] Sun Yankui,Zhu Xinxiong , Wavelet-Based Fairing of B-spline Surfaces ,Chinese Journal of Aeronautics. vol.12, no.3, pp.176-182,1999</p><p>
+[7] Yankui Sun, Xinxiong Zhu, Zesheng Tang, et.al., Research on Wavelet-Based Image Order Rendering Algorithm. Chinese Journal of Computers, vol.23, no. 9, 966-971,2000 (In Chinese)</p><p>
+[8] Yankui Sun, The Applications of Wavelet Technology to curve and Surface Modeling, In Free Curve and Surface Modeling, China Science Press, 306-331,2000 (In Chinese) </p><p>
+[9] Yankui Sun , Wavelet Analysis and its Applications,China Machine Press ,Beijing, 2005 (In Chinese) </p><p>
+[10] Yankui Sun, Ming Lei, Method for Optical Coherence Tomography image classification using local features and Earth Mover's Distance, Journal of Biomedical Optics,14(5),054037, 2009</p><p>
+[11] Chen Ding ,Yankui Sun,Tiaolin Tian,and Zesheng Tang,A Hybrid Method for Automatic and Highly Precise VHD Background Removal. Proceedings of International Conference on Medical Imaging and Informatics(MIMI 2007) , Beijing, China, Lecture Notes in Computer Science, &quot;Medical Imaging and Informatics&quot;. Vol. 4987, pp.294-303, 2008</p><p>
+[12] Fan Bao,Yankui Sun,Tiaolin Tian,and Zesheng Tang,3D Head Reconstruction and Color Visualization of Chinese Visible Human. Proceedings of International Conference on Medical Imaging and Informatics(MIMI 2007) , Beijing, China, Lecture Notes in Computer Science, &quot;Medical Imaging and Informatics&quot;. Vol. 4987, pp.262-269, 2008</p><p>
+[13] Chengkun Xue, Liqun Li , Feng Yang, Patricia Wang, Tao Wang, Yimin Zhang, Yankui Sun, Automated Home Video Editing: a Multi-Core Solution. ACM Multimedia 2007 Conference, Augsburg, Germany, 543-544, 2007</p><p>
+[14] Yankui Sun, Qi Wang, Long Tang, et.al. , Using Regular Cube Grids to Accelarate Indexing of Massive Scattered 3D Scanning Data of Dental Cast, Journal of Computer-Aided Design &amp; Computer Graphics, vol.16, no. 4, 434-438,2004 (In Chinese) </p><p>
+[15] Sun YK, Xue CK, Kimachi M, et al.Shape Recovery of Specular Surface Using Color Highlight Stripe and Light Source Coding. Proc. 4th International Conference on Computer Vision/Computer Graphics Collaboration Techniques (MIRAGE 2009), 2009 INRIA, Rocquencourt, France. Lecture Notes in Computer Science, Vol.5496, pp.13-22,2009 </p><p>
+[16] Xue CK,Sun YK, An Improved Structured Light Inspection of Specular Surfaces Based on Quaternary Coding. Proc. 4th International Conference on Computer Vision/Computer Graphics Collaboration Techniques (MIRAGE 2009), 2009 INRIA, Rocquencourt, France. Lecture Notes in Computer Science, Vol.5496, pp.128-139, 2009 </p><p>
+[17] Yan-kui Sun, Xi-peng Tong, Wei Wang, Hong-chuan Yu. Refractive Index and Transmission Coefficient Recovery Algorithm of Crystal-like Objects, Proceedings of the 9th international conference on Computer Aided Design and Computer Graphics, HongKong, China, 525-530, 2005</p><p>
+[18] Yan-kui Sun, Xi-peng Tong, Hai-liang Bu, Hong-chuan Yu. A Shear-Warp IBR Algorithm Using Layer Representation, Proc. 4th International Conference on Computer and Information Technology(CIT 2004),Wuhan, China, pp.813-818</p><p>
+[19] Yankui Sun, Yuxi Tan, Chen Ding, Zesheng Tang, Efficient surface Reconstruction via Helmholtz Reciprocity With Two Image Pairs, Journal of Computer-Aided Design &amp; Computer Graphics,vol.21, no. 10, 1433-1437,2009 (In Chinese) </p><p>
+[20] Hailiang Bu, Yankui Sun, Zesheng Tang, Material Recovery Algorithm of Translucent Object under Complex Environment Illumination. Journal of Computer-Aided Design &amp; Computer Graphics. vol.18, no. 5, 638-643, 2006 (In Chinese)</p>
+                  </div>
+     <!--s2_right_con结束处-->            </div>
+            <!-- end -->
+                                       
+       </div>
+   <!--detail_2结束处--> 
+  </div>
+  <!--s_content结束处-->
+  <!--footer开始处-->
+
+<div id="footer">
+ <p class="copy">Copyright &copy;2009-2011&nbsp;Department of Computer Science and Technology &nbsp;All Rights Reserved</p>
+</div>  <!--footer结束处-->
+ </div>
+ <!--contaienr结束处-->
+</body>
+</html>

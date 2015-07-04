@@ -1,0 +1,273 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"><head>
+<!-- IE8 兼容 -->
+<meta http-equiv="X-UA-Compatible" content="IE=EmulateIE7" />
+
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link rel="shortcut icon" type="image/x-icon" href="/public/icon/favicon.ico" />
+<!-- 通用css -->
+
+<link href="/publish/csen/css/common.css" rel="stylesheet" type="text/css" />
+<link href="/publish/csen/css/grid.css" rel="stylesheet" type="text/css" />
+<!-- 引入jquery1.4 -->
+<script src="/public/jquery/jquery-1.4.min.js" type="text/javascript"></script>
+<script language="javascript" type="text/javascript">
+/*
+*截取信息简介
+*summaryStr:String 信息简介
+*lengTh:int 截取的长度
+*/
+ function cutSummary(summaryStr,lengTh){
+   if(summaryStr.length>lengTh){
+     summaryStr=summaryStr.substring(0,lengTh)+"...";
+   }
+   document.write(summaryStr);
+ }
+/*
+*jQuery:所有外域链接在新窗口打开
+*/
+$(document).ready(function() {
+ $("a[href*='http://']:not([href*='"+location.hostname+"']),[href*='https://']:not([href*='"+location.hostname+"'])")
+ .addClass("external")
+ .attr("target","_blank")
+});
+</script>
+
+    
+   
+   
+
+   
+
+  <title>
+Department of Computer Science and Technology
+</title><link href="/publish/csen/css/style_second.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<SCRIPT language="JavaScript" src="/public/plugin/source/global.js"></SCRIPT>
+<!-- 导航下拉菜单 -->
+<link type="text/css" rel="stylesheet" href="/public/plugin/source/nav/css/mt_dropdown.css" />
+
+<SCRIPT language="JavaScript" src="/public/plugin/source/nav/js/mt_dropdownc.min.js"></SCRIPT>
+
+<SCRIPT language="JavaScript" src="/public/plugin/source/nav/js/mt_dropdown_initialize.min.js"></SCRIPT>
+
+<script language="JavaScript">
+
+<!--
+
+function MM_openBrWindow(theURL,winName,features) { //v2.0
+
+  window.open(theURL,winName,features);
+
+}
+$(document).ready(function(){
+
+  init();
+
+});
+
+//-->
+</script>
+
+
+<!-- 导航下拉菜单 --><SCRIPT language="JavaScript" src="/public/plugin/source/global_twain.js"></SCRIPT>
+
+ <!--container开始处-->
+ <div  id="container">
+  <!--header开始处-->
+ 
+<div id="logo">
+    <a href=http://www.tsinghua.edu.cn title="清华大学"></a>
+   </div>
+   <!--logo结束处-->
+   <!--header_mid开始处-->
+   <div id="header_mid">
+    <h1>计算机科学与技术系</h1>
+    <p>Department of Computer Science and Technology</p>
+   </div>
+   <!--header_mid结束处-->
+   <!--header_r开始处-->
+   <div id="header_r">
+    <ul>
+     <li><a href="/publish/cs/index.html" title="计算机科学与技术系中文网">中文版</a></li>
+     <li><a href="http://www.tsinghua.edu.cn">清华主页</a></li>
+     <li>search</li>
+     <li class="set_border">
+     <form id="searchForm" action="#" method="post" target="_blank">
+
+
+<input type="hidden" id="searchVpath" name="vpath" value=""/>
+     <input type="text" name="Q"  class="txt" tabindex="1" />
+     </form>
+</li>
+    </ul>
+   </div>
+   <!--header_r结束处-->  <!--header结束处-->
+  <!--nav开始处-->
+
+<SCRIPT language="JavaScript">
+function initMenuData(){
+if (mtDropDown.isSupported()) {
+var ms = new mtDropDownSet(mtDropDown.direction.down, 0, 0, mtDropDown.reference.bottomLeft);
+var menu4885 = ms.addMenu(document.getElementById("menu_4885"));
+menu4885.addItem("Introduction","/publish/csen/4892/index.html","");
+        menu4885.addItem("History","/publish/csen/4893/index.html","");
+        menu4885.addItem("Department News","/publish/csen/4894/index.html","");
+        var menu4886 = ms.addMenu(document.getElementById("menu_4886"));
+menu4886.addItem("Undergraduate Programs","/publish/csen/4901/index.html","");
+        var subMenu4886_0 = menu4886.addMenu(menu4886.items[0]);
+       subMenu4886_0.addItem("Student Admission","/publish/csen/4901/index.html","");
+    subMenu4886_0.addItem("Curriculum","/publish/csen/4902/index.html","");
+    subMenu4886_0.addItem("Special Programs","/publish/csen/4903/index.html","");
+    subMenu4886_0.addItem("Extracurricular Activities","/publish/csen/4904/index.html","");
+      menu4886.addItem("Master Program","/publish/csen/4905/index.html","");
+        var subMenu4886_1 = menu4886.addMenu(menu4886.items[1]);
+       subMenu4886_1.addItem("Student Admission","/publish/csen/4905/index.html","");
+    subMenu4886_1.addItem("Curriculum","/publish/csen/4906/index.html","");
+      menu4886.addItem("Ph.D Program","/publish/csen/4907/index.html","");
+        var subMenu4886_2 = menu4886.addMenu(menu4886.items[2]);
+       subMenu4886_2.addItem("Student Admission","/publish/csen/4907/index.html","");
+    subMenu4886_2.addItem("Curriculum","/publish/csen/4908/index.html","");
+    subMenu4886_2.addItem("Academic Exchange Program","/publish/csen/4909/index.html","");
+      menu4886.addItem("International Student Program","/publish/csen/4910/index.html","");
+        var subMenu4886_3 = menu4886.addMenu(menu4886.items[3]);
+       subMenu4886_3.addItem("Student Admission","/publish/csen/4910/index.html","");
+    subMenu4886_3.addItem("Curriculum","/publish/csen/4911/index.html","");
+    subMenu4886_3.addItem("Events","/publish/csen/4912/index.html","");
+      menu4886.addItem("Educational Achievement","/publish/csen/4899/index.html","");
+        menu4886.addItem("Teaching Lab","/publish/csen/4900/index.html","");
+        var menu4887 = ms.addMenu(document.getElementById("menu_4887"));
+menu4887.addItem("Research Areas","/publish/csen/4915/index.html","");
+        var subMenu4887_0 = menu4887.addMenu(menu4887.items[0]);
+       subMenu4887_0.addItem("Computer Systems","/publish/csen/4915/index.html","");
+    subMenu4887_0.addItem("Computer Networks","/publish/csen/4916/index.html","");
+    subMenu4887_0.addItem("Information Processing","/publish/csen/4917/index.html","");
+    subMenu4887_0.addItem("Computer Vision & Media Computing","/publish/csen/4918/index.html","");
+    subMenu4887_0.addItem("Data,Knowledge & Software Engineering","/publish/csen/4919/index.html","");
+    subMenu4887_0.addItem("Pervasive Computing","/publish/csen/4920/index.html","");
+    subMenu4887_0.addItem("Electronic Design Automation","/publish/csen/4921/index.html","");
+      menu4887.addItem("Labs/Insititutions","/publish/csen/4914/index.html","");
+        var menu4888 = ms.addMenu(document.getElementById("menu_4888"));
+menu4888.addItem("CAS & CAE members","/publish/csen/4922/index.html","");
+        menu4888.addItem("Full Professor","/publish/csen/4923/index.html","");
+        menu4888.addItem("Associate Professor","/publish/csen/4924/index.html","");
+        menu4888.addItem("Assistant Professor","/publish/csen/4925/index.html","");
+        menu4888.addItem("Visiting chair professor groups","/publish/csen/4926/index.html","");
+        var menu4889 = ms.addMenu(document.getElementById("menu_4889"));
+menu4889.addItem("Lectures","/publish/csen/4927/index.html","");
+        menu4889.addItem("Job Opportunity","/publish/csen/4928/index.html","");
+        mtDropDown.renderAll();
+}
+} 
+</SCRIPT>
+<div id="nav">
+    <ul>
+      <li><a href="/publish/csen/index.html">Home</a></li>
+      <li id="menu_4885"><a href="/publish/csen/4892/index.html">About</a></li>
+      <li id="menu_4886"><a href="/publish/csen/4886/index.html">Education</a></li>
+      <li id="menu_4887"><a href="/publish/csen/4887/index.html">Research</a></li>
+      <li id="menu_4888"><a href="/publish/csen/4922/index.html">Faculty</a></li>
+      <li id="menu_4889"><a href="/publish/csen/4927/index.html">Resource</a></li>
+      <li id="menu_4890"><a href="/publish/csen/4890/index.html">Contact</a></li>
+    </ul>
+   </div>
+<script language="JavaScript">initMenuData();</script>  <!--nav结束处-->
+  <!--s_content开始处-->
+  <div id="s_content">
+   <!--detail_2开始处-->
+   <div class="detail_2">
+            
+            <!-- c_top start -->
+<ul class="nav_01"><li>Your Location：</li><li><a href="/publish/csen/index.html">Home</a> &nbsp;&gt;&nbsp;</li><li>Teacher&nbsp;&gt;&nbsp;</li><li>Content</li><li><a href="javascript:history.go(-1);" class="returnPre">Go back</a></li>
+</ul>
+            <!-- c_bottom end -->
+            
+            <!-- start -->
+            <div class="box_detail">
+                   <!--s2_right_con开始处-->
+                             <div id="s2_right_con">
+<img src="/publish/csen/4623/20101224201545400225879/20101224201619928539284.jpg" />
+<ul>
+    <li id="teacher-name"><strong>Jihong ZHU</strong></li>
+    <li id="teacher-title">Professor</li>
+    <li id="teacher-department">Department of Computer Science and Technology</li>
+    <li id="teacher-time">Joined Department/School: 2000</li>
+    <li class="teacher-contact"><span class="contact-title">Email:</span><span class="contact-content"><a onfocus="undefined" href="mailto:jhzhu@tsinghua.edu.cn">jhzhu@tsinghua.edu.cn</a></span></li>
+    <li class="teacher-contact"><span class="contact-title">URL:</span><span class="contact-content"><a onfocus="undefined" href="http://www.cs.tsinghua.edu.cn/web/WorkersDetail.aspx?Workerid=53">http://www.cs.tsinghua.edu.cn/web/WorkersDetail.aspx?Workerid=53</a></span></li>
+    <li class="teacher-contact"><span class="contact-title">Phone:</span><span class="contact-content">010-62796706</span></li>
+    <li class="teacher-contact"><span class="contact-title">Fax:</span><span class="contact-content">010-62796706</span></li>
+</ul>
+<h4>Education background</h4>
+<p>Bachelor of Electric&nbsp;and Automatic Engineering, Jiangsu University of Science &amp; Technology, Zhenjiang, Jiangsu Province, China, 1990;</p>
+<p>Ph.D. in Electric&nbsp;and Automatic Engineering, Nanjing University of Science &amp; Technology, Nanjing, Jiangsu Province, China, 1995.</p>
+ <h4>Social service</h4>
+<p>Robot Competition Committee of Chinese Association of Automation: Vice Director;</p>
+<p>Chinese Astronautics Association, Aero&nbsp;Mechanic-Electric and man-machine Environment&nbsp;Committee: senior member;</p>
+<p>Youth Academic Committee, Chinese Association of Automation: member;</p>
+<p>Intelligent Automatic Professional Committee, Chinese Association of Automation: member;</p>
+<p>Intelligent Robotics Professional Committee, Chinese Association of Automation: member;</p>
+<p>Chinese Association of Artificial Intelligence, Intelligent Aeronautic &amp; Astronautic Professional Committee: member.</p>
+<h4>Areas of Research Interests/ Research Projects</h4>
+<p align="left">Nonlinear System, Intelligent Control, Flight Control;</p>
+<p><a onfocus="undefined" href="javascript:void(0)">Avionics</a>, <a onfocus="undefined" href="javascript:void(0)">Reliability</a> of Computer Systems.</p>
+<p>The National Natural Science Foundation of China:Unsteady Aerodynamics Based Dynamics Modelling and Coordinated Control of VSTOL Aircraft (2010-);</p>
+<p>The National Natural Science Foundation of China-Foundation of Chinese Academic of Engineering:Research on the Develop Strategy of Aircraft Design Technology (2009-2010);</p>
+<p>China Railway Department Development Plan of Science &amp; Technology:Key Technology of high <a onfocus="undefined" href="javascript:void(0)">reliability</a> reconfigurable redundancy fault-tolerant computer for train (2008-2009);</p>
+<p>Aviation Research Funding:Software Modeling of board Integrated avionics Core Processor and model based software develop technology (2009-);</p>
+<p>Besides, several projects of National High-Tech R&amp;D Program of China (The 863 Program), National Basic Research Program of China (The 973 Program) are also being carried.</p>
+<h4>Research Status</h4>
+<p>My group mainly engaged in the theoretical research related to flight control field and the engineering development in recent years. The main work on research and science and technological application is as follows:</p>
+<p>1.The <a onfocus="undefined" href="javascript:showjdsw('jd_t','j_')">dual-redundancy</a> switching ring network connection in FC link points and node bypass circuit are invented. Embedded <a onfocus="undefined" href="javascript:showjdsw('jd_t','j_')">Dual-redundancy</a> FC communication processor based on PMC bus is developed successfully. Autonomous FC light weight protocol (FC-LP)is presented and realized as well.</p>
+<p>2.Multi-redundant force-free dispute electromechanics is invented. Force dispute problem that universally exist in multi-redundant electromechanics is resolved. <a onfocus="undefined" href="http://dict.cnki.net/dict_result.aspx%20searchword=%e5%86%97%e4%bd%99%e6%8e%a7%e5%88%b6&amp;tjType=sentence&amp;style=&amp;t=redundancy+control">Redundancy control</a> based on the controllers which has cross datalink between each other is invented. Besides, <a onfocus="undefined" href="http://dict.cnki.net/dict_result.aspx%20searchword=%e9%9d%9e%e7%9b%b8%e4%bc%bc%e4%bd%99%e5%ba%a6&amp;tjType=sentence&amp;style=&amp;t=dissimilar+redundancy">Dissimilar redundancy</a> <a onfocus="undefined" href="http://dict.cnki.net/dict_result.aspx%20searchword=%e4%bd%8d%e7%a7%bb&amp;tjType=sentence&amp;style=&amp;t=displacement">displacement</a> <a onfocus="undefined" href="http://dict.cnki.net/dict_result.aspx%20searchword=%e6%b5%8b%e9%87%8f%e6%8a%80%e6%9c%af&amp;tjType=sentence&amp;style=&amp;t=measurement+technology">measurement technology</a> is presented. And <a onfocus="undefined" href="http://dict.cnki.net/dict_result.aspx%20searchword=%e5%ae%b9%e9%94%99%e5%ba%a6&amp;tjType=sentence&amp;style=&amp;t=fault-tolerability">Fault-tolerability</a> and the <a onfocus="undefined" href="http://dict.cnki.net/dict_result.aspx%20searchword=%e5%8f%af%e9%9d%a0%e6%80%a7&amp;tjType=sentence&amp;style=&amp;t=reliability">reliability</a> of the system are improved without extra hardware cost.</p>
+<p>3.The <a onfocus="undefined" href="http://dict.cnki.net/dict_result.aspx%20searchword=%e5%85%89%e7%ba%a4%e4%bc%a0%e8%be%93&amp;tjType=sentence&amp;style=&amp;t=optical+fiber+transmission">optical fiber transmission</a> flight control <a onfocus="undefined" href="http://dict.cnki.net/dict_result.aspx%20searchword=%e4%bd%93%e7%b3%bb%e7%bb%93%e6%9e%84&amp;tjType=sentence&amp;style=&amp;t=architecture">architecture</a> is presented based on the unified fiber network. <a onfocus="undefined" href="http://dict.cnki.net/dict_result.aspx%20searchword=%e5%88%86%e5%b8%83%e5%bc%8f&amp;tjType=sentence&amp;style=&amp;t=distributed">Distributed</a> triple redundancy <a onfocus="undefined" href="http://dict.cnki.net/dict_result.aspx%20searchword=%e5%85%89%e7%ba%a4%e4%bc%a0%e8%be%93&amp;tjType=sentence&amp;style=&amp;t=optical+fiber+transmission">optical fiber transmission</a> <a onfocus="undefined" href="http://dict.cnki.net/dict_result.aspx%20searchword=%e9%a3%9e%e8%a1%8c%e6%8e%a7%e5%88%b6%e8%ae%a1%e7%ae%97%e6%9c%ba&amp;tjType=sentence&amp;style=&amp;t=flight+control+computer">flight control computer</a> based on <a onfocus="undefined" href="javascript:showjdsw('jd_t','j_')">dual-redundancy</a> FC <a onfocus="undefined" href="http://dict.cnki.net/dict_result.aspx%20searchword=%e4%bb%b2%e8%a3%81&amp;tjType=sentence&amp;style=&amp;t=arbitration">arbitration</a> ring network and the <a onfocus="undefined" href="javascript:showjdsw('jd_t','j_')">distributed</a> <a onfocus="undefined" href="http://dict.cnki.net/dict_result.aspx%20searchword=%e5%ae%b9%e9%94%99%e6%96%b9%e6%b3%95&amp;tjType=sentence&amp;style=&amp;t=fault-tolerant+method">fault-tolerant method</a> and redundancy management method based on fiber transmission bus are invented. Real-time group communication protocol and fault-tolerance distributed process system software are realized based on soft bus technology. Dynamic management and redundancy resource distribution method are presented.</p>
+<p align="left">The unified fiber network (FC) all-electronic control system has been used to apply for more than 30 patents. The research results have reached international advanced level and have been applied in engineering field, producing significant achievements in improving the performance and reliability of the flight control system.</p>
+<h4>Honors And Awards</h4>
+<p align="left">PLA Award for Science and Technology Progress, 2nd Class (2007);</p>
+<p>Aviation Industry Corporation of China Award for Science and Technology Progress, 1st Class (2000);</p>
+<p>Aviation Industry Corporation of China Award for Science and Technology Progress, 2nd Class (1998);</p>
+<p>PLA Award, 2nd Class (1998, 2000)</p>
+<p>Ministry of Education, The People's Republic of China: Award for Science and Technology Progress, 2nd Class (2004);</p>
+<p>Tsinghua University: Excellent Youth Teaching Award (2004);</p>
+<h4>Academic Achievement</h4>
+<p>[1] Yang Xili, Fan Yong, and Zhu Jihong. Transition Flight Control of Two Vertical/Short Takeoff and Landing Aircraft. AIAA Journal of Guidance, Control and Dynamics, 2008, 31(2): 371~385, Full Paper (SCI, Impact Factor: 0.98)</p>
+<p>[2] Yang Xili, Zhu Jihong, Huang Xingli, Hu Chunhua, Sun Zengqi. Modeling and Simulation of Rotor Aircraft. ACTA Aeronaitica ET Astronautica SINICA, 2006, 27(4): 584~587 (EI:070310367722)</p>
+<p>[3] YANG Xili, ZHU Jihong, SUN Zengqi. Flight control of tiltrotor aircraft in helicopter mode with nacelle tilting. <a target="_blank" onfocus="undefined" href="http://acad.cnki.net/kns55/oldNavi/Bridge.aspx%20LinkType=BaseLink&amp;DBCode=cjfd&amp;TableName=cjfdbaseinfo&amp;Field=BaseID&amp;Value=QHXB&amp;NaviLink=%e6%b8%85%e5%8d%8e%e5%a4%a7%e5%ad%a6%e5%ad%a6%e6%8a%a5(%e8%87%aa%e7%84%b6%e7%a7%91%e5%ad%a6%e7%89%88)">Journal of Tsinghua University(Science and Technology)</a>,,2006,46(7): 1297~1300 (EI:064210184824)(in Chinese)</p>
+<p>[4] Xili Yang, Jihong Zhu, Zengqi Sun. Attitude Control of Tiltrotor Aircraft on Helicopter Mode with Nacelle Tilting. Proceedings of the 2nd International Basic Research Conference on Rotorcraft Technology, 2005. 11: (352~356)</p>
+<p>[5] Tingliang Hu, Jihong Zhu, Chunhua Hu, Zengqi Sun. Direct Adaptive Control for a Class of Uncertain Nonlinear Systems Using Neural Networks. Proceeding of first International Conference on Natural Computation (ICNC05), August 2005, Changsha, China, part II, pp. 234-241.</p>
+<p>[6] Chang Jie Yu, Ji Hong Zhu, Ting Liang Hu and Zengqi Sun,Nonlinear Dynamic Modelling Using Fully Tuned RBF Networks for 4 DOF Tilt Rotor Aircraft Platform. The 2nd International Basic Research Conference on Rotorcraft Technology, Nanjing, China, Nov. 7-9, pp. 442-448. 2005.</p>
+<p>[7] C. Yu, Jihong. Zhu, Z. Sun, Nonlinear A daptive Internal Model Control using Neural Networks for Tilt Rotor Aircraft Platform. Proceedings of the 2005 IEEE on Soft Computing in Industrial Applications (SMCia/05), Finland, pp. 12-16.</p>
+<p>[8] C. Yu, J. Zhu, Z. Sun, Adaptive Neural Network Internal Model Control for Tilt Rotor Aircraft Platform. Proceedings of First International Conference ICNC 2005, Changsha, China, August 27-29. pp.262-265.</p>
+<p>[9] Changjie Yu, Jihong Zhu, Jinchun Hu and Zengqi Sun, Experimental modeling using modified cascade correlation RBF networks for a four DOF tilt rotor aircraft platform. NEUROCOMPUTING . vol.69, 2006. (SCI IDS:0631JR)</p>
+<p>[10] Chunhua Hu, Xingli Huang, Jihong Zhu, Jinchun Hu, and Zengqi Sun. Output Tracking of an Unmanned Tandem Helicopter Based On Dynamic Augment Method. International Journal of Control, Automation, and Systems.</p>
+<p>[11] Tingliang Hu, Jihong Zhu, Chunhua Hu, Zengqi Sun. Neural Networks Direct Adaptive Control for a Class of MIMO Nonlinear Systems. Proceeding of the IEEE mid-summer workshop on soft computing in industrial applications. Espoo, Finland, une 2005, pp 148-153.</p>
+<p>[12] C. Yu, Jihong. Zhu, J. Che, Z. Sun, Input-Output Data Modelling Using Fully Tuned RBF Networks for a Four Degree-of-Freedom Tilt Rotor Aircraft Platform. Proceedings of Fouth Mexican International Conference on Artificial Intelligence, Monterrey, Mexico, Nov. 14-18, 2005.</p>
+<p>[13] Chunhua Hu, Jinchun Hu, Jihong Zhu, Zengqi Sun. Fuzzy modeling for an unmanned tandem helicopter. 7th International Conference on Mechatronics Technology. 2003</p>
+<p>[14] Xingli Huang, Jihong Zhu,Peifa Jia, &quot;Neural Networks Adaptive Controlfor Small Unmanned Tandem Helicopter&quot; the 6th World Congress on Intelligent Control and Automation,Dalian, China,June 21-23,2006</p>
+<p>[15] Tingliang Hu, Jihong Zhu, Zengqi Sun. Adaptive Neural Control for a Class of MIMO Nonlin-ear Systems with Guaranteed Transient Performance. Proceeding of the third International Symposium on Neural Networks (ISNN 2006), May 2006 Chengdu, China.</p>
+<p>[16] Yong Fan, Jihong Zhu, <em>et.al</em>. Aeroservoelastic Model Based Active Control for Large Civil Aircraft,SCIENCE CHINA Technological Sciences&nbsp;2010,&nbsp;<strong>53</strong>(4)&nbsp;1126-1137&nbsp;<strong>DOI</strong>: 10.3724/SP.J.1005.2008.00225 (SCI,EI)</p>
+<p>[17] An Jinxia, Zhu Jihong, Wang Guoqing, Xue Xiaohong. Hierarchical Combination Reliability Modeling Method for Multiple Redundancy Flight Control Computer System, ACTA Aeronaitica ET Astronautica SINICA, 2010, 31(2), pp301-309 (in Chinese)</p>
+<p>[18] Yong Fan, Jihong Zhu, Zengqi Sun. Fuzzy Logic Based Constrained Control Allocation for an Advanced Fighter. Proc. of the 2006 International Conference on Computational Intelligence for Modeling, Control and Automation, Sydney, New South Wales Australia, Nov. 2006.</p>
+<p>[19] Tingliang Hu, Jihong Zhu, Chunhua Hu, Zengqi Sun. Neural Networks Robust daptive Control for a Class of MIMO Nonlinear Systems. Proceeding of the second International Symposium on Neural Networks (ISNN 2005), May 2005 Chongqing, China,Part II, pp. 60-68.</p>
+<p>[20] HU Chun-hua, ZHU Ji-hong, SUN Zeng-qi. Modelling and exact linearization for an unmanned tandem helicopter. <a target="_blank" onfocus="undefined" href="http://acad.cnki.net/kns55/oldNavi/Bridge.aspx%20LinkType=BaseLink&amp;DBCode=cjfd&amp;TableName=cjfdbaseinfo&amp;Field=BaseID&amp;Value=KZYC&amp;NaviLink=%e6%8e%a7%e5%88%b6%e4%b8%8e%e5%86%b3%e7%ad%96">Control and Decision</a>. 2004.9 (in Chinese)</p>
+<p>[21] Meng Xian-yu, Ban Xiao-juan, Zhang Shu-jun, Tu Xuyan. Design of Multi-Perception System Model for Artificial Fish in Virtual Environment. 2006 IMACS Multiconference on Computational Engineering in Systems Applications.( ISBN 7-900718-14-1) 2006. 2109-2113</p>
+<p>[22] HUANG Xingli, HU Chunha, HU Jinchun, ZHU Jihong, JIA Peifa, &quot;Mathematical Modeling and Trimming of a Small Unmanned Tandem Helicopter&quot;, Third International Conference on Systems, Signals &amp; Devices., Sousse, Tunisia, March 21-24, 2005</p>
+<p>[23] Xingli HUANG, Jihong ZHU, Chunhua HU, Peifa JIA, &quot;Nonlinear Control of a Small Unmanned Tandem Helicopter&quot;, The 2nd International Basic Research Conference on Rotorcraft Technology, Nanjing, China, Nov. 7-9, 2005.</p>
+<!--replace end-->
+                  </div>
+     <!--s2_right_con结束处-->            </div>
+            <!-- end -->
+                                       
+       </div>
+   <!--detail_2结束处--> 
+  </div>
+  <!--s_content结束处-->
+  <!--footer开始处-->
+
+<div id="footer">
+ <p class="copy">Copyright &copy;2009-2011&nbsp;Department of Computer Science and Technology &nbsp;All Rights Reserved</p>
+</div>  <!--footer结束处-->
+ </div>
+ <!--contaienr结束处-->
+</body>
+</html>

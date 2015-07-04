@@ -1,0 +1,303 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"><head>
+<!-- IE8 兼容 -->
+<meta http-equiv="X-UA-Compatible" content="IE=EmulateIE7" />
+
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link rel="shortcut icon" type="image/x-icon" href="/public/icon/favicon.ico" />
+<!-- 通用css -->
+
+<link href="/publish/csen/css/common.css" rel="stylesheet" type="text/css" />
+<link href="/publish/csen/css/grid.css" rel="stylesheet" type="text/css" />
+<!-- 引入jquery1.4 -->
+<script src="/public/jquery/jquery-1.4.min.js" type="text/javascript"></script>
+<script language="javascript" type="text/javascript">
+/*
+*截取信息简介
+*summaryStr:String 信息简介
+*lengTh:int 截取的长度
+*/
+ function cutSummary(summaryStr,lengTh){
+   if(summaryStr.length>lengTh){
+     summaryStr=summaryStr.substring(0,lengTh)+"...";
+   }
+   document.write(summaryStr);
+ }
+/*
+*jQuery:所有外域链接在新窗口打开
+*/
+$(document).ready(function() {
+ $("a[href*='http://']:not([href*='"+location.hostname+"']),[href*='https://']:not([href*='"+location.hostname+"'])")
+ .addClass("external")
+ .attr("target","_blank")
+});
+</script>
+
+    
+   
+   
+
+   
+
+  <title>
+Department of Computer Science and Technology
+</title><link href="/publish/csen/css/style_second.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<SCRIPT language="JavaScript" src="/public/plugin/source/global.js"></SCRIPT>
+<!-- 导航下拉菜单 -->
+<link type="text/css" rel="stylesheet" href="/public/plugin/source/nav/css/mt_dropdown.css" />
+
+<SCRIPT language="JavaScript" src="/public/plugin/source/nav/js/mt_dropdownc.min.js"></SCRIPT>
+
+<SCRIPT language="JavaScript" src="/public/plugin/source/nav/js/mt_dropdown_initialize.min.js"></SCRIPT>
+
+<script language="JavaScript">
+
+<!--
+
+function MM_openBrWindow(theURL,winName,features) { //v2.0
+
+  window.open(theURL,winName,features);
+
+}
+$(document).ready(function(){
+
+  init();
+
+});
+
+//-->
+</script>
+
+
+<!-- 导航下拉菜单 --><SCRIPT language="JavaScript" src="/public/plugin/source/global_twain.js"></SCRIPT>
+
+ <!--container开始处-->
+ <div  id="container">
+  <!--header开始处-->
+ 
+<div id="logo">
+    <a href=http://www.tsinghua.edu.cn title="清华大学"></a>
+   </div>
+   <!--logo结束处-->
+   <!--header_mid开始处-->
+   <div id="header_mid">
+    <h1>计算机科学与技术系</h1>
+    <p>Department of Computer Science and Technology</p>
+   </div>
+   <!--header_mid结束处-->
+   <!--header_r开始处-->
+   <div id="header_r">
+    <ul>
+     <li><a href="/publish/cs/index.html" title="计算机科学与技术系中文网">中文版</a></li>
+     <li><a href="http://www.tsinghua.edu.cn">清华主页</a></li>
+     <li>search</li>
+     <li class="set_border">
+     <form id="searchForm" action="#" method="post" target="_blank">
+
+
+<input type="hidden" id="searchVpath" name="vpath" value=""/>
+     <input type="text" name="Q"  class="txt" tabindex="1" />
+     </form>
+</li>
+    </ul>
+   </div>
+   <!--header_r结束处-->  <!--header结束处-->
+  <!--nav开始处-->
+
+<SCRIPT language="JavaScript">
+function initMenuData(){
+if (mtDropDown.isSupported()) {
+var ms = new mtDropDownSet(mtDropDown.direction.down, 0, 0, mtDropDown.reference.bottomLeft);
+var menu4885 = ms.addMenu(document.getElementById("menu_4885"));
+menu4885.addItem("Introduction","/publish/csen/4892/index.html","");
+        menu4885.addItem("History","/publish/csen/4893/index.html","");
+        menu4885.addItem("Department News","/publish/csen/4894/index.html","");
+        var menu4886 = ms.addMenu(document.getElementById("menu_4886"));
+menu4886.addItem("Undergraduate Programs","/publish/csen/4901/index.html","");
+        var subMenu4886_0 = menu4886.addMenu(menu4886.items[0]);
+       subMenu4886_0.addItem("Student Admission","/publish/csen/4901/index.html","");
+    subMenu4886_0.addItem("Curriculum","/publish/csen/4902/index.html","");
+    subMenu4886_0.addItem("Special Programs","/publish/csen/4903/index.html","");
+    subMenu4886_0.addItem("Extracurricular Activities","/publish/csen/4904/index.html","");
+      menu4886.addItem("Master Program","/publish/csen/4905/index.html","");
+        var subMenu4886_1 = menu4886.addMenu(menu4886.items[1]);
+       subMenu4886_1.addItem("Student Admission","/publish/csen/4905/index.html","");
+    subMenu4886_1.addItem("Curriculum","/publish/csen/4906/index.html","");
+      menu4886.addItem("Ph.D Program","/publish/csen/4907/index.html","");
+        var subMenu4886_2 = menu4886.addMenu(menu4886.items[2]);
+       subMenu4886_2.addItem("Student Admission","/publish/csen/4907/index.html","");
+    subMenu4886_2.addItem("Curriculum","/publish/csen/4908/index.html","");
+    subMenu4886_2.addItem("Academic Exchange Program","/publish/csen/4909/index.html","");
+      menu4886.addItem("International Student Program","/publish/csen/4910/index.html","");
+        var subMenu4886_3 = menu4886.addMenu(menu4886.items[3]);
+       subMenu4886_3.addItem("Student Admission","/publish/csen/4910/index.html","");
+    subMenu4886_3.addItem("Curriculum","/publish/csen/4911/index.html","");
+    subMenu4886_3.addItem("Events","/publish/csen/4912/index.html","");
+      menu4886.addItem("Educational Achievement","/publish/csen/4899/index.html","");
+        menu4886.addItem("Teaching Lab","/publish/csen/4900/index.html","");
+        var menu4887 = ms.addMenu(document.getElementById("menu_4887"));
+menu4887.addItem("Research Areas","/publish/csen/4915/index.html","");
+        var subMenu4887_0 = menu4887.addMenu(menu4887.items[0]);
+       subMenu4887_0.addItem("Computer Systems","/publish/csen/4915/index.html","");
+    subMenu4887_0.addItem("Computer Networks","/publish/csen/4916/index.html","");
+    subMenu4887_0.addItem("Information Processing","/publish/csen/4917/index.html","");
+    subMenu4887_0.addItem("Computer Vision & Media Computing","/publish/csen/4918/index.html","");
+    subMenu4887_0.addItem("Data,Knowledge & Software Engineering","/publish/csen/4919/index.html","");
+    subMenu4887_0.addItem("Pervasive Computing","/publish/csen/4920/index.html","");
+    subMenu4887_0.addItem("Electronic Design Automation","/publish/csen/4921/index.html","");
+      menu4887.addItem("Labs/Insititutions","/publish/csen/4914/index.html","");
+        var menu4888 = ms.addMenu(document.getElementById("menu_4888"));
+menu4888.addItem("CAS & CAE members","/publish/csen/4922/index.html","");
+        menu4888.addItem("Full Professor","/publish/csen/4923/index.html","");
+        menu4888.addItem("Associate Professor","/publish/csen/4924/index.html","");
+        menu4888.addItem("Assistant Professor","/publish/csen/4925/index.html","");
+        menu4888.addItem("Visiting chair professor groups","/publish/csen/4926/index.html","");
+        var menu4889 = ms.addMenu(document.getElementById("menu_4889"));
+menu4889.addItem("Lectures","/publish/csen/4927/index.html","");
+        menu4889.addItem("Job Opportunity","/publish/csen/4928/index.html","");
+        mtDropDown.renderAll();
+}
+} 
+</SCRIPT>
+<div id="nav">
+    <ul>
+      <li><a href="/publish/csen/index.html">Home</a></li>
+      <li id="menu_4885"><a href="/publish/csen/4892/index.html">About</a></li>
+      <li id="menu_4886"><a href="/publish/csen/4886/index.html">Education</a></li>
+      <li id="menu_4887"><a href="/publish/csen/4887/index.html">Research</a></li>
+      <li id="menu_4888"><a href="/publish/csen/4922/index.html">Faculty</a></li>
+      <li id="menu_4889"><a href="/publish/csen/4927/index.html">Resource</a></li>
+      <li id="menu_4890"><a href="/publish/csen/4890/index.html">Contact</a></li>
+    </ul>
+   </div>
+<script language="JavaScript">initMenuData();</script>  <!--nav结束处-->
+  <!--s_content开始处-->
+  <div id="s_content">
+   <!--detail_2开始处-->
+   <div class="detail_2">
+            
+            <!-- c_top start -->
+<ul class="nav_01"><li>Your Location：</li><li><a href="/publish/csen/index.html">Home</a> &nbsp;&gt;&nbsp;</li><li>Teacher&nbsp;&gt;&nbsp;</li><li>Content</li><li><a href="javascript:history.go(-1);" class="returnPre">Go back</a></li>
+</ul>
+            <!-- c_bottom end -->
+            
+            <!-- start -->
+            <div class="box_detail">
+                   <!--s2_right_con开始处-->
+                             <div id="s2_right_con">
+<img src="/publish/csen/4623/20101224194147178943406/20101224194233799603779.jpg" />
+<ul>
+    <li id="teacher-name"><strong>Jiangtao WEN</strong></li>
+    <li id="teacher-title">Professor</li>
+    <li id="teacher-department">Department of Computer Science and Technology</li>
+    <li id="teacher-time">Joined Department: 2008</li>
+    <li class="teacher-contact"><span class="contact-title">Email:</span><span class="contact-content"><a onfocus="undefined" href="mailto:jtwen@tsinghua.edu.cn">jtwen@tsinghua.edu.cn</a></span></li>
+    <li class="teacher-contact"><span class="contact-title">URL:</span><span class="contact-content"><a onfocus="undefined" href="http://media.cs.tsinghua.edu.cn/en/wenjt">http://media.cs.tsinghua.edu.cn/en/wenjt</a></span></li>
+    <li class="teacher-contact"><span class="contact-title">Phone:</span><span class="contact-content">+86-10-62772099</span></li>
+    <li class="teacher-contact"><span class="contact-title">Fax:</span></li>
+</ul>
+<h4>Education background</h4>
+<p align="left">Bachelor of Electrical Engineering, Tsinghua University, Beijing, China, 1992;</p>
+<p>Master of Electrical Engineering, Tsinghua University, Beijing, China, 1994;</p>
+<p>Ph.D. in Electrical Engineering, Tsinghua University, Beijing, China, 1996;</p>
+<p>Postdoctoral Staff Research Associate, University of California, Los Angeles, USA, 1996-1998.</p>
+ <h4>Social service</h4>
+<p>IEEE: Senior Member;</p>
+<p>IEEE Trans. Circuit and Systems for Video Technology: Associate Editor;</p>
+<p>IEEE CAS Society Visual Signal Processing and Communications: Member of Technical Committee;</p>
+<p>Chinese Audio Video Standards: Co-Chair of Ad-Hoc Group on Copyright Protection;</p>
+<p>ICME, ICIP, ICC, and Globecom: Member of Technical Program Committee;</p>
+<p>ISO, MPEG, ITU, VCEG, and US NCITS: Member;</p>
+<p>IEEE Trans. on Video Coding and Image Processing, Trans. on Image Processing, IEEE Intl. Data Compression Conference, and IEEE Intl. Conference on Image Processing: Reviewer.</p>
+<h4>Areas of Research Interests/ Research Projects</h4>
+<p align="left">Multimedia Communication over&nbsp;Hostile Networks, Video Coding and Communications</p>
+<p>Sensor Technologies (including Image Sensors, Imagers and Sensor Networks)</p>
+<p>Digital Rights Management, Network Security</p>
+<p align="left">UCLA-Samsung Multimedia Project: Simulations of the Application of Reversible Variable Length Codes (RVLCs) for Efficient and Robust Coding of Motion Vectors in H.263+ (1997-1998);</p>
+<p>PacketVideo Corp.: MPEG-4-Compliant Encoder, Decoder, and QoS Servers (1998-2002);</p>
+<p>Ortiva Wireless: Multimedia Content Adaptation Technology for Wireless Delivery (2006-2008)</p>
+<p>Huawei Corp.: Wireless Multimedia Research Project (2010-2011);</p>
+<p>Tencent Corp.: Multimedia Coding Technology (2010-2011).</p>
+<h4>Research Status</h4>
+<p align="left">From 1996 to 1998, I was a&nbsp;Staff Research Fellow at UCLA, where I conducted cutting-edge research&nbsp;on multimedia coding and communications. Many of my inventions were later adopted by international standards such as H.263, MPEG and&nbsp;H.264. After UCLA, I served as the Principal Scientist of PacketVideo&nbsp;Corp., the CTO of Morphbius Technology Inc., the Director of Video Codec&nbsp;Technologies of Mobilygen Corp, the Senior Director of Technology of Ortiva&nbsp;Wireless and consulted for Stretch Inc. and Ocarina Networks. Since 2009, I have held a Professorship at the Department of&nbsp;Computer Science and Technology of Tsinghua&nbsp;University, where I am also the Director of the Research Center of the Internet of Things. I have also been a Visiting Fellow at Princeton University since 2010.</p>
+<p>I am a world-renowned expert in multimedia communication over&nbsp;hostile networks, video coding and communications. I have authored many&nbsp;widely referenced papers in related fields. Products deploying technologies&nbsp;that I developed are currently widely used worldwide. I hold&nbsp;over 30 patents with numerous others pending. I am Senior Member of&nbsp;IEEE, and Associate Editor for IEEE Transactions CSVT.</p>
+<h4>Honors And Awards</h4>
+<p>IEEE Transactions on Circuits and Systems for Video Technology: Best Paper Award (2010);</p>
+<p>IEEE Circuits and Systems Society: Certifacate of Appreciation (2009);</p>
+<p>Emmy Award Nomination (2008);</p>
+<p>EE Times ACE Award for Most Promising Technology (2006);</p>
+<p>Consumer Electronics Show (CES): Technology Innovation Award (2000);</p>
+<p>Red Herring's Top 50 Private Companies in the World (2000);</p>
+<p>PacketVideo Corp.: PVCreator Award (2001).</p>
+<h4>Academic Achievement</h4>
+<p>[1] Yi Pang, Lifeng Sun, Jiangtao (Gene) Wen*, Fengyan Zhang, Weidong Hu, Wei Feng and Shiqiang Yang, &quot;A framework for heuristic scheduling for parallel processing on multi-core architecture - a case study with multi-view video coding (MVC)&quot;, IEEE Trans. Circuits and Systems for Video Technology, Vol.19, No. 11, pp. 1658-1666, Nov. 2009.&nbsp;</p>
+<p>[2] Hyungjin Kim, Jiangtao Wen, John Villasenor, &quot;Secure arithmetic coding&quot;, IEEE Trans. Signal Processing, Vol. 55, No. 5, pp. 2263-2272, 2007.</p>
+<p>[3] Jiangtao Wen, Hyungjin Kim, John Villasenor, &quot;Binary arithmetic coding with key-based interval splitting&quot;, IEEE Signal Processing Letters, Vol. 13, No. 2, Feb. 2006.</p>
+<p>[4] Ming Jia, Jiangtao Wen, Shaozhi Ye, Xing Li, &quot;Error restricted fast MAP decoding of VLC&quot;, IEEE Communications Letters, Vol.9, No.10, pp. 909-911, Oct. 2005.</p>
+<p>[5] Wenjun Zeng, Jiangtao Wen, &quot;3G wireless multimedia: technologies and practical issues&quot;, Journal of Wireless Communications and Mobile Computing, Special Issue on Multimedia over Mobile IP, Vol. 2, Issue 6, pp. 563-572, 2002.</p>
+<p>[6] Jiangtao Wen, Wenjun Zeng, Mike Severa, &quot;A format compliant configurable encryption framework for access control of video&quot;, IEEE Trans. Circuits and Systems for Video Technology, Special Issue on Wireless Video, Vol. 12, No.6, pp. 545-557, June 2002.</p>
+<p>[7] Jiangtao Wen, John Villasenor, &quot;Soft-input soft-output decoding of variable length codes&quot;. IEEE Transactions on Communications, Vol. 50, No. 5, pp. 689-692, May 2002.</p>
+<p>[8] Jiangtao Wen, Max Luttrell, John Villasenor, &quot;Trellis-based R-D optimal quantization in H.263+&quot;. IEEE Transactions on Image Processing, pp. 1431 - 1434, Aug. 2000.</p>
+<p>[9] Yao Wang, Stephan Wenger, Jiangtao Wen, Aggelos K. Katsaggelos, &quot;Error resilient video coding techniques&quot;. IEEE Signal Processing Magazine, pp. 61-82, July 2000.</p>
+<p>[10] John Villasenor, Ya-Qin Zhang, Jiangtao Wen, &quot;Robust video coding algorithms and systems&quot;. Proceedings of the IEEE, Vol. 87, No. 10, pp. 1724-1733, Oct. 1999.</p>
+<p>[11] Jiangtao Wen, John Villasenor, &quot;Structured prefix codes for quantized generalized Gaussian sources&quot;. IEEE Trans. on Information Theory, pp. 1307 - 1314, May 1999.</p>
+<p>[12] Thomas Stockhammer, Jiangtao Wen , &quot;3GPP Video Services - Video Codecs, Content Delivery Protocols, and Optimization Potentials&quot;, appeared as a chapter in Video and Multimedia Transmission over Cellular Networks, John Wiley &amp; Sons, 2009.</p>
+<p>[13] Avni Rambhia, Jiangtao Wen, Spencer Cheng, &quot;ContentMorphing: A Novel System for Broadcast Delivery of Personalizable Content&quot;. Appeared as a chapter in Personalization And Interactivity In Future TV, Kluwer Academic Publishers, 2004.</p>
+<p>[14] John Villasenor, Jiangtao Wen, &quot;Low-Complexity Compression of Run Length Coded Image Subbands&quot;. Appeared as a chapter in Wavelet Image and Video Compression, Pankaj Topiwala Ed., Springer-Verlag, 1998.</p>
+<p>[15] Xuan Dong,&nbsp;Yi Pang, Jiangtao Wen,&quot;Fast efficient algorithm for enhancement of low lighting video&quot;, SIGGRAPH 2010 Poster, Los Angeles, CA, July 27-29, 2010.</p>
+<p>[16] Jiangtao Wen, Zhuoyuan Chen, Yuxing Han, John Villasenor, Shiqiang Yang, &quot;Reconstruction of sparse binary signals using compressive sensing&quot;, Proc. 2010 IEEE Data Compression Conference, Snowbird, UT, March, 2010.</p>
+<p>[17] Jiangtao Wen, Mou Xiao, Jianwen Chen, Pin Tao, &quot;Fast rate-distortion quantization for H.264/AVC, &quot; Proc. 2010 IEEE Data Compression Conference, Snowbird, UT, March, 2010.</p>
+<p>[18] Zhuoyuan Chen, Jiangtao Wen, Yuxing Han, John Villasenor, Shiqiang Yang, &quot;A compressive sensing image compression algorithm using quantized DCT and noiselet information,&quot; Proc. IEEE ICASSP 2010, Dallas, March 2010.</p>
+<p>[19] Yi Pang, Jiangtao Wen, Lifeng Sun, Weidong Hu, Shiqiang Yang, &quot;Frame-level heuristic scheduling of multi-view video coding on symmetric multi-core architecture&quot;, Proc. 2009 IEEE International Conference on Image Processing, Cairo, Egypt, Nov. 2009.</p>
+<p>[20] Jiangtao Wen, Yuxing Han, John Villasenor, &quot;Entropy coding using equiprobable partitioning&quot;, 46th Annual Allerton Conference, October 23-26, 2008.</p>
+<p>[21] Hyungjin Kim, Jiangtao Wen, John Villasenor, &quot;Permutation based secure arithmetic coding&quot;, 2006 Picture Coding Symposium&quot;, April 22-24, 2006.</p>
+<p>[22] Jiangtao Wen, Rui Zhang, &quot;Efficient entropy coding with lexicographical indexing&quot;, 2006 Picture Coding Symposium&quot;, April 22-24, 2006.</p>
+<p>[23] Jiangtao Wen, Hyungjin Kim, John Villasenor, &quot;Secure arithmetic coding using interval splitting&quot;, Proc. 39th Asilomar Conf. On Signals, Systems and Computers, Asilomar, CA, Nov. 2005.</p>
+<p>[24] Yali Liu, Jiangtao Wen, &quot;Heuristic search based soft-input soft-output decoding of arithmetic codes&quot;, Proc. 2004 IEEE Data Compression Conference, Snowbird, UT, March 2004.</p>
+<p>[25] Wenjun Zeng, Jiangtao Wen, Mike Severa, &quot;Fast self-synchronous content scrambling by spatially shuffling codewords of compressed bitstreams&quot;, Proc. 2002 IEEE International Conference on Image Processing, Rochester, New York, Sept. 2002.</p>
+<p>[26] Wenjun Zeng, Jiangtao Wen, &quot;3G wireless multimedia: technologies and practical issues&quot;, Special Session on Wireless Imaging, Proc. 2002 IEEE International Conference on Image Processing, Rochester, New York, Sept. 2002.</p>
+<p>[27] Jiangtao Wen, Mike Severa, Wenjun Zeng, Max Luttrell, Weiyin Jin, &quot;A configurable framework for format compliant encryption of multimedia.&quot; Proc. IEEE International Workshop on Multimedia Signal Processing, Nice, France, Oct. 2001.</p>
+<p>[28] Jiangtao Wen, Max Luttrell, Mike Severa, &quot;Access control of standard video bitstreams&quot;. Proc. International Conference on Media Futures, May 8-9, Florence, Italy, 2001.</p>
+<p>[29] Max Luttrell, Jiangtao Wen, John Villasenor, &quot;Trellis-based R-D optimal quantization in H.263+&quot;. IEEE International Conference on Image Processing, Sept. 10 - 13, Vancouver, Canada, 2000.</p>
+<p>[30] Jiangtao Wen, John Villasenor, &quot;Utilizing soft information in decoding of variable length codes&quot;, Proc. of IEEE 1999 Data Compression Conference, pp. 131 - 139. Snowbird, UT, March 1999.</p>
+<p>[31] Jiangtao Wen, John Villasenor, &quot;Reversible variable length codes for efficient and robust image and video coding&quot;. Proc. of IEEE 1998 Data Compression Conference, Snowbird, UT, March 1998.</p>
+<p>[32] Jiangtao Wen, John Villasenor, &quot;Reversible variable length codes for robust image and video transmission&quot;. Proc. 1997 Asilomar Conference, Pacific Groove, CA, Nov. 1997.</p>
+<p>[33] Jiangtao Wen, John Villasenor, &quot;A class of reversible variable length codes for robust image and video coding&quot;. Proc. 1997 IEEE International Conference on Image Processing, Santa Barbara, CA, Oct. 1997.</p>
+<p>[34] Nickolay Pakoulin, Alexander Monakhob, Chunyen Cheng, Jiangtao Wen, &quot;Enhancing IPMP-2 for conformance&quot;, AVS document 1487, 2004.</p>
+<p>[35] Spencer Cheng, Gene Wen, Nickolay Pakoulin, Vitaly Omelchenko, Alexander Koptelov, Alexandre Petrenko, Alexander Kossatchev, &quot;Improving MPEG-21 IPMP conformance - experience from MPEG-2/4 IPMPX&quot;, ISO/IEC JTC1/SC29/WG11 M10874, MPEG-04.</p>
+<p>[36] Jiangtao Wen, Chunyen Cheng, &quot;ContentMorphing: user directed content adaptation&quot;, AVS document M1030, 2002.</p>
+<p>[37] Gene Wen, Wenjun Zeng, David Kosiba, Mike Severa, &quot;A Configurable Message Format for Selective Encryption Tools&quot;, ISO/IEC JTC1/SC29/WG11 M7216, MPEG-01.</p>
+<p>[38] Gene Wen, Wenjun Zeng, David Kosiba, Mike Severa, &quot;A Format-compliant configurable Encryption Framework for Access Control of Multimedia&quot;, ISO/IEC JTC1/SC29/WG11 M7213, MPEG-01.</p>
+<p>[39] Gene Wen, Wenjun Zeng, David Kosiba, Mike Severa, &quot;Rationale for Format-compliant Configurable Selective Encryption in IPMP Standardization&quot;, ISO/IEC JTC1/SC29/WG11 M7212, MPEG-01.</p>
+<p>[40] Bruce Chaplin, Gene Wen, &quot;Rationale for IPMP Profiles with Standardized Encryption Tools&quot;, ISO/IEC JTC1/SC29/WG11 M7151, MPEG-01.</p>
+<p>[41] Adam Li, Jiangtao Wen, John Villasenor, J.H. Park, &quot;Model implementation of error resilience mode in H.263+ code.&quot; ITU-T document Q15-E19. Presented at the ITU meeting at Whistler, British Columbia, Canada, July 1998.</p>
+<p>[42] Adam Li, Matthew Fong, Jiangtao Wen, John Villasenor, J.H. Park, &quot;Test results of error resilience with modified error resilient syntax with data partitioning and RVLC.&quot; ITU-T document Q15-E20. Presented at the ITU meeting at Whistler, British Columbia, Canada, July 1998.</p>
+<p>[43] Max Luttrell, Jiangtao Wen, John Villasenor, J.H. Park, &quot;Simulation results for adaptive quantization using trellis based R-D information.&quot; ITU-T document Q15-E21. Presented at the ITU meeting at Whistler, British Columbia, Canada, July 1998.</p>
+<p>[44] Jiangtao Wen, Gregg Kamosa, John Villasenor, J.H. Park, &quot;Simulation results for proposed segmented error resilient mode for H.26L.&quot; ITU-T document Q15-D37. Presented at the ITU meeting at Tampere, Finland, April 1998.</p>
+<p>[45] Jiangtao Wen, Max Luttrell, John Villasenor, J.H. Park, &quot;Simulation results on trellis based adaptive quantization.&quot; ITU-T document Q15-D40. Presented at the ITU meeting at Tampere, Finland, April 1998.</p>
+<p>[46] Jiangtao Wen, John Villasenor, Raj Talluri, &quot;Report of results on core experiment E8 with single thread motion vector prediction.&quot; ISO/IEC JTC1/SC29/WG11 M2968, MPEG-98.</p>
+<p>[47] Jiangtao Wen, John Villasenor, H.D. Shin, &quot;Proposal for single-thread motion vector prediction in H.263L&quot;, ITU-T document Q15-C35. Presented at the ITU meeting at Eibsee, Germany, Dec. 1997.</p>
+<p>[48] Jiangtao Wen, John Villasenor, H.D Shin, &quot;Proposal for error resilience in H.263L&quot;, ITU-T document Q15-C36. Presented at the ITU meeting at Eibsee, Germany, Dec. 1997.</p>
+<p>[49] Gregg Kamosa, Jiangtao Wen, John Villasenor, H.D Shin, &quot;Proposal for motion dependent COD syntax&quot;. ITU-T document Q15-C-37. Presented at the ITU meeting at Eibsee, Germany, Dec. 1997.</p>
+<p>[50] Torbjorn Einarsson, Jiangtao Wen, John Villasenor, &quot;Proposal for longer motion vectors in H.263+&quot;, ITU-T document Q15-B-21. The proposal was adopted at the ITU meeting at Sunriver, OR in Sept. 1997, and it is now the new Annex D of H.263+.</p>
+<p>[51] Jiangtao Wen, John Villasenor, Yashoda Nag, Raj Talluri, &quot;Report of results on core experiment on error resilience for motion data with strucutred RVLC-E8&quot;, ISO/IEC JTC1/SC29/WG11 M2382</p>
+<!--replace end-->
+                  </div>
+     <!--s2_right_con结束处-->            </div>
+            <!-- end -->
+                                       
+       </div>
+   <!--detail_2结束处--> 
+  </div>
+  <!--s_content结束处-->
+  <!--footer开始处-->
+
+<div id="footer">
+ <p class="copy">Copyright &copy;2009-2011&nbsp;Department of Computer Science and Technology &nbsp;All Rights Reserved</p>
+</div>  <!--footer结束处-->
+ </div>
+ <!--contaienr结束处-->
+</body>
+</html>

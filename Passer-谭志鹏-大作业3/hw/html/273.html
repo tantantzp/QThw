@@ -1,0 +1,254 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"><head>
+<!-- IE8 兼容 -->
+<meta http-equiv="X-UA-Compatible" content="IE=EmulateIE7" />
+
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link rel="shortcut icon" type="image/x-icon" href="/public/icon/favicon.ico" />
+<!-- 通用css -->
+
+<link href="/publish/csen/css/common.css" rel="stylesheet" type="text/css" />
+<link href="/publish/csen/css/grid.css" rel="stylesheet" type="text/css" />
+<!-- 引入jquery1.4 -->
+<script src="/public/jquery/jquery-1.4.min.js" type="text/javascript"></script>
+<script language="javascript" type="text/javascript">
+/*
+*截取信息简介
+*summaryStr:String 信息简介
+*lengTh:int 截取的长度
+*/
+ function cutSummary(summaryStr,lengTh){
+   if(summaryStr.length>lengTh){
+     summaryStr=summaryStr.substring(0,lengTh)+"...";
+   }
+   document.write(summaryStr);
+ }
+/*
+*jQuery:所有外域链接在新窗口打开
+*/
+$(document).ready(function() {
+ $("a[href*='http://']:not([href*='"+location.hostname+"']),[href*='https://']:not([href*='"+location.hostname+"'])")
+ .addClass("external")
+ .attr("target","_blank")
+});
+</script>
+
+    
+   
+   
+
+   
+
+  <title>
+Department of Computer Science and Technology
+</title><link href="/publish/csen/css/style_second.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<SCRIPT language="JavaScript" src="/public/plugin/source/global.js"></SCRIPT>
+<!-- 导航下拉菜单 -->
+<link type="text/css" rel="stylesheet" href="/public/plugin/source/nav/css/mt_dropdown.css" />
+
+<SCRIPT language="JavaScript" src="/public/plugin/source/nav/js/mt_dropdownc.min.js"></SCRIPT>
+
+<SCRIPT language="JavaScript" src="/public/plugin/source/nav/js/mt_dropdown_initialize.min.js"></SCRIPT>
+
+<script language="JavaScript">
+
+<!--
+
+function MM_openBrWindow(theURL,winName,features) { //v2.0
+
+  window.open(theURL,winName,features);
+
+}
+$(document).ready(function(){
+
+  init();
+
+});
+
+//-->
+</script>
+
+
+<!-- 导航下拉菜单 --><SCRIPT language="JavaScript" src="/public/plugin/source/global_twain.js"></SCRIPT>
+
+ <!--container开始处-->
+ <div  id="container">
+  <!--header开始处-->
+ 
+<div id="logo">
+    <a href=http://www.tsinghua.edu.cn title="清华大学"></a>
+   </div>
+   <!--logo结束处-->
+   <!--header_mid开始处-->
+   <div id="header_mid">
+    <h1>计算机科学与技术系</h1>
+    <p>Department of Computer Science and Technology</p>
+   </div>
+   <!--header_mid结束处-->
+   <!--header_r开始处-->
+   <div id="header_r">
+    <ul>
+     <li><a href="/publish/cs/index.html" title="计算机科学与技术系中文网">中文版</a></li>
+     <li><a href="http://www.tsinghua.edu.cn">清华主页</a></li>
+     <li>search</li>
+     <li class="set_border">
+     <form id="searchForm" action="#" method="post" target="_blank">
+
+
+<input type="hidden" id="searchVpath" name="vpath" value=""/>
+     <input type="text" name="Q"  class="txt" tabindex="1" />
+     </form>
+</li>
+    </ul>
+   </div>
+   <!--header_r结束处-->  <!--header结束处-->
+  <!--nav开始处-->
+
+<SCRIPT language="JavaScript">
+function initMenuData(){
+if (mtDropDown.isSupported()) {
+var ms = new mtDropDownSet(mtDropDown.direction.down, 0, 0, mtDropDown.reference.bottomLeft);
+var menu4885 = ms.addMenu(document.getElementById("menu_4885"));
+menu4885.addItem("Introduction","/publish/csen/4892/index.html","");
+        menu4885.addItem("History","/publish/csen/4893/index.html","");
+        menu4885.addItem("Department News","/publish/csen/4894/index.html","");
+        var menu4886 = ms.addMenu(document.getElementById("menu_4886"));
+menu4886.addItem("Undergraduate Programs","/publish/csen/4901/index.html","");
+        var subMenu4886_0 = menu4886.addMenu(menu4886.items[0]);
+       subMenu4886_0.addItem("Student Admission","/publish/csen/4901/index.html","");
+    subMenu4886_0.addItem("Curriculum","/publish/csen/4902/index.html","");
+    subMenu4886_0.addItem("Special Programs","/publish/csen/4903/index.html","");
+    subMenu4886_0.addItem("Extracurricular Activities","/publish/csen/4904/index.html","");
+      menu4886.addItem("Master Program","/publish/csen/4905/index.html","");
+        var subMenu4886_1 = menu4886.addMenu(menu4886.items[1]);
+       subMenu4886_1.addItem("Student Admission","/publish/csen/4905/index.html","");
+    subMenu4886_1.addItem("Curriculum","/publish/csen/4906/index.html","");
+      menu4886.addItem("Ph.D Program","/publish/csen/4907/index.html","");
+        var subMenu4886_2 = menu4886.addMenu(menu4886.items[2]);
+       subMenu4886_2.addItem("Student Admission","/publish/csen/4907/index.html","");
+    subMenu4886_2.addItem("Curriculum","/publish/csen/4908/index.html","");
+    subMenu4886_2.addItem("Academic Exchange Program","/publish/csen/4909/index.html","");
+      menu4886.addItem("International Student Program","/publish/csen/4910/index.html","");
+        var subMenu4886_3 = menu4886.addMenu(menu4886.items[3]);
+       subMenu4886_3.addItem("Student Admission","/publish/csen/4910/index.html","");
+    subMenu4886_3.addItem("Curriculum","/publish/csen/4911/index.html","");
+    subMenu4886_3.addItem("Events","/publish/csen/4912/index.html","");
+      menu4886.addItem("Educational Achievement","/publish/csen/4899/index.html","");
+        menu4886.addItem("Teaching Lab","/publish/csen/4900/index.html","");
+        var menu4887 = ms.addMenu(document.getElementById("menu_4887"));
+menu4887.addItem("Research Areas","/publish/csen/4915/index.html","");
+        var subMenu4887_0 = menu4887.addMenu(menu4887.items[0]);
+       subMenu4887_0.addItem("Computer Systems","/publish/csen/4915/index.html","");
+    subMenu4887_0.addItem("Computer Networks","/publish/csen/4916/index.html","");
+    subMenu4887_0.addItem("Information Processing","/publish/csen/4917/index.html","");
+    subMenu4887_0.addItem("Computer Vision & Media Computing","/publish/csen/4918/index.html","");
+    subMenu4887_0.addItem("Data,Knowledge & Software Engineering","/publish/csen/4919/index.html","");
+    subMenu4887_0.addItem("Pervasive Computing","/publish/csen/4920/index.html","");
+    subMenu4887_0.addItem("Electronic Design Automation","/publish/csen/4921/index.html","");
+      menu4887.addItem("Labs/Insititutions","/publish/csen/4914/index.html","");
+        var menu4888 = ms.addMenu(document.getElementById("menu_4888"));
+menu4888.addItem("CAS & CAE members","/publish/csen/4922/index.html","");
+        menu4888.addItem("Full Professor","/publish/csen/4923/index.html","");
+        menu4888.addItem("Associate Professor","/publish/csen/4924/index.html","");
+        menu4888.addItem("Assistant Professor","/publish/csen/4925/index.html","");
+        menu4888.addItem("Visiting chair professor groups","/publish/csen/4926/index.html","");
+        var menu4889 = ms.addMenu(document.getElementById("menu_4889"));
+menu4889.addItem("Lectures","/publish/csen/4927/index.html","");
+        menu4889.addItem("Job Opportunity","/publish/csen/4928/index.html","");
+        mtDropDown.renderAll();
+}
+} 
+</SCRIPT>
+<div id="nav">
+    <ul>
+      <li><a href="/publish/csen/index.html">Home</a></li>
+      <li id="menu_4885"><a href="/publish/csen/4892/index.html">About</a></li>
+      <li id="menu_4886"><a href="/publish/csen/4886/index.html">Education</a></li>
+      <li id="menu_4887"><a href="/publish/csen/4887/index.html">Research</a></li>
+      <li id="menu_4888"><a href="/publish/csen/4922/index.html">Faculty</a></li>
+      <li id="menu_4889"><a href="/publish/csen/4927/index.html">Resource</a></li>
+      <li id="menu_4890"><a href="/publish/csen/4890/index.html">Contact</a></li>
+    </ul>
+   </div>
+<script language="JavaScript">initMenuData();</script>  <!--nav结束处-->
+  <!--s_content开始处-->
+  <div id="s_content">
+   <!--detail_2开始处-->
+   <div class="detail_2">
+            
+            <!-- c_top start -->
+<ul class="nav_01"><li>Your Location：</li><li><a href="/publish/csen/index.html">Home</a> &nbsp;&gt;&nbsp;</li><li>Teacher&nbsp;&gt;&nbsp;</li><li>Content</li><li><a href="javascript:history.go(-1);" class="returnPre">Go back</a></li>
+</ul>
+            <!-- c_bottom end -->
+            
+            <!-- start -->
+            <div class="box_detail">
+                   <!--s2_right_con开始处-->
+                             <div id="s2_right_con">
+<img src="/publish/csen/4623/20101224001451686603789/20101224165529829621437.jpg" />
+<ul class="rr">
+    <li id="teacher-name"><strong>Baolin LIU</strong></li>
+    <li id="teacher-title">Associate Professor</li>
+    <li id="teacher-department">Department of Computer Science and Technology</li>
+    <li id="teacher-time">Joined Department: 1999</li>
+    <li class="teacher-contact"><span class="contact-title">Email:</span><span class="contact-content"><a href="mailto:liubaolin@tsinghua.edu.cn">liubaolin@tsinghua.edu.cn</a></span></li>
+    <li class="teacher-contact"><span class="contact-title">URL:</span></li>
+    <li class="teacher-contact"><span class="contact-title">Phone:</span><span class="contact-content">+86-10-62781789</span></li>
+    <li class="teacher-contact"><span class="contact-title">Fax:</span><span class="contact-content">+86-10-62771138</span></li>
+</ul>
+<h4>Education background</h4>
+<p style="line-height: 15pt; background: white; margin-left: 11.25pt" class="MsoNormal"><span style="font-family: Arial; font-size: 10.5pt" lang="EN-US">Bachelor of Mathematics, <st1:placename w:st="on"><span class="SpellE">Hebei</span></st1:placename> <st1:placetype w:st="on">University</st1:placetype>, <st1:city w:st="on"><span class="SpellE">Baoding</span></st1:city>, <st1:country-region w:st="on">China</st1:country-region>, 1987<span class="GramE">;</span></p><p>
+Ph.D. in Applied Mathematics, <st1:place w:st="on"><st1:city w:st="on">Byelorussia State University</st1:city>, <st1:country-region w:st="on">Byelorussia</st1:country-region></st1:place>, 1997.<o:p></o:p></span></p>
+ <h4>Social service</h4>
+<p style="line-height: 15pt; background: white; margin-left: 11.25pt" class="MsoNormal"><span style="font-family: Arial; font-size: 10.5pt" lang="EN-US">ICIP 2007<a name="OLE_LINK15"></a><a name="OLE_LINK16"><span>: </span></a>Workshop <a name="OLE_LINK17"></a><a name="OLE_LINK18"><span>Chair</span></a> (2007)<span class="GramE">;</span></p><p>
+NPC2007: PC Member (2007);</p><p>
+P2PNET2009: Workshop Co-Chair (2009);</p><p>
+ICUMT'09: PC Member (2009).<o:p></o:p></span></p>
+<h4>Areas of Research Interests/ Research Projects</h4>
+<p style="line-height: 15pt; background: white; margin-left: 11.25pt" class="MsoNormal"><span style="font-family: Arial; font-size: 10.5pt" lang="EN-US">Chinese Language Comprehension </p><p>
+Cognitive Computation of Auditory and Visual Information</p><p>
+Intelligent Processing of Multimedia Information<o:p></o:p></span></p>
+<p style="line-height: 15pt; background: white; margin-left: 11.25pt" class="MsoNormal"><span style="font-family: Arial; font-size: 10.5pt" lang="EN-US">National Natural Science Foundation of China: Study on the mechanisms of facilitation and restraint in cognitive processing of images and text (2011-2013)</p><p>
+National Natural Science Foundation of China: Study on the method and technology of brain-computer interface based on visual-auditory perception and cognition (2009-2012)</p><p>
+National Natural Science Foundation of China: Study on the theory of intelligent processing and transmission method of visual media (2008-2011)</p><p>
+National Basic Research Program (973 program) of China: Intelligent processing of visual media (2006-2011)</p><p>
+National High Technology Development Program of China: Data processing oriented software production line (2007-2010).<o:p></o:p></span></p>
+<h4>Research Status</h4>
+<p style="line-height: 15pt; background: white; margin-left: 11.25pt" class="MsoNormal"><span style="font-family: Arial; font-size: 10.5pt" lang="EN-US">My research group is interested in Chinese language comprehension, cognitive computation of auditory and visual information and intelligent processing of multimedia information, focused in particular on the cognitive mechanisms of auditory and visual information <a name="OLE_LINK3"></a><a name="OLE_LINK4"><span>in videos of real-world events </span></a>in the human brain.</p><p>
+We have systematically studied the cognitive processing of audio-visual information, including Chinese language comprehension, interaction between pictures and words, emotional cognition, and cognitive computation of audio-visual information in videos of real-world events. The corresponding results have been reported in some top-ranking or important international journals.&nbsp;</p><p>
+In the study of Chinese language comprehension, <a name="OLE_LINK5"></a><a name="OLE_LINK6"><span>we have verified that</span></a> Chinese function words are <span class="SpellE">grammaticalized</span> from content words, and that phonological processing is independent from semantic and syntactic processing, as well as that the monitoring theory model is confirmed in Chinese language comprehension. In the study of the processing of phonological, orthographical, and lexical information of Chinese characters in sentence contexts, we have verified that the direct access hypothesis or the dual-route hypothesis could better explain cognitive processing in the brain.</p><p>
+In the study of interaction between pictures and words, based on the <span class="SpellE">positivity</span> offset and negativity bias theories we have found that actual arousal levels of multiple stimuli are different from those of individual pictures and individual words, while the actual arousal levels of individual pictures do not differ significantly from those of individual words. Content consistency can lead to a reduction in emotional attention, and also the influence of pictures on words will differ from the opposite condition.</p><p>
+In the study of influence on cognitive processing from the switches of shooting angles in the videos of real-world events, we have found that when subjects were concerned with the video contents, the switches of shooting angles would distract their attention from the video contents, but as long as the semantic meaning of the videos were coherent, the switches of shooting angles would not lead to significant difficulties in semantic comprehension. And the P<st1:chmetcnv w:st="on" tcsc="0" numbertype="1" negative="False" hasspace="False" sourcevalue="3" unitname="a">3a</st1:chmetcnv> and RON generally reflect the processing of task-irrelevant visual stimuli.</p><p>
+In the study of <span class="SpellE">multisensory</span> integration, we have verified that the P400 waveform might be related to the cognitive integration processing of mismatched <span class="SpellE">multisensory</span> information in the human brain, and synchronized <span class="SpellE">multisensory</span> information would interfere with each other. We have also confirmed that the <span class="SpellE">multisensory</span> integration can be observed no matter if the SOA between the auditory and visual information in the <span class="SpellE">multisensory</span> stimuli remains small or large, and the <span class="SpellE">multisensory</span> integration could be influenced by the temporal asynchrony in the processing of asynchronous audio-visual stimuli of real-world events. Longer <span class="SpellE">SOAs</span> can weaken <span class="SpellE">multisensory</span> integration, and there are rules as follows: AV&gt;V_A&gt;A_V.<o:p></o:p></span></p>
+<h4>Honors And Awards</h4>
+<p style="line-height: 15pt; background: white; margin-left: 11.25pt" class="MsoNormal"><span style="font-family: Arial; font-size: 10.5pt" lang="EN-US">The 3rd <st1:city w:st="on"><st1:place w:st="on">Beijing</st1:place></st1:city> Higher-Education Teaching Skill Competition: First-class Prize (2000).<o:p></o:p></span></p>
+<h4>Academic Achievement</h4>
+<p style="line-height: 15pt; background: white; margin-left: 11.25pt" class="MsoNormal"><span style="font-family: Arial; font-size: 10.5pt" lang="EN-US"><span class="GramE">[1] <span class="SpellE">Baolin</span> Liu, <span class="SpellE">Zhixing</span> Jin, <span class="SpellE">Zhongning</span> Wang, and Cheng Gong.</span> The influence of temporal asynchrony on <span class="SpellE">multisensory</span> integration in the processing of asynchronous audio-visual stimuli of real-world events: An ERP Study. Neuroscience, 2010, Accepted.</span></p>
+<p>[2] <span class="SpellE">Baolin</span> Liu, <span class="SpellE">Zhixing</span> Jin, Zhao <span class="SpellE">Qing</span>, and <span class="SpellE">Zhongning</span> Wang, The processing of phonological, orthographical, and lexical information of Chinese characters in sentence contexts: An ERP study. <span class="GramE">Brain Research, 2010, doi:10.1016/j.brainres.2010.11.068.</span></p>
+<p>[3] <span class="SpellE">Baolin</span> Liu, <span class="SpellE">Shuai</span> <span class="SpellE">Xin</span>, <span class="SpellE">Zhixing</span> Jin, Yu <span class="SpellE">Hu</span>, and Yang Li. Emotional facilitation effect in the picture-word interference task: An ERP study. <span class="GramE">Brain and Cognition, vol.72, no. 2, pp. 289-299, 2010.</span></p>
+<p><span class="GramE">[4] <span class="SpellE">Baolin</span> Liu, <span class="SpellE">Zhixing</span> Jin, <span class="SpellE">Zhongning</span> Wang, and Yu <span class="SpellE">Hu</span>.</span> The interaction between pictures and words: Evidence from <span class="SpellE">positivity</span> offset and negativity bias. Experimental Brain Research, vol. 201, no. 2, pp.141-153, 2010.</p>
+<p>[5] <span class="SpellE">Baolin</span> Liu, <span class="SpellE">Zhongning</span> Wang, <span class="SpellE">Guanjun</span> Song, and <span class="SpellE">Guangning</span> Wu, Cognitive processing of traffic signs in immersive virtual reality environment: An ERP study. <span class="GramE">Neuroscience Letters, vol. 485, no. 1, pp. 43-48, 2010.</span></p>
+<p><span class="GramE">[6] <span class="SpellE">Baolin</span> Liu, <span class="SpellE">Zhongning</span> Wang, <span class="SpellE">Zhixing</span> Jin, and <span class="SpellE">Guanjun</span> Song.</span> The influence on cognitive processing from the switches of shooting angles in videos of real-world events: An ERP study. <span class="GramE">Neuroscience Letters, vol. 469, no. 3, pp. 370-374, 2010.</span></p>
+<p><span class="GramE">[7] <span class="SpellE">Baolin</span> Liu, <span class="SpellE">Zhongning</span> Wang, and <span class="SpellE">Zhixing</span> Jin.</span> The integration processing of the visual and auditory information in videos of real-world events: An ERP study. Neuroscience letters, vol. 461, no. 1, pp.7-11, 2009.</p>
+<p><span class="GramE">[8] <span class="SpellE">Baolin</span> Liu, <span class="SpellE">Zhixing</span> Jin, <span class="SpellE">Zhongning</span> Wang, and <span class="SpellE">Guangning</span> Wu.</span> Chinese function words <span class="SpellE">grammaticalized</span> from content words: Evidence from <span class="SpellE">ERPs</span>. <span class="GramE">Journal of <span class="SpellE">Neurolinguistics</span>, vol. 23, no. 6, pp. 663-675, 2010.</span></p>
+<p><span class="GramE">[9] <span class="SpellE">Baolin</span> Liu, <span class="SpellE">Zhongning</span> Wang, and <span class="SpellE">Zhixing</span> Jin.</span> The Effects of Punctuations in Chinese Sentence Comprehension: An ERP study. <span class="GramE">Journal of <span class="SpellE">Neurolinguistics</span>, vol. 23, no. 1, pp.66-80, 2010.</span></p>
+<p><span class="GramE">[10] <span class="SpellE">Baolin</span> Liu, <span class="SpellE">Zhixing</span> Jin, <span class="SpellE">Wenjun</span> Li, <span class="SpellE">Yanli</span> Li, and <span class="SpellE">Zhongning</span> Wang.</span> The pragmatic meanings conveyed by function words in Chinese sentences: An ERP study. <span class="GramE">Journal of <span class="SpellE">Neurolinguistics</span>, vol. 22, no. 6, pp. 548-562, 2009.</span><o:p></o:p></p>
+                  </div>
+     <!--s2_right_con结束处-->            </div>
+            <!-- end -->
+                                       
+       </div>
+   <!--detail_2结束处--> 
+  </div>
+  <!--s_content结束处-->
+  <!--footer开始处-->
+
+<div id="footer">
+ <p class="copy">Copyright &copy;2009-2011&nbsp;Department of Computer Science and Technology &nbsp;All Rights Reserved</p>
+</div>  <!--footer结束处-->
+ </div>
+ <!--contaienr结束处-->
+</body>
+</html>

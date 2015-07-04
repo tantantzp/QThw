@@ -1,0 +1,273 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"><head>
+<!-- IE8 兼容 -->
+<meta http-equiv="X-UA-Compatible" content="IE=EmulateIE7" />
+
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link rel="shortcut icon" type="image/x-icon" href="/public/icon/favicon.ico" />
+<!-- 通用css -->
+
+<link href="/publish/csen/css/common.css" rel="stylesheet" type="text/css" />
+<link href="/publish/csen/css/grid.css" rel="stylesheet" type="text/css" />
+<!-- 引入jquery1.4 -->
+<script src="/public/jquery/jquery-1.4.min.js" type="text/javascript"></script>
+<script language="javascript" type="text/javascript">
+/*
+*截取信息简介
+*summaryStr:String 信息简介
+*lengTh:int 截取的长度
+*/
+ function cutSummary(summaryStr,lengTh){
+   if(summaryStr.length>lengTh){
+     summaryStr=summaryStr.substring(0,lengTh)+"...";
+   }
+   document.write(summaryStr);
+ }
+/*
+*jQuery:所有外域链接在新窗口打开
+*/
+$(document).ready(function() {
+ $("a[href*='http://']:not([href*='"+location.hostname+"']),[href*='https://']:not([href*='"+location.hostname+"'])")
+ .addClass("external")
+ .attr("target","_blank")
+});
+</script>
+
+    
+   
+   
+
+   
+
+  <title>
+Department of Computer Science and Technology
+</title><link href="/publish/csen/css/style_second.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<SCRIPT language="JavaScript" src="/public/plugin/source/global.js"></SCRIPT>
+<!-- 导航下拉菜单 -->
+<link type="text/css" rel="stylesheet" href="/public/plugin/source/nav/css/mt_dropdown.css" />
+
+<SCRIPT language="JavaScript" src="/public/plugin/source/nav/js/mt_dropdownc.min.js"></SCRIPT>
+
+<SCRIPT language="JavaScript" src="/public/plugin/source/nav/js/mt_dropdown_initialize.min.js"></SCRIPT>
+
+<script language="JavaScript">
+
+<!--
+
+function MM_openBrWindow(theURL,winName,features) { //v2.0
+
+  window.open(theURL,winName,features);
+
+}
+$(document).ready(function(){
+
+  init();
+
+});
+
+//-->
+</script>
+
+
+<!-- 导航下拉菜单 --><SCRIPT language="JavaScript" src="/public/plugin/source/global_twain.js"></SCRIPT>
+
+ <!--container开始处-->
+ <div  id="container">
+  <!--header开始处-->
+ 
+<div id="logo">
+    <a href=http://www.tsinghua.edu.cn title="清华大学"></a>
+   </div>
+   <!--logo结束处-->
+   <!--header_mid开始处-->
+   <div id="header_mid">
+    <h1>计算机科学与技术系</h1>
+    <p>Department of Computer Science and Technology</p>
+   </div>
+   <!--header_mid结束处-->
+   <!--header_r开始处-->
+   <div id="header_r">
+    <ul>
+     <li><a href="/publish/cs/index.html" title="计算机科学与技术系中文网">中文版</a></li>
+     <li><a href="http://www.tsinghua.edu.cn">清华主页</a></li>
+     <li>search</li>
+     <li class="set_border">
+     <form id="searchForm" action="#" method="post" target="_blank">
+
+
+<input type="hidden" id="searchVpath" name="vpath" value=""/>
+     <input type="text" name="Q"  class="txt" tabindex="1" />
+     </form>
+</li>
+    </ul>
+   </div>
+   <!--header_r结束处-->  <!--header结束处-->
+  <!--nav开始处-->
+
+<SCRIPT language="JavaScript">
+function initMenuData(){
+if (mtDropDown.isSupported()) {
+var ms = new mtDropDownSet(mtDropDown.direction.down, 0, 0, mtDropDown.reference.bottomLeft);
+var menu4885 = ms.addMenu(document.getElementById("menu_4885"));
+menu4885.addItem("Introduction","/publish/csen/4892/index.html","");
+        menu4885.addItem("History","/publish/csen/4893/index.html","");
+        menu4885.addItem("Department News","/publish/csen/4894/index.html","");
+        var menu4886 = ms.addMenu(document.getElementById("menu_4886"));
+menu4886.addItem("Undergraduate Programs","/publish/csen/4901/index.html","");
+        var subMenu4886_0 = menu4886.addMenu(menu4886.items[0]);
+       subMenu4886_0.addItem("Student Admission","/publish/csen/4901/index.html","");
+    subMenu4886_0.addItem("Curriculum","/publish/csen/4902/index.html","");
+    subMenu4886_0.addItem("Special Programs","/publish/csen/4903/index.html","");
+    subMenu4886_0.addItem("Extracurricular Activities","/publish/csen/4904/index.html","");
+      menu4886.addItem("Master Program","/publish/csen/4905/index.html","");
+        var subMenu4886_1 = menu4886.addMenu(menu4886.items[1]);
+       subMenu4886_1.addItem("Student Admission","/publish/csen/4905/index.html","");
+    subMenu4886_1.addItem("Curriculum","/publish/csen/4906/index.html","");
+      menu4886.addItem("Ph.D Program","/publish/csen/4907/index.html","");
+        var subMenu4886_2 = menu4886.addMenu(menu4886.items[2]);
+       subMenu4886_2.addItem("Student Admission","/publish/csen/4907/index.html","");
+    subMenu4886_2.addItem("Curriculum","/publish/csen/4908/index.html","");
+    subMenu4886_2.addItem("Academic Exchange Program","/publish/csen/4909/index.html","");
+      menu4886.addItem("International Student Program","/publish/csen/4910/index.html","");
+        var subMenu4886_3 = menu4886.addMenu(menu4886.items[3]);
+       subMenu4886_3.addItem("Student Admission","/publish/csen/4910/index.html","");
+    subMenu4886_3.addItem("Curriculum","/publish/csen/4911/index.html","");
+    subMenu4886_3.addItem("Events","/publish/csen/4912/index.html","");
+      menu4886.addItem("Educational Achievement","/publish/csen/4899/index.html","");
+        menu4886.addItem("Teaching Lab","/publish/csen/4900/index.html","");
+        var menu4887 = ms.addMenu(document.getElementById("menu_4887"));
+menu4887.addItem("Research Areas","/publish/csen/4915/index.html","");
+        var subMenu4887_0 = menu4887.addMenu(menu4887.items[0]);
+       subMenu4887_0.addItem("Computer Systems","/publish/csen/4915/index.html","");
+    subMenu4887_0.addItem("Computer Networks","/publish/csen/4916/index.html","");
+    subMenu4887_0.addItem("Information Processing","/publish/csen/4917/index.html","");
+    subMenu4887_0.addItem("Computer Vision & Media Computing","/publish/csen/4918/index.html","");
+    subMenu4887_0.addItem("Data,Knowledge & Software Engineering","/publish/csen/4919/index.html","");
+    subMenu4887_0.addItem("Pervasive Computing","/publish/csen/4920/index.html","");
+    subMenu4887_0.addItem("Electronic Design Automation","/publish/csen/4921/index.html","");
+      menu4887.addItem("Labs/Insititutions","/publish/csen/4914/index.html","");
+        var menu4888 = ms.addMenu(document.getElementById("menu_4888"));
+menu4888.addItem("CAS & CAE members","/publish/csen/4922/index.html","");
+        menu4888.addItem("Full Professor","/publish/csen/4923/index.html","");
+        menu4888.addItem("Associate Professor","/publish/csen/4924/index.html","");
+        menu4888.addItem("Assistant Professor","/publish/csen/4925/index.html","");
+        menu4888.addItem("Visiting chair professor groups","/publish/csen/4926/index.html","");
+        var menu4889 = ms.addMenu(document.getElementById("menu_4889"));
+menu4889.addItem("Lectures","/publish/csen/4927/index.html","");
+        menu4889.addItem("Job Opportunity","/publish/csen/4928/index.html","");
+        mtDropDown.renderAll();
+}
+} 
+</SCRIPT>
+<div id="nav">
+    <ul>
+      <li><a href="/publish/csen/index.html">Home</a></li>
+      <li id="menu_4885"><a href="/publish/csen/4892/index.html">About</a></li>
+      <li id="menu_4886"><a href="/publish/csen/4886/index.html">Education</a></li>
+      <li id="menu_4887"><a href="/publish/csen/4887/index.html">Research</a></li>
+      <li id="menu_4888"><a href="/publish/csen/4922/index.html">Faculty</a></li>
+      <li id="menu_4889"><a href="/publish/csen/4927/index.html">Resource</a></li>
+      <li id="menu_4890"><a href="/publish/csen/4890/index.html">Contact</a></li>
+    </ul>
+   </div>
+<script language="JavaScript">initMenuData();</script>  <!--nav结束处-->
+  <!--s_content开始处-->
+  <div id="s_content">
+   <!--detail_2开始处-->
+   <div class="detail_2">
+            
+            <!-- c_top start -->
+<ul class="nav_01"><li>Your Location：</li><li><a href="/publish/csen/index.html">Home</a> &nbsp;&gt;&nbsp;</li><li>Teacher&nbsp;&gt;&nbsp;</li><li>Content</li><li><a href="javascript:history.go(-1);" class="returnPre">Go back</a></li>
+</ul>
+            <!-- c_bottom end -->
+            
+            <!-- start -->
+            <div class="box_detail">
+                   <!--s2_right_con开始处-->
+                             <div id="s2_right_con">
+<img src="/publish/csen/4623/20101225000230528399254/20101225000250910477516.jpg" />
+<ul class="rr">
+    <li id="teacher-name"><strong>Wenjian YU</strong></li>
+    <li id="teacher-title">Associate Professor</li>
+    <li id="teacher-department">Department of Computer Science and Technology</li>
+    <li id="teacher-time">Joined Department: 2003</li>
+    <li class="teacher-contact"><span class="contact-title">Email:</span><span class="contact-content"><a href="mailto:yu-wj@tsinghua.edu.cn">yu-wj@tsinghua.edu.cn</a></span></li>
+    <li class="teacher-contact"><span class="contact-title">URL:</span><span class="contact-content"><a href="http://learn.tsinghua.edu.cn:8080/2003990088/index.htm">http://learn.tsinghua.edu.cn:8080/2003990088/index.htm</a></span></li>
+    <li class="teacher-contact"><span class="contact-title">Phone:</span><span class="contact-content">+86-10-62773440</span></li>
+    <li class="teacher-contact"><span class="contact-title">Fax:</span><span class="contact-content">+86-10-62781489</span></li>
+</ul>
+<h4>Education background</h4>
+<p align="left">Bachelor of Computer Science &amp; Technology, Tsinghua University, Beijing, China, 1999;</p><p>
+Master of Computer Science &amp; Technology, Tsinghua University, Beijing, China, 2001;</p><p>
+Ph.D. in Computer Science &amp; Technology, Tsinghua University, Beijing, China, 2003.</p>
+ <h4>Social service</h4>
+<p>Journal of Computer Aided Design and Computer Graphics: Member of Editorial Board (2010-2012);</p><p>
+ASP-DAC 2005, 2007, 2008: PC Member (2005-2008);</p><p>
+SLIP 2009: PC Member (2009).</p>
+<h4>Areas of Research Interests/ Research Projects</h4>
+<p align="left">Computer Aided Design of Integrated Circuit and System </p><p>
+Numerical Algorithm and Software</p>
+<p>National Natural Science Foundation of China: Parasitic Extraction of the Lossy Substrate with the Boundary Element Method (2005-2008); </p><p>
+National Natural Science Foundation of China:Research on Full-Chip Extraction Algorithms for Detailed Parasitic Parameters of VLSI Interconnects (2005-2008); </p><p>
+Basic Research Foundation of Tsinghua National Laboratory for Information Science and Technology (TNList): Interconnect Analysis and Algorithm Research for 45nm CMOS Technology and Beyond (2006-2008);</p><p>
+National Major Science &amp; Technology Special Project for the 11th Five-Year Plan: Development of Advanced EDA Tools and Platforms (2008-2010).</p>
+<h4>Research Status</h4>
+<p>Since 1999, I have been working on algorithms and software development of interconnect parasitic extraction for VLSI circuits. From 2004 to 2007, I worked on the extraction of substrate coupling parameters for the mixed-signal circuits and impedance extraction. From 2005 to 2008, I visited University of California at San Diego (UCSD) several times and collaborated with Prof. C-K Cheng on the research of interconnect analysis and circuit simulation. My major contributions are as follows.</p><p>
+1. Proposed several fast algorithms for 3-D capacitance extraction based on direct boundary element method. I have directed or co-directed the development of two prototypes-QBEM and HBBEM (with Prof. Zeyi Wang). They have both been <a id="OLE_LINK2" name="OLE_LINK2"></a><a id="OLE_LINK1" name="OLE_LINK1">acquire</a>d by ICScape Inc. and JEDAT Inc., and become a part of their commercial tools for designing VLSI circuits and LCD. The core algorithm in HBBEM, adopted by IBM Watson Research Center, evolved to be CSurf-a premier 3-D capacitance solver of IBM.</p><p>
+2. Proposed several algorithms of capacitance and resistance extraction, which addresses some issues of nanometer technologies, such as floating dummy fill, multi-via connection, and intra-die random variation. My research in this area was published in IEEE Trans. Computer-Aided Design, IEICE Trans. Electronics, DATE 2008, and DAC 2009. They have drawn attentions from both research and industrial community.</p><p>
+3. Proposed fast and versatile extraction algorithms for both substrate resistances and frequency-dependent parameters, respectively, taking substrate coupling effect in mixed-signal and RF chips into consideration. My research in this area was published in IEEE Trans. Computer-Aided Design.</p><p>
+4. Proposed an accurate eye-diagram prediction algorithm based on the linear system's step response. In collaboration with UCSD researchers, I proposed an optimized flow of passive equalizer for off-chip interconnect design, and a simulation algorithm based on frequency-domain analysis. My research in this area was published in IEEE Trans. Computer-Aided Design, IEICE Trans. Electronics, DAC 2008, and ICCAD 2008. </p><p>
+I am actively involved in academic activities both domestically and internationally, and have been frequently invited to be the TPC member and editor of conferences and journals in the above areas.</p>
+<h4>Honors And Awards</h4>
+<p align="left">Natural Science Award by Ministry of Education, Second Class-Basic Research on the Physical-Level Optimization and Verification Problems for VLSI Circuits (2005); </p><p>
+Nominee of 100 Best Doctorial Dissertation Award in China (2005).</p>
+<h4>Academic Achievement</h4>
+<p align="left">[1] Ling Zhang, Wenjian Yu, Yulei Zhang, Renshen Wang, Alina Deutsch, George A. Katopis, Daniel M. Dreps, James Buckwalter, Ernest S. Kuh and Chung-Kuan Cheng, &quot;Analysis and optimization of low power passive equalizers for CPU-memory links,&quot; IEEE Trans. Advanced Packaging, 2010 (accepted)</p><p>
+[2] Wanping Zhang, Wenjian Yu, Xiang Hu, Ling Zhang, Rui Shi, He Peng, Zhi Zhu, Lew Chua-Eoan, Rajeev Murgai, Toshiyuki Shibuya, Nuriyoki Ito, and Chung-Kuan Cheng, &quot;Efficient power network analysis considering multidomain clock gating,&quot; IEEE Trans. Computer-Aided Design, 28(9): 1348-1358, 2009.</p><p>
+[3] Shan Zeng, Wenjian Yu, Jin Shi, Xianlong Hong, and Chung-Kuan Cheng, &quot;Efficient partial reluctance extraction for large-scale regular power grid structures,&quot; IEICE Trans. on Fundamentals, Vol. E92-A, No.6 pp. 1479-1484, Jun. 2009</p><p>
+[4] Wenjian Yu, Rui Shi, and Chung-Kuan Cheng, &quot;Accurate eye diagram prediction based on step response and its application to low-power equalizer design,&quot; IEICE Trans. on Electronics, Vol. E92-C, No.4, pp. 444-452, Apr. 2009</p><p>
+[5] Wenjian Yu, Xiren Wang, Zuochang Ye, and Zeyi Wang, &quot;Efficient extraction of frequency-dependent substrate parasitics using direct boundary element method,&quot; IEEE Trans. Computer-Aided Design, 27(8): 1508-1513, 2008</p><p>
+[6] Wenjian Yu, Changhao Yan, and Zeyi Wang, &quot;A mixed surface integral formulation for frequency-dependent inductance calculation of 3D interconnects,&quot; Engineering Analysis with Boundary Elements, 2007, 31(10): 812-818</p><p>
+[7] Xiren Wang, Wenjian Yu and Zeyi Wang, &quot;Efficient direct boundary element method for resistance extraction of substrate with arbitrary doping profile,&quot; IEEE Trans. Computer-Aided Design, 2006, vol. 25, no. 12, pp. 3035-3042.</p><p>
+[8] Zuochang Ye, Wenjian Yu, and Zhiping Yu, &quot;Efficient 3D capacitance extraction considering lossy substrate with multi-layered Green's function,&quot; IEEE Trans. Microwave Theory Tech., 2006, 54(5): 2128-2137</p><p>
+[9] Wenjian Yu, Mengsheng Zhang and Zeyi Wang, &quot;Efficient 3-D extraction of interconnect capacitance considering floating metal-fills with boundary element method,&quot; IEEE Trans. Computer-Aided Design, 2006, 25(1): 12-18.</p><p>
+[10] Wenjian Yu, Zeyi Wang and Xianlong Hong, &quot;Preconditioned multi-zone boundary element analysis for fast 3D electric simulation,&quot; Engineering Analysis with Boundary Elements, 2004, 28(9): 1035-1044.</p><p>
+[11] Wenjian Yu and Zeyi Wang, &quot;Enhanced QMM-BEM solver for three-dimensional multiple-dielectric capacitance extraction within the finite domain&quot;, IEEE Trans. Microwave Theory Tech., 2004, 52(2): 560-566</p><p>
+[12] Taotao Lu, Zeyi Wang and Wenjian Yu, &quot;Hierarchical block boundary-element method (HBBEM): A fast field solver for 3-D capacitance extraction,&quot; IEEE Trans. Microwave Theory Tech., Vol. 52, No. 1, pp. 10-19, 2004.</p><p>
+[13] Wenjian Yu, Zeyi Wang and Jiangchun Gu, &quot;Fast capacitance extraction of actual 3-D VLSI interconnects using quasi-multiple medium accelerated BEM,&quot; IEEE Trans. Microwave Theory Tech., 2003, 51(1): 109-120</p><p>
+[14] Wenjian Yu, Chao Hu, and Wangyang Zhang, &quot;Variational capacitance extraction of on-chip interconnects based on continuous surface model,&quot; in Proc. Design Automation Conference (DAC), San Francisco, CA, USA, July. 2009, pp. 758-763.</p><p>
+[15] Wanping Zhang, Yi Zhu, Wenjian Yu, et al., &quot;Noise minimization during power-up stage for a multi-domain power network,&quot; in Proc. IEEE ASP-DAC 2009, Yokohama, Japan, Jan. 2009, pp. 391-396.</p><p>
+[16] Rui Shi, Wenjian Yu, Yi Zhu, Chung-Kuan Cheng, and Ernest S. Kuh, &quot;Efficient and accurate eye diagram prediction for high speed signaling,&quot; in Proc. International Conference on Computer-Aided Design (ICCAD), San Jose, CA, USA, Nov. 2008, pp. 655-661</p><p>
+[17] Ling Zhang, Wenjian Yu, Haikun Zhu, A. Deutsch, G. A. Katopis, D. M. Dreps, E. Kuh, and C.-K. Cheng, &quot;Low power passive equalizer optimization using tritonic step response,&quot; in Proc. Design Automation Conference (DAC), Anaheim, CA, USA, Jun. 2008, pp. 570-573.</p><p>
+[18] Wangyang Zhang, Wenjian Yu, Zeyi Wang, Zhiping Yu, Rong Jiang, and Jinjun Xiong, &quot;An efficient method for chip-level statistical capacitance extraction considering process variations with spatial correlation,&quot; in Proc. ACM/IEEE Design, Automation &amp; Test in Europe Conference (DATE), Munich, Germany, Mar. 2008, pp. 580-585</p><p>
+[19] Wanping Zhang, Yi Zhu, Wenjian Yu, et. al, &quot;Finding the worst voltage violation in multi-domain clock gated power network,&quot; in Proc. ACM/IEEE Design, Automation &amp; Test in Europe Conference (DATE), Munich, Germany, Mar. 2008, pp. 537-540</p><p>
+[20] Fang Gong, Wenjian Yu, Zeyi Wang, Zhiping Yu, Changhao Yan, &quot;Efficient techniques for 3-D impedance extraction using mixed boundary element method,&quot; in Proc. IEEE ASP-DAC 2008, Seoul, Korea, Jan. 2008, pp. 158-163.</p><p>
+[21] Xiren Wang, Wenjian Yu, Zeyi Wang, &quot;A new boundary element method for multiple-frequency parameter extraction of lossy substrates,&quot; in Proc. IEEE ASP-DAC 2007, Yokohama, Japan, Jan. 2007, pp. 62-67. (best paper candidate) </p><p>
+[22] Changhao Yan, Wenjian Yu, and Zeyi Wang, &quot;A mixed boundary element method for extracting frequency-dependent inductances of 3D interconnects,&quot; in Proc. 7th International Symposium on Quality Electronic Design (ISQED), San Jose, CA, USA, Mar. 2006, pp. 709-714. (best paper candidate) </p><p>
+[23] Mengsheng Zhang, Wenjian Yu, Yu Du and Zeyi Wang, &quot;An efficient algorithm for 3-D reluctance extraction considering high frequency effect,&quot; in Proc. IEEE ASP-DAC 2006, Yokohama, Japan, Jan. 2006, pp. 521-526.</p><p>
+[24] Xiren Wang, Wenjian Yu, Zeyi Wang, &quot;A new boundary element method for accurate modeling of lossy substrates with arbitrary doping profiles,&quot; in Proc. IEEE ASP-DAC 2006, Yokohama, Japan, Jan. 2006, pp. 683-688.</p><p>
+[25] Changhao Yan, Wenjian Yu, Zeyi Wang, &quot;Calculating frequency-dependent inductance of VLSI interconnect by complete multiple reciprocity boundary element method,&quot; in Proc. IEEE ASP-DAC 2006, Yokohama, Japan, Jan. 2006, pp. 844-849.</p><p>
+[26] Xiren Wang, Wenjian Yu and Zeyi Wang, &quot;Substrate resistance extraction with direct boundary element method,&quot; in Proc. IEEE ASP-DAC 2005, Shanghai, China, Jan. 2005, pp. 208-211.</p><p>
+[27] Wenjian Yu and Zeyi Wang, &quot;An efficient quasi-multiple medium algorithm for the capacitance extraction of actual 3-D VLSI interconnects,&quot; in Proc. IEEE ASP-DAC 2001, Yokohama, Japan, Jan. 2001, pp. 366-371. (best paper candidate)</p><p>
+[28] Wenjian Yu and Zeyi Wang, &quot;Capacitance extraction,&quot; in Encyclopedia of RF and Microwave Engineering, K. Chang [Eds.] , John Wiley &amp; Sons Inc., 2005. </p><p>
+[29] Chinese version of Interconnect Analysis and Synthesis (by C.-K. Cheng, J. Lillis, S. Lin, N. Chang, John-Wiley &amp; Sons Inc., 2000), Wenjian Yu and Ning Xu [Eds.], Tsinghua Univ. Press, 2008</p><p>
+[30] Chinese version of Numerical Computing with MATLAB (by Cleve B. Moler, SIAM Press, 2004), Wenjian Yu [Eds.], China Machine Press, 2006</p>
+                  </div>
+     <!--s2_right_con结束处-->            </div>
+            <!-- end -->
+                                       
+       </div>
+   <!--detail_2结束处--> 
+  </div>
+  <!--s_content结束处-->
+  <!--footer开始处-->
+
+<div id="footer">
+ <p class="copy">Copyright &copy;2009-2011&nbsp;Department of Computer Science and Technology &nbsp;All Rights Reserved</p>
+</div>  <!--footer结束处-->
+ </div>
+ <!--contaienr结束处-->
+</body>
+</html>

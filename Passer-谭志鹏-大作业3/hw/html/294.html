@@ -1,0 +1,250 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"><head>
+<!-- IE8 兼容 -->
+<meta http-equiv="X-UA-Compatible" content="IE=EmulateIE7" />
+
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link rel="shortcut icon" type="image/x-icon" href="/public/icon/favicon.ico" />
+<!-- 通用css -->
+
+<link href="/publish/csen/css/common.css" rel="stylesheet" type="text/css" />
+<link href="/publish/csen/css/grid.css" rel="stylesheet" type="text/css" />
+<!-- 引入jquery1.4 -->
+<script src="/public/jquery/jquery-1.4.min.js" type="text/javascript"></script>
+<script language="javascript" type="text/javascript">
+/*
+*截取信息简介
+*summaryStr:String 信息简介
+*lengTh:int 截取的长度
+*/
+ function cutSummary(summaryStr,lengTh){
+   if(summaryStr.length>lengTh){
+     summaryStr=summaryStr.substring(0,lengTh)+"...";
+   }
+   document.write(summaryStr);
+ }
+/*
+*jQuery:所有外域链接在新窗口打开
+*/
+$(document).ready(function() {
+ $("a[href*='http://']:not([href*='"+location.hostname+"']),[href*='https://']:not([href*='"+location.hostname+"'])")
+ .addClass("external")
+ .attr("target","_blank")
+});
+</script>
+
+    
+   
+   
+
+   
+
+  <title>
+Department of Computer Science and Technology
+</title><link href="/publish/csen/css/style_second.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<SCRIPT language="JavaScript" src="/public/plugin/source/global.js"></SCRIPT>
+<!-- 导航下拉菜单 -->
+<link type="text/css" rel="stylesheet" href="/public/plugin/source/nav/css/mt_dropdown.css" />
+
+<SCRIPT language="JavaScript" src="/public/plugin/source/nav/js/mt_dropdownc.min.js"></SCRIPT>
+
+<SCRIPT language="JavaScript" src="/public/plugin/source/nav/js/mt_dropdown_initialize.min.js"></SCRIPT>
+
+<script language="JavaScript">
+
+<!--
+
+function MM_openBrWindow(theURL,winName,features) { //v2.0
+
+  window.open(theURL,winName,features);
+
+}
+$(document).ready(function(){
+
+  init();
+
+});
+
+//-->
+</script>
+
+
+<!-- 导航下拉菜单 --><SCRIPT language="JavaScript" src="/public/plugin/source/global_twain.js"></SCRIPT>
+
+ <!--container开始处-->
+ <div  id="container">
+  <!--header开始处-->
+ 
+<div id="logo">
+    <a href=http://www.tsinghua.edu.cn title="清华大学"></a>
+   </div>
+   <!--logo结束处-->
+   <!--header_mid开始处-->
+   <div id="header_mid">
+    <h1>计算机科学与技术系</h1>
+    <p>Department of Computer Science and Technology</p>
+   </div>
+   <!--header_mid结束处-->
+   <!--header_r开始处-->
+   <div id="header_r">
+    <ul>
+     <li><a href="/publish/cs/index.html" title="计算机科学与技术系中文网">中文版</a></li>
+     <li><a href="http://www.tsinghua.edu.cn">清华主页</a></li>
+     <li>search</li>
+     <li class="set_border">
+     <form id="searchForm" action="#" method="post" target="_blank">
+
+
+<input type="hidden" id="searchVpath" name="vpath" value=""/>
+     <input type="text" name="Q"  class="txt" tabindex="1" />
+     </form>
+</li>
+    </ul>
+   </div>
+   <!--header_r结束处-->  <!--header结束处-->
+  <!--nav开始处-->
+
+<SCRIPT language="JavaScript">
+function initMenuData(){
+if (mtDropDown.isSupported()) {
+var ms = new mtDropDownSet(mtDropDown.direction.down, 0, 0, mtDropDown.reference.bottomLeft);
+var menu4885 = ms.addMenu(document.getElementById("menu_4885"));
+menu4885.addItem("Introduction","/publish/csen/4892/index.html","");
+        menu4885.addItem("History","/publish/csen/4893/index.html","");
+        menu4885.addItem("Department News","/publish/csen/4894/index.html","");
+        var menu4886 = ms.addMenu(document.getElementById("menu_4886"));
+menu4886.addItem("Undergraduate Programs","/publish/csen/4901/index.html","");
+        var subMenu4886_0 = menu4886.addMenu(menu4886.items[0]);
+       subMenu4886_0.addItem("Student Admission","/publish/csen/4901/index.html","");
+    subMenu4886_0.addItem("Curriculum","/publish/csen/4902/index.html","");
+    subMenu4886_0.addItem("Special Programs","/publish/csen/4903/index.html","");
+    subMenu4886_0.addItem("Extracurricular Activities","/publish/csen/4904/index.html","");
+      menu4886.addItem("Master Program","/publish/csen/4905/index.html","");
+        var subMenu4886_1 = menu4886.addMenu(menu4886.items[1]);
+       subMenu4886_1.addItem("Student Admission","/publish/csen/4905/index.html","");
+    subMenu4886_1.addItem("Curriculum","/publish/csen/4906/index.html","");
+      menu4886.addItem("Ph.D Program","/publish/csen/4907/index.html","");
+        var subMenu4886_2 = menu4886.addMenu(menu4886.items[2]);
+       subMenu4886_2.addItem("Student Admission","/publish/csen/4907/index.html","");
+    subMenu4886_2.addItem("Curriculum","/publish/csen/4908/index.html","");
+    subMenu4886_2.addItem("Academic Exchange Program","/publish/csen/4909/index.html","");
+      menu4886.addItem("International Student Program","/publish/csen/4910/index.html","");
+        var subMenu4886_3 = menu4886.addMenu(menu4886.items[3]);
+       subMenu4886_3.addItem("Student Admission","/publish/csen/4910/index.html","");
+    subMenu4886_3.addItem("Curriculum","/publish/csen/4911/index.html","");
+    subMenu4886_3.addItem("Events","/publish/csen/4912/index.html","");
+      menu4886.addItem("Educational Achievement","/publish/csen/4899/index.html","");
+        menu4886.addItem("Teaching Lab","/publish/csen/4900/index.html","");
+        var menu4887 = ms.addMenu(document.getElementById("menu_4887"));
+menu4887.addItem("Research Areas","/publish/csen/4915/index.html","");
+        var subMenu4887_0 = menu4887.addMenu(menu4887.items[0]);
+       subMenu4887_0.addItem("Computer Systems","/publish/csen/4915/index.html","");
+    subMenu4887_0.addItem("Computer Networks","/publish/csen/4916/index.html","");
+    subMenu4887_0.addItem("Information Processing","/publish/csen/4917/index.html","");
+    subMenu4887_0.addItem("Computer Vision & Media Computing","/publish/csen/4918/index.html","");
+    subMenu4887_0.addItem("Data,Knowledge & Software Engineering","/publish/csen/4919/index.html","");
+    subMenu4887_0.addItem("Pervasive Computing","/publish/csen/4920/index.html","");
+    subMenu4887_0.addItem("Electronic Design Automation","/publish/csen/4921/index.html","");
+      menu4887.addItem("Labs/Insititutions","/publish/csen/4914/index.html","");
+        var menu4888 = ms.addMenu(document.getElementById("menu_4888"));
+menu4888.addItem("CAS & CAE members","/publish/csen/4922/index.html","");
+        menu4888.addItem("Full Professor","/publish/csen/4923/index.html","");
+        menu4888.addItem("Associate Professor","/publish/csen/4924/index.html","");
+        menu4888.addItem("Assistant Professor","/publish/csen/4925/index.html","");
+        menu4888.addItem("Visiting chair professor groups","/publish/csen/4926/index.html","");
+        var menu4889 = ms.addMenu(document.getElementById("menu_4889"));
+menu4889.addItem("Lectures","/publish/csen/4927/index.html","");
+        menu4889.addItem("Job Opportunity","/publish/csen/4928/index.html","");
+        mtDropDown.renderAll();
+}
+} 
+</SCRIPT>
+<div id="nav">
+    <ul>
+      <li><a href="/publish/csen/index.html">Home</a></li>
+      <li id="menu_4885"><a href="/publish/csen/4892/index.html">About</a></li>
+      <li id="menu_4886"><a href="/publish/csen/4886/index.html">Education</a></li>
+      <li id="menu_4887"><a href="/publish/csen/4887/index.html">Research</a></li>
+      <li id="menu_4888"><a href="/publish/csen/4922/index.html">Faculty</a></li>
+      <li id="menu_4889"><a href="/publish/csen/4927/index.html">Resource</a></li>
+      <li id="menu_4890"><a href="/publish/csen/4890/index.html">Contact</a></li>
+    </ul>
+   </div>
+<script language="JavaScript">initMenuData();</script>  <!--nav结束处-->
+  <!--s_content开始处-->
+  <div id="s_content">
+   <!--detail_2开始处-->
+   <div class="detail_2">
+            
+            <!-- c_top start -->
+<ul class="nav_01"><li>Your Location：</li><li><a href="/publish/csen/index.html">Home</a> &nbsp;&gt;&nbsp;</li><li>Teacher&nbsp;&gt;&nbsp;</li><li>Content</li><li><a href="javascript:history.go(-1);" class="returnPre">Go back</a></li>
+</ul>
+            <!-- c_bottom end -->
+            
+            <!-- start -->
+            <div class="box_detail">
+                   <!--s2_right_con开始处-->
+                             <div id="s2_right_con">
+<img src="/publish/csen/4623/20101224235122610366982/20101224235632226542299.jpg" />
+<ul class="rr">
+    <li id="teacher-name"><strong>Wei XUE</strong></li>
+    <li id="teacher-title">Associate Professor</li>
+    <li id="teacher-department">Department of Computer Science and Technology</li>
+    <li id="teacher-time">Joined Department: 2003</li>
+    <li class="teacher-contact"><span class="contact-title">Email:</span><span class="contact-content"><a href="mailto:xuewei@tsinghua.edu.cn">xuewei@tsinghua.edu.cn</a></span></li>
+    <li class="teacher-contact"><span class="contact-title">URL:</span><span class="contact-content"><a href="http://hpc.cs.tsinghua.edu.cn/research/cluster/xuewei.html">http://hpc.cs.tsinghua.edu.cn/research/cluster/xuewei.html</a></span></li>
+    <li class="teacher-contact"><span class="contact-title">Phone:</span><span class="contact-content">+86-10-62783505 ext. 7</span></li>
+    <li class="teacher-contact"><span class="contact-title">Fax:</span><span class="contact-content">+86-10-62771138</span></li>
+</ul>
+<h4>Education background</h4>
+<p align="left">Bachelor of Electric Power Systems and Automation, Tsinghua University, Beijing, China, 1998;</p>
+<p>Bachelor of Environmental Engineering (Second Degress), Tsinghua University, Beijing, China, 1998;</p>
+<p>Ph.D. in Electrical Engineering, Tsinghua University, China, 2003.</p>
+ <h4>Social service</h4>
+<p align="left">Intel Academic Advisory Community: Council Member (2009- );</p>
+<p>China Computer Federation: Member of Information Storage Technical Committee (2009-);</p>
+<p>ISCA 2008 Workshop on Computer Architecture Education: Local chair (2008);</p>
+<p>MICRO 2009 Workshop on Computer Architecture Education: Program Committee member (2009).</p>
+<h4>Areas of Research Interests/ Research Projects</h4>
+<p align="left">Parallel Numerical Algorithm</p>
+<p>Network Storage</p>
+<p align="left">National Natural Science Foundation of China: Studies on the Reliable and Scalable Algorithms for Real-Time Simulation of Complex Power Systems (2008-2010);</p>
+<p>National 863 High-Tech Program: Peta-Scale High-Performance Mass Storage System and its Applications (2008-2010);</p>
+<p>National 863 High-Tech Program: Performance Tuning of the NWP System of GRAPES on Chinese High-Productivity Computing Systems (2009-2010).</p>
+<p>The National Basic Research Program of China (The 973 Program): Multi-Flux Ensemble Simulations of High-Resolution Climate System Model (2010-2014).</p>
+<h4>Research Status</h4>
+<p align="left">My research interests are parallel algorithm as well as parallel software design and implementation for cutting-edge applications such as power system dynamic simulation, reservoir simulation, numerical weather prediction and climate system model. My research contributions include:</p>
+<p>1. I have proposed a spatial parallel DAE algorithm based on sub-structure method, a multi-level convergence judgment scheme for power system dynamic simulation, as well as a novel multi-level partition scheme based on power network regional characteristics. This scheme has better computational efficiency than traditional spatial parallel algorithms and the partitions using METIS, which is a famous program used for partitioning graphs.</p>
+<p>2. We have designed and implemented TH-PaPSM, a parallel software for power system dynamic simulation. TH-PaPSM is able to hold real-time simulation for huge power network with over ten-thousand nodes. Currently, TH-PaPSM has already been deployed in China Southern Power Grid.</p>
+<p>3. Based on TH-PaPSM and in collaboration with Prof. Shen Chen from Dept. of EE, we have designed and implemented a distributed prototype for dynamic security analysis on large-scale power systems . We have proposed an improved quasi-Newton algorithm, a schedule scheme for multi-case, and an application-specific communication middleware over WAN. Test results showed that our system is feasible for on-line use, which cannot be achieved by known methods.</p>
+<p>My research group also works on the design and development of distributed file-system and secure storage in distributed system. Research contributions include:</p>
+<p>1. We have proposed an adaptive metadata management strategy, which has more flexibility and better response time than well-known dynamic sub-tree partitioning method in large-scale file systems.</p>
+<p>2. In distributed shared storage systems, it is difficult for users to secure data storage or data sharing of their own files due to lack of control over underlying storage. To solve this issue, we have designed and implemented a stackable secure storage, called <em>Corslet</em>, which runs directly on deployed storage systems without any modification. <em>Corslet</em> brings end-to-end confidentiality and integrity as well as efficient access control for user data.</p>
+<h4>Honors And Awards</h4>
+<p align="left">Science and Technology Progress Award by Ministry of Education, First Class-Testing Scheme for High Performance Computers (2009);</p>
+<p>Science and Technology Progress Award by Chinese institute of Electronics, First Class-Testing Scheme for High Performance Computers (2009).</p>
+<h4>Academic Achievement</h4>
+<p align="left">[1] Wei Xue, Jiwu Shu, Weimin Zheng. Parallel Transient Stability Simulation for National Power Grid of China. Proc. Parallel and Distributed Processing and Applications: Second International Symposium (ISPA 2004), Hong Kong, China, 2004, pp.765-776</p>
+<p>[2] Wei Xue, Jiwu Shu, Weimin Zheng. Parallel Algorithm and Implementation for Realtime Dynamic Simulation of Power System. Proc. the 34th International conference on parallel processing (ICPP 2005), Oslo, Norway, 2005, pp.137-144</p>
+<p>[3] Jiwu Shu, Wei Xue, Weimin Zheng, A Parallel Transient Stability Simulation for Power System. IEEE Transactions on Power Systems, vol. 20, no. 4, pp.1709-1717, 2005</p>
+<p>[4] Weijia Li, Wei Xue, Jiwu Shu, Weimin Zheng. Dynamic Hashing: Adaptive Metadata Management for Petabyte-scale File Systems. Proc. 23rd IEEE Conference on Mass Storage Systems and Technologies (MSST 2006), Maryland, USA, 2006 (short paper)</p>
+<p>[5] Wei Xue, Shanxiang Qi. Multilevel Task Partition Algorithm for Parallel Simulation of Power System Dynamics. Proc. The 15th International Conference on Computational Science (ICCS 2007), Beijing, China, 2007, pp.529-537</p>
+                  </div>
+     <!--s2_right_con结束处-->            </div>
+            <!-- end -->
+                                       
+       </div>
+   <!--detail_2结束处--> 
+  </div>
+  <!--s_content结束处-->
+  <!--footer开始处-->
+
+<div id="footer">
+ <p class="copy">Copyright &copy;2009-2011&nbsp;Department of Computer Science and Technology &nbsp;All Rights Reserved</p>
+</div>  <!--footer结束处-->
+ </div>
+ <!--contaienr结束处-->
+</body>
+</html>

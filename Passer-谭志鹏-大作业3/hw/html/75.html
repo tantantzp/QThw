@@ -1,0 +1,256 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"><head>
+<!-- IE8 兼容 -->
+<meta http-equiv="X-UA-Compatible" content="IE=EmulateIE7" />
+
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link rel="shortcut icon" type="image/x-icon" href="/public/icon/favicon.ico" />
+<!-- 通用css -->
+
+<link href="/publish/csen/css/common.css" rel="stylesheet" type="text/css" />
+<link href="/publish/csen/css/grid.css" rel="stylesheet" type="text/css" />
+<!-- 引入jquery1.4 -->
+<script src="/public/jquery/jquery-1.4.min.js" type="text/javascript"></script>
+<script language="javascript" type="text/javascript">
+/*
+*截取信息简介
+*summaryStr:String 信息简介
+*lengTh:int 截取的长度
+*/
+ function cutSummary(summaryStr,lengTh){
+   if(summaryStr.length>lengTh){
+     summaryStr=summaryStr.substring(0,lengTh)+"...";
+   }
+   document.write(summaryStr);
+ }
+/*
+*jQuery:所有外域链接在新窗口打开
+*/
+$(document).ready(function() {
+ $("a[href*='http://']:not([href*='"+location.hostname+"']),[href*='https://']:not([href*='"+location.hostname+"'])")
+ .addClass("external")
+ .attr("target","_blank")
+});
+</script>
+
+    
+   
+   
+
+   
+
+  <title>
+Department of Computer Science and Technology
+</title><link href="/publish/csen/css/style_second.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<SCRIPT language="JavaScript" src="/public/plugin/source/global.js"></SCRIPT>
+<!-- 导航下拉菜单 -->
+<link type="text/css" rel="stylesheet" href="/public/plugin/source/nav/css/mt_dropdown.css" />
+
+<SCRIPT language="JavaScript" src="/public/plugin/source/nav/js/mt_dropdownc.min.js"></SCRIPT>
+
+<SCRIPT language="JavaScript" src="/public/plugin/source/nav/js/mt_dropdown_initialize.min.js"></SCRIPT>
+
+<script language="JavaScript">
+
+<!--
+
+function MM_openBrWindow(theURL,winName,features) { //v2.0
+
+  window.open(theURL,winName,features);
+
+}
+$(document).ready(function(){
+
+  init();
+
+});
+
+//-->
+</script>
+
+
+<!-- 导航下拉菜单 --><SCRIPT language="JavaScript" src="/public/plugin/source/global_twain.js"></SCRIPT>
+
+ <!--container开始处-->
+ <div  id="container">
+  <!--header开始处-->
+ 
+<div id="logo">
+    <a href=http://www.tsinghua.edu.cn title="清华大学"></a>
+   </div>
+   <!--logo结束处-->
+   <!--header_mid开始处-->
+   <div id="header_mid">
+    <h1>计算机科学与技术系</h1>
+    <p>Department of Computer Science and Technology</p>
+   </div>
+   <!--header_mid结束处-->
+   <!--header_r开始处-->
+   <div id="header_r">
+    <ul>
+     <li><a href="/publish/cs/index.html" title="计算机科学与技术系中文网">中文版</a></li>
+     <li><a href="http://www.tsinghua.edu.cn">清华主页</a></li>
+     <li>search</li>
+     <li class="set_border">
+     <form id="searchForm" action="#" method="post" target="_blank">
+
+
+<input type="hidden" id="searchVpath" name="vpath" value=""/>
+     <input type="text" name="Q"  class="txt" tabindex="1" />
+     </form>
+</li>
+    </ul>
+   </div>
+   <!--header_r结束处-->  <!--header结束处-->
+  <!--nav开始处-->
+
+<SCRIPT language="JavaScript">
+function initMenuData(){
+if (mtDropDown.isSupported()) {
+var ms = new mtDropDownSet(mtDropDown.direction.down, 0, 0, mtDropDown.reference.bottomLeft);
+var menu4885 = ms.addMenu(document.getElementById("menu_4885"));
+menu4885.addItem("Introduction","/publish/csen/4892/index.html","");
+        menu4885.addItem("History","/publish/csen/4893/index.html","");
+        menu4885.addItem("Department News","/publish/csen/4894/index.html","");
+        var menu4886 = ms.addMenu(document.getElementById("menu_4886"));
+menu4886.addItem("Undergraduate Programs","/publish/csen/4901/index.html","");
+        var subMenu4886_0 = menu4886.addMenu(menu4886.items[0]);
+       subMenu4886_0.addItem("Student Admission","/publish/csen/4901/index.html","");
+    subMenu4886_0.addItem("Curriculum","/publish/csen/4902/index.html","");
+    subMenu4886_0.addItem("Special Programs","/publish/csen/4903/index.html","");
+    subMenu4886_0.addItem("Extracurricular Activities","/publish/csen/4904/index.html","");
+      menu4886.addItem("Master Program","/publish/csen/4905/index.html","");
+        var subMenu4886_1 = menu4886.addMenu(menu4886.items[1]);
+       subMenu4886_1.addItem("Student Admission","/publish/csen/4905/index.html","");
+    subMenu4886_1.addItem("Curriculum","/publish/csen/4906/index.html","");
+      menu4886.addItem("Ph.D Program","/publish/csen/4907/index.html","");
+        var subMenu4886_2 = menu4886.addMenu(menu4886.items[2]);
+       subMenu4886_2.addItem("Student Admission","/publish/csen/4907/index.html","");
+    subMenu4886_2.addItem("Curriculum","/publish/csen/4908/index.html","");
+    subMenu4886_2.addItem("Academic Exchange Program","/publish/csen/4909/index.html","");
+      menu4886.addItem("International Student Program","/publish/csen/4910/index.html","");
+        var subMenu4886_3 = menu4886.addMenu(menu4886.items[3]);
+       subMenu4886_3.addItem("Student Admission","/publish/csen/4910/index.html","");
+    subMenu4886_3.addItem("Curriculum","/publish/csen/4911/index.html","");
+    subMenu4886_3.addItem("Events","/publish/csen/4912/index.html","");
+      menu4886.addItem("Educational Achievement","/publish/csen/4899/index.html","");
+        menu4886.addItem("Teaching Lab","/publish/csen/4900/index.html","");
+        var menu4887 = ms.addMenu(document.getElementById("menu_4887"));
+menu4887.addItem("Research Areas","/publish/csen/4915/index.html","");
+        var subMenu4887_0 = menu4887.addMenu(menu4887.items[0]);
+       subMenu4887_0.addItem("Computer Systems","/publish/csen/4915/index.html","");
+    subMenu4887_0.addItem("Computer Networks","/publish/csen/4916/index.html","");
+    subMenu4887_0.addItem("Information Processing","/publish/csen/4917/index.html","");
+    subMenu4887_0.addItem("Computer Vision & Media Computing","/publish/csen/4918/index.html","");
+    subMenu4887_0.addItem("Data,Knowledge & Software Engineering","/publish/csen/4919/index.html","");
+    subMenu4887_0.addItem("Pervasive Computing","/publish/csen/4920/index.html","");
+    subMenu4887_0.addItem("Electronic Design Automation","/publish/csen/4921/index.html","");
+      menu4887.addItem("Labs/Insititutions","/publish/csen/4914/index.html","");
+        var menu4888 = ms.addMenu(document.getElementById("menu_4888"));
+menu4888.addItem("CAS & CAE members","/publish/csen/4922/index.html","");
+        menu4888.addItem("Full Professor","/publish/csen/4923/index.html","");
+        menu4888.addItem("Associate Professor","/publish/csen/4924/index.html","");
+        menu4888.addItem("Assistant Professor","/publish/csen/4925/index.html","");
+        menu4888.addItem("Visiting chair professor groups","/publish/csen/4926/index.html","");
+        var menu4889 = ms.addMenu(document.getElementById("menu_4889"));
+menu4889.addItem("Lectures","/publish/csen/4927/index.html","");
+        menu4889.addItem("Job Opportunity","/publish/csen/4928/index.html","");
+        mtDropDown.renderAll();
+}
+} 
+</SCRIPT>
+<div id="nav">
+    <ul>
+      <li><a href="/publish/csen/index.html">Home</a></li>
+      <li id="menu_4885"><a href="/publish/csen/4892/index.html">About</a></li>
+      <li id="menu_4886"><a href="/publish/csen/4886/index.html">Education</a></li>
+      <li id="menu_4887"><a href="/publish/csen/4887/index.html">Research</a></li>
+      <li id="menu_4888"><a href="/publish/csen/4922/index.html">Faculty</a></li>
+      <li id="menu_4889"><a href="/publish/csen/4927/index.html">Resource</a></li>
+      <li id="menu_4890"><a href="/publish/csen/4890/index.html">Contact</a></li>
+    </ul>
+   </div>
+<script language="JavaScript">initMenuData();</script>  <!--nav结束处-->
+  <!--s_content开始处-->
+  <div id="s_content">
+   <!--detail_2开始处-->
+   <div class="detail_2">
+            
+            <!-- c_top start -->
+<ul class="nav_01"><li>Your Location：</li><li><a href="/publish/csen/index.html">Home</a> &nbsp;&gt;&nbsp;</li><li>Teacher&nbsp;&gt;&nbsp;</li><li>Content</li><li><a href="javascript:history.go(-1);" class="returnPre">Go back</a></li>
+</ul>
+            <!-- c_bottom end -->
+            
+            <!-- start -->
+            <div class="box_detail">
+                   <!--s2_right_con开始处-->
+                             <div id="s2_right_con">
+<img src="/publish/csen/4623/20101224192748506812602/20101224192844005601729.jpg" />
+<ul>
+    <li id="teacher-name"><strong>Jiwu SHU</strong></li>
+    <li id="teacher-title">Professor</li>
+    <li id="teacher-department">Department of Computer Science and Technology</li>
+    <li id="teacher-time">Joined Department: 1999</li>
+    <li class="teacher-contact"><span class="contact-title">Email:</span><span class="contact-content"><a onfocus="undefined" href="mailto:shujw@tsinghua.edu.cn">shujw@tsinghua.edu.cn</a></span></li>
+    <li class="teacher-contact"><span class="contact-title">URL:</span><span class="contact-content"><a onfocus="undefined" href="http://storage.cs.tsinghua.edu.cn/">http://storage.cs.tsinghua.edu.cn/</a></span></li>
+    <li class="teacher-contact"><span class="contact-title">Phone:</span><span class="contact-content">+86-10-62795215</span></li>
+    <li class="teacher-contact"><span class="contact-title">Fax:</span><span class="contact-content">+86-10-62771138</span></li>
+</ul>
+<h4>Education background</h4>
+<p align="left">Bachelor of Computer Science, National University of Defense Technology, Changsha, China, 1991;</p>
+<p>Master of Computer Science, Jiangsu University, Zhenjian, China, 1996;</p>
+<p>Ph.D. in Computer Science, Nanjing University, Nanjing, 1998.</p>
+ <h4>Social service</h4>
+<p>China Computer Federation: Deputy Director and Executive Member of Information Storage Technology Committee (2006-);</p>
+<p>National Engineering Lab for Disaster Backup Technologies: Deputy Director (2008-);</p>
+<p>&quot;Key Technologies for Mass Storage Systems&quot; Project, National 863 High-Tech Program:</p>
+<p>Deputy Director of General Experts Group (2008-2010);</p>
+<p>Chinese Journal of Computers: Editorial Member (2010-2012);</p>
+<p>Chinese Journal of Computer Research and Development: Editorial Member (2010-2012).</p>
+<h4>Areas of Research Interests/ Research Projects</h4>
+<p align="left">Storage Network, Security and Reliability for Storage System</p>
+<p>Parallel/Distributed Processing Technology</p>
+<p>National Science Foundation for Distinguished Young Scholars: Research on Key Techniques of Reliability in Large-Scale Network Storage Systems (2010-2013);</p>
+<p>National Natural Science Foundation of China: Research on Fault Tolerance in Large-Scale Network Storage Systems (2009-2011);</p>
+<p>National Basic Research Program of China (The 973 Program): Research on the Allocation-on-Demand Storage Model and Quality of Storage Service on the Next Generation Internet (2004-2009);</p>
+<p>National 863 High-Tech Program: Mass-Storage System Software and Key Techniques (2009-2010).</p>
+<h4>Research Status</h4>
+<p>The research fields of my group include massive network storage systems, their key technologies, and storage security and reliability. Our main research contributions are as follows:</p>
+<p>In the aspect of massive network storage systems, we have proposed scalable massive network storage architecture and its implementation method, and have also developed TH-MSNS (Tsinghua Mass Storage Network System), a SAN-based network storage system. In the development of this system, we found data chunks' characteristics of reordering window and proposed an efficient approach to scaling round-robin striped volumes. Besides, we have also proposed an online cache method to solve the unstable performance problem due to variable workloads in storage systems. At present, there are nearly 100 sets of TH-MSNS applied in many fields, including audit, public security, oil field, telecom, and education.</p>
+<p>In the aspect of storage reliability, our contributions include: 1) proving the equivalence between B-Code constructions and perfect one-factorizations in graph theory, and making systematic studies on cyclic lowest-density MDS array codes using starters in group theory; 2) proposing a family of erasure codes, named <em>GRID Codes</em>, which are implemented based on XOR operations and can tolerate up to 15 disk failures while maintaining good storage efficiency; 3) proposing an efficient method using erasure codes' error detection ability, rather than metadata, to solve the problem of silent data corruptions in large-scale erasure-coded storage systems; and 4) proposing Disk Architecture with Composite Operation (DACO), which avoids traditional &quot;read-modify-write&quot; operations in parity update and thus alleviates the small-write performance problem in large-scale erasure-coded storage systems.</p>
+<h4>Honors And Awards</h4>
+<p>Science and Technology Progress Award by City of Beijing, Second Class-High Scalability Mass Storage Network System (2004);</p>
+<p>Science and Technology Progress Award by Ministry of Education, Second Class-Deepcomp 2600: A New Network Server System (2007);</p>
+<p>National Award for Science and Technology Progress, Second Class-High-Performance Cluster System and Mass Storage System (2007);</p>
+<p>Tsinghua University Distinguished Young Scholar Award (2005).</p>
+<h4>Academic Achievement</h4>
+<p>[1] Li Mingqiang, Shu Jiwu, Zheng Weimin, GRID Codes: Strip-based Erasure Codes with High Fault Tolerance for Storage Systems, <em>ACM Transactions on Storage</em>, Vol. 4, no.4, Article15, pp.1-22, 2009</p>
+<p>[2] Wang Yang, Shu Jiwu, Zhang Guanggan, Xue Wei, Zheng Weimin, SOPA: Selecting the Optimal Caching Policy Adaptively, <em>ACM Transactions on Storage</em>, Vol. 6, No. 2, Article 7, pp. 1-18, 2010</p>
+<p>[3] Guangyan Zhang, Jiwu Shu, Wei Xue, and Weimin Zheng,SLAS: An Efficient Approach to Scaling Round-robin Striped Volumes, <em>ACM Transactions on Storage</em>, Vol. 3, no. 1, Article3, pp.1-39,2007</p>
+<p>[4]Li Mingqiang, Shu Jiwu, DACO: A High-Performance Disk Architecture Designed Specially for Large-Scale Erasure-Coded Storage Systems, <em>IEEE Transactions on Computers</em>, 14 Jan. 2010. IEEE computer Society Digital Library. IEEE Computer Society, <a onfocus="undefined" href="http://doi.ieeecomputersociety.org/10.1109/TC.2010.22">http://doi.ieeecomputersociety.org/10.1109/TC.2010.22</a></p>
+<p>[5]Li Mingqiang, Shu Jiwu, Preventing&nbsp;Silent&nbsp;Data&nbsp;Corruptions&nbsp;from Propagating&nbsp;During Data&nbsp;Reconstruction, <em>IEEE Transactions on Computers</em>, 10 Feb. 2010. IEEE computer Society Digital Library. IEEE Computer Society, <a onfocus="undefined" href="http://doi.ieeecomputersociety.org/10.1109/TC.2010.36">http://doi.ieeecomputersociety.org/10.1109/TC.2010.36</a></p>
+<p>[6] Guangyan Zhang, Weimin Zheng, and Jiwu Shu, <a onfocus="undefined" href="http://www2.computer.org/portal/web/csdl/doi/10.1109/TC.2009.150">ALV: A New Data Redistribution Approach to RAID-5 Scaling</a>, <em>IEEE Transactions on Computers</em>, Vol. 59, No. 3. pp. 345-357, 2010</p>
+<p>[7] Guangyan Zhang, Jiwu Shu, Wei Xue, and Weimin Zheng, Design and Implementation of an Out-of-Band Virtualization System for Large SANs, <em>IEEE Transactions on Computers</em>, vol.56, no.12, pp.1654-1665,2007</p>
+<p>[8] Shu Ji-wu, Li Bigang, Zheng Wei-min, Design and Implementation of a SAN System Based on the Fiber Channel Protocol,<em> IEEE Transactions on Computers</em>, vol.54, no.4, pp.439-448, 2005</p>
+<p>[9] JIWU SHU, WEI XUE, WEIMING ZHENG, A Parallel Transient Stability Simulation for Power System, <em>IEEE Transactions on Power Systems</em>, vol.20, no,4,pp.1709-1717,2005</p>
+<p>[10] JIWU SHU, BING WANG, MIN CHEN, JINZHAO WANG, WEIMIN ZHENG, Optimization techniques for parallel force-decomposition algorithm in molecular dynamic simulations, <em>Computer Physics Communications</em>, vol.154, no.2, pp121-130,2003</p>
+<p>[11] J.W.Shu, Q.Lu, W.O.Wong, Hanchen Huang, Parallelization strategies for Monte Carlo simulations of thin film deposition, <em>Computer Physics Communications</em>, vol.144, no.1, pp34-45,2002</p>
+                  </div>
+     <!--s2_right_con结束处-->            </div>
+            <!-- end -->
+                                       
+       </div>
+   <!--detail_2结束处--> 
+  </div>
+  <!--s_content结束处-->
+  <!--footer开始处-->
+
+<div id="footer">
+ <p class="copy">Copyright &copy;2009-2011&nbsp;Department of Computer Science and Technology &nbsp;All Rights Reserved</p>
+</div>  <!--footer结束处-->
+ </div>
+ <!--contaienr结束处-->
+</body>
+</html>

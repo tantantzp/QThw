@@ -1,0 +1,18 @@
+
+
+  <form method="POST" action="/search/">
+  <img src="/media/logo1.png" width="200" height="120"><br/>
+  <input type="text" name="q"  style="width:300px;">   
+  <input type=submit value="search" > </span> 
+  </form>
+  <table border="1" width=100%>
+  <tr><th width=30%>No.</th><th>URL</th></tr>
+ {% for user in address %}
+  <tr>
+  <td >{{forloop.counter}}</td>
+  <td><a href={{ user.url }}>{{user.index}}</a></td>
+  </tr>
+{% endfor %}
+
+</table>
+

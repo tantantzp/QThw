@@ -1,0 +1,253 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"><head>
+<!-- IE8 兼容 -->
+<meta http-equiv="X-UA-Compatible" content="IE=EmulateIE7" />
+
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link rel="shortcut icon" type="image/x-icon" href="/public/icon/favicon.ico" />
+<!-- 通用css -->
+
+<link href="/publish/csen/css/common.css" rel="stylesheet" type="text/css" />
+<link href="/publish/csen/css/grid.css" rel="stylesheet" type="text/css" />
+<!-- 引入jquery1.4 -->
+<script src="/public/jquery/jquery-1.4.min.js" type="text/javascript"></script>
+<script language="javascript" type="text/javascript">
+/*
+*截取信息简介
+*summaryStr:String 信息简介
+*lengTh:int 截取的长度
+*/
+ function cutSummary(summaryStr,lengTh){
+   if(summaryStr.length>lengTh){
+     summaryStr=summaryStr.substring(0,lengTh)+"...";
+   }
+   document.write(summaryStr);
+ }
+/*
+*jQuery:所有外域链接在新窗口打开
+*/
+$(document).ready(function() {
+ $("a[href*='http://']:not([href*='"+location.hostname+"']),[href*='https://']:not([href*='"+location.hostname+"'])")
+ .addClass("external")
+ .attr("target","_blank")
+});
+</script>
+
+    
+   
+   
+
+   
+
+  <title>
+Department of Computer Science and Technology
+</title><link href="/publish/csen/css/style_second.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<SCRIPT language="JavaScript" src="/public/plugin/source/global.js"></SCRIPT>
+<!-- 导航下拉菜单 -->
+<link type="text/css" rel="stylesheet" href="/public/plugin/source/nav/css/mt_dropdown.css" />
+
+<SCRIPT language="JavaScript" src="/public/plugin/source/nav/js/mt_dropdownc.min.js"></SCRIPT>
+
+<SCRIPT language="JavaScript" src="/public/plugin/source/nav/js/mt_dropdown_initialize.min.js"></SCRIPT>
+
+<script language="JavaScript">
+
+<!--
+
+function MM_openBrWindow(theURL,winName,features) { //v2.0
+
+  window.open(theURL,winName,features);
+
+}
+$(document).ready(function(){
+
+  init();
+
+});
+
+//-->
+</script>
+
+
+<!-- 导航下拉菜单 --><SCRIPT language="JavaScript" src="/public/plugin/source/global_twain.js"></SCRIPT>
+
+ <!--container开始处-->
+ <div  id="container">
+  <!--header开始处-->
+ 
+<div id="logo">
+    <a href=http://www.tsinghua.edu.cn title="清华大学"></a>
+   </div>
+   <!--logo结束处-->
+   <!--header_mid开始处-->
+   <div id="header_mid">
+    <h1>计算机科学与技术系</h1>
+    <p>Department of Computer Science and Technology</p>
+   </div>
+   <!--header_mid结束处-->
+   <!--header_r开始处-->
+   <div id="header_r">
+    <ul>
+     <li><a href="/publish/cs/index.html" title="计算机科学与技术系中文网">中文版</a></li>
+     <li><a href="http://www.tsinghua.edu.cn">清华主页</a></li>
+     <li>search</li>
+     <li class="set_border">
+     <form id="searchForm" action="#" method="post" target="_blank">
+
+
+<input type="hidden" id="searchVpath" name="vpath" value=""/>
+     <input type="text" name="Q"  class="txt" tabindex="1" />
+     </form>
+</li>
+    </ul>
+   </div>
+   <!--header_r结束处-->  <!--header结束处-->
+  <!--nav开始处-->
+
+<SCRIPT language="JavaScript">
+function initMenuData(){
+if (mtDropDown.isSupported()) {
+var ms = new mtDropDownSet(mtDropDown.direction.down, 0, 0, mtDropDown.reference.bottomLeft);
+var menu4885 = ms.addMenu(document.getElementById("menu_4885"));
+menu4885.addItem("Introduction","/publish/csen/4892/index.html","");
+        menu4885.addItem("History","/publish/csen/4893/index.html","");
+        menu4885.addItem("Department News","/publish/csen/4894/index.html","");
+        var menu4886 = ms.addMenu(document.getElementById("menu_4886"));
+menu4886.addItem("Undergraduate Programs","/publish/csen/4901/index.html","");
+        var subMenu4886_0 = menu4886.addMenu(menu4886.items[0]);
+       subMenu4886_0.addItem("Student Admission","/publish/csen/4901/index.html","");
+    subMenu4886_0.addItem("Curriculum","/publish/csen/4902/index.html","");
+    subMenu4886_0.addItem("Special Programs","/publish/csen/4903/index.html","");
+    subMenu4886_0.addItem("Extracurricular Activities","/publish/csen/4904/index.html","");
+      menu4886.addItem("Master Program","/publish/csen/4905/index.html","");
+        var subMenu4886_1 = menu4886.addMenu(menu4886.items[1]);
+       subMenu4886_1.addItem("Student Admission","/publish/csen/4905/index.html","");
+    subMenu4886_1.addItem("Curriculum","/publish/csen/4906/index.html","");
+      menu4886.addItem("Ph.D Program","/publish/csen/4907/index.html","");
+        var subMenu4886_2 = menu4886.addMenu(menu4886.items[2]);
+       subMenu4886_2.addItem("Student Admission","/publish/csen/4907/index.html","");
+    subMenu4886_2.addItem("Curriculum","/publish/csen/4908/index.html","");
+    subMenu4886_2.addItem("Academic Exchange Program","/publish/csen/4909/index.html","");
+      menu4886.addItem("International Student Program","/publish/csen/4910/index.html","");
+        var subMenu4886_3 = menu4886.addMenu(menu4886.items[3]);
+       subMenu4886_3.addItem("Student Admission","/publish/csen/4910/index.html","");
+    subMenu4886_3.addItem("Curriculum","/publish/csen/4911/index.html","");
+    subMenu4886_3.addItem("Events","/publish/csen/4912/index.html","");
+      menu4886.addItem("Educational Achievement","/publish/csen/4899/index.html","");
+        menu4886.addItem("Teaching Lab","/publish/csen/4900/index.html","");
+        var menu4887 = ms.addMenu(document.getElementById("menu_4887"));
+menu4887.addItem("Research Areas","/publish/csen/4915/index.html","");
+        var subMenu4887_0 = menu4887.addMenu(menu4887.items[0]);
+       subMenu4887_0.addItem("Computer Systems","/publish/csen/4915/index.html","");
+    subMenu4887_0.addItem("Computer Networks","/publish/csen/4916/index.html","");
+    subMenu4887_0.addItem("Information Processing","/publish/csen/4917/index.html","");
+    subMenu4887_0.addItem("Computer Vision & Media Computing","/publish/csen/4918/index.html","");
+    subMenu4887_0.addItem("Data,Knowledge & Software Engineering","/publish/csen/4919/index.html","");
+    subMenu4887_0.addItem("Pervasive Computing","/publish/csen/4920/index.html","");
+    subMenu4887_0.addItem("Electronic Design Automation","/publish/csen/4921/index.html","");
+      menu4887.addItem("Labs/Insititutions","/publish/csen/4914/index.html","");
+        var menu4888 = ms.addMenu(document.getElementById("menu_4888"));
+menu4888.addItem("CAS & CAE members","/publish/csen/4922/index.html","");
+        menu4888.addItem("Full Professor","/publish/csen/4923/index.html","");
+        menu4888.addItem("Associate Professor","/publish/csen/4924/index.html","");
+        menu4888.addItem("Assistant Professor","/publish/csen/4925/index.html","");
+        menu4888.addItem("Visiting chair professor groups","/publish/csen/4926/index.html","");
+        var menu4889 = ms.addMenu(document.getElementById("menu_4889"));
+menu4889.addItem("Lectures","/publish/csen/4927/index.html","");
+        menu4889.addItem("Job Opportunity","/publish/csen/4928/index.html","");
+        mtDropDown.renderAll();
+}
+} 
+</SCRIPT>
+<div id="nav">
+    <ul>
+      <li><a href="/publish/csen/index.html">Home</a></li>
+      <li id="menu_4885"><a href="/publish/csen/4892/index.html">About</a></li>
+      <li id="menu_4886"><a href="/publish/csen/4886/index.html">Education</a></li>
+      <li id="menu_4887"><a href="/publish/csen/4887/index.html">Research</a></li>
+      <li id="menu_4888"><a href="/publish/csen/4922/index.html">Faculty</a></li>
+      <li id="menu_4889"><a href="/publish/csen/4927/index.html">Resource</a></li>
+      <li id="menu_4890"><a href="/publish/csen/4890/index.html">Contact</a></li>
+    </ul>
+   </div>
+<script language="JavaScript">initMenuData();</script>  <!--nav结束处-->
+  <!--s_content开始处-->
+  <div id="s_content">
+   <!--detail_2开始处-->
+   <div class="detail_2">
+            
+            <!-- c_top start -->
+<ul class="nav_01"><li>Your Location：</li><li><a href="/publish/csen/index.html">Home</a> &nbsp;&gt;&nbsp;</li><li>Teacher&nbsp;&gt;&nbsp;</li><li>Content</li><li><a href="javascript:history.go(-1);" class="returnPre">Go back</a></li>
+</ul>
+            <!-- c_bottom end -->
+            
+            <!-- start -->
+            <div class="box_detail">
+                   <!--s2_right_con开始处-->
+                             <div id="s2_right_con">
+<img src="/publish/csen/4623/20101224195501579371325/20101224200219033736335.jpg" />
+<ul class="rr">
+    <li id="teacher-name"><strong>Bin XU</strong></li>
+    <li id="teacher-title">Associate Professor</li>
+    <li id="teacher-department">Department of Computer Science and Technology</li>
+    <li id="teacher-time">Joined Department: 1998</li>
+    <li class="teacher-contact"><span class="contact-title">Email:</span><span class="contact-content"><a href="mailto:xubin@tsinghua.edu.cn">xubin@tsinghua.edu.cn</a></span></li>
+    <li class="teacher-contact"><span class="contact-title">URL:</span><span class="contact-content"><a href="http://keg.cs.tsinghua.edu.cn/person/xubin/">http://keg.cs.tsinghua.edu.cn/person/xubin/</a></span></li>
+    <li class="teacher-contact"><span class="contact-title">Phone:</span><span class="contact-content">+86-10-62781461</span></li>
+    <li class="teacher-contact"><span class="contact-title">Fax:</span><span class="contact-content">+86-10-62781461</span></li>
+</ul>
+<h4>Education background</h4>
+<p>Bachelor of Computer Science &amp; Technology, Tsinghua University, Beijing, China, 1996;</p>
+<p>Master of Computer Architecture, Tsinghua University, Beijing, China, 1998;</p>
+<p>Ph.D in Computer Software, Tsinghua University, Beijing, China, 2006.<o:p></o:p></p>
+ <h4>Social service</h4>
+<p>WWW 2008: Poster Chair (2008);</p>
+<p>ISWC 2010, ICPP 2010, FAW 2009, ICWE 2010, ICSOFT 2010: TPC Member (2009-2010);</p>
+<p>Software Industry Association: Member of Java Technical Council (2005-2007).<o:p></o:p></p>
+<h4>Areas of Research Interests/ Research Projects</h4>
+<p>Semantic Web Service Composition</p>
+<p>Location Algorithm for Wireless Sensor Networks</p>
+<p>National 863 High-Tech Program: Software Product Line for Data Processing. (2007-2010);</p>
+<p>National 863 High-Tech Program: Research on Self-Adaptive Internetware (2009-2010);</p>
+<p>National Natural Science Foundation of China: 3D Tracking and Monitoring of Objects in Doppler Effect-based Body Sensor Networks (2009-2011).<o:p></o:p></p>
+<h4>Research Status</h4>
+<p>My research group has addressed fundamental problems of service computing, designed efficient algorithms for automatic service composition, and developed various service composition systems. As service-oriented computing (SOC) becomes the new computing paradigm of the Internet, it is a big necessity to automatically combine some web services in a certain way to satisfy specific requirements. My research achieved remarkable improvement on efficiency of automatic service composition.</p>
+<p>My research group observes the data correlations between services' outputs and inputs. In existing works, data correlations are usually expressed in an implicit and automatic way by reasoning on data models or ontology models used in service definitions. My group proposes to express data correlations by explicit declarations. Referring to the fundamental idea of hyperlinks, the Service Data Link model (SDL) is proposed to explicitly declare data correlations among services. Furthermore, my group combines the expressive power of the SDL model with the Service Dependency Graph model (SDG), and present SDG+, an extended version of SDG, which introduces three extensions: 1) attribute quantifier, 2) attribute transform, and 3) explicit dependency. Taking advantage of explicit dependency, a major extension of SDG+, my group developed a composition algorithm for IEEE CEC Web Service Challenge 2007, which significantly improved the performance in dealing with datasets that contain complex inheritances among message types. The system designed based on this algorithm won the championship of Performance Evaluation in the competition.</p>
+<p>In our research of automatic composition problem of QoS-aware and non-predefined workflow, a theoretical data-driven and QoS-optimized service composition model is proposed. In order to acquire composition solutions with optimal end-to-end QoS, my group utilize the semantic information among data types to realize semantic matching in service composition, and have proposed two composition algorithms. One is based on iterative generation, which iteratively searches services and updates the optimal QoS values; the other is based on greedy procedure which always selects the services with optimal accumulated QoS values. The experiment results show that the two algorithms are able to solve the problem correctly and satisfy the efficiency requirement of runtime systems. The system designed based on these two algorithms won the first place team and first runner-up team of Performance Evaluation in IEEE CEC Web Service Challenge 2008 and 2009.<o:p></o:p></p>
+<h4>Honors And Awards</h4>
+<p>Science and Technology Progress Award by City of Beijing, Second Class-Automatic E-Form Generation System and its Visualization Tools (2001);</p>
+<p>IEEE CEC/EEE Web Service Challenge: First Place Team (2006-2008);</p>
+<p>IEEE CEC/EEE Web Service Challenge: First Runner-up Team (2009);</p>
+<p>Student Research Training (SRT) Program of Tsinghua University: Outstanding Supervisor Award, First Class (2007);</p>
+<p>Tsinghua University Outstanding Teaching Award, Second Class-Java Programming by using NetBeans (2008);</p>
+<p>Tsinghua University Excellent Textbook Award, Second Class-Java Programming Language Fundamentals (2008);</p>
+<p>Beijing Excellent Higher-Education Textbook Award-Java Programming Language Application Development (2008);</p>
+<p>Sun Microsystems: Java Champion (2005).<o:p></o:p></p>
+<h4>Academic Achievement</h4>
+<p>[1] Z.F. Gu, B. Xu, J.Z. Li. Service Data Correlation Modeling and Its Application in Data-Driven Service Composition. <em><span style="font-family: Arial">IEEE Trans. Service Computing.</span></em> 2010 (accepted)</p>
+<p>[2] B. Xu, P. Zhang, J.Z. Li, W.J. Yang. A Semantic Matchmaker for Ranking Web Services. <em><span style="font-family: Arial">Journal of Computer Science &amp; Technology</span></em>, vol. 21, no. 4, pp. 574-581, 2006.</p>
+<p>[3] B. Xu, Y.X. Yan. An Efficient QoS-driven Service Composition Approach for Large-scale Service Oriented Systems. <em><span style="font-family: Arial">Proc. IEEE Intl. Conf. on Service-Oriented Computing and Applications (SOCA 09)</span></em>. December 14-15, 2009, <st1:place w:st="on"><st1:city w:st="on">Taipei</st1:city>, <st1:country-region w:st="on">Taiwan</st1:country-region></st1:place>, pp. 25-32.</p>
+<p>[4] Z.F. Gu, J.Z., B. Xu. Automatic Service Composition Based on Enhanced Service Dependency Graph.<em><span style="font-family: Arial">&nbsp;Proc. IEEE Intl. Conf. on Web Services (ICWS 2008)</span></em>. September 23-26, 2008, <st1:place w:st="on"><st1:city w:st="on">Beijing</st1:city>, <st1:country-region w:st="on">China</st1:country-region></st1:place>. pp. 246-263.</p>
+<p>[5] Z. Yang, B. Xu, B.J. Yang, J.Y. Dai, T. Gu. PAS: Prediction-based Adaptive Sleeping for Diffusion Stimulus Monitoring Sensor Networks. <em><span style="font-family: Arial">Journal of Ad Hoc &amp; Sensor Wireless Networks</span></em>, Vol. 5, No. 3-4, pp. 235-246, 2008.</p>
+<p>[6] D.W. Chen, B. Xu, Y.R. Cai, J.Z. Li. A Deployment and Publication Bound and P2P Based Web Service Discovery Mechanism (in Chinese). <em><span style="font-family: Arial">Chinese Journal of Computers,</span></em> vol. 28, no. 4, pp. 514-526, 2005.</p>
+<p>[7] Bin Xu. JXTA-Java P2P Programming Technology. <st1:placename w:st="on">Tsinghua</st1:placename> <st1:placetype w:st="on">University</st1:placetype> Press, <st1:city w:st="on"><st1:place w:st="on">Beijing</st1:place></st1:city>, 2003.</p>
+<p>[8] Xiling Liu and Bin Xu. Java Programming Language Fundamentals. <st1:placename w:st="on">Tsinghua</st1:placename> <st1:placetype w:st="on">University</st1:placetype> Press, <st1:city w:st="on"><st1:place w:st="on">Beijing</st1:place></st1:city>, 2005.<o:p></o:p></p>
+                  </div>
+     <!--s2_right_con结束处-->            </div>
+            <!-- end -->
+                                       
+       </div>
+   <!--detail_2结束处--> 
+  </div>
+  <!--s_content结束处-->
+  <!--footer开始处-->
+
+<div id="footer">
+ <p class="copy">Copyright &copy;2009-2011&nbsp;Department of Computer Science and Technology &nbsp;All Rights Reserved</p>
+</div>  <!--footer结束处-->
+ </div>
+ <!--contaienr结束处-->
+</body>
+</html>

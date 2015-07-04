@@ -1,0 +1,257 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"><head>
+<!-- IE8 兼容 -->
+<meta http-equiv="X-UA-Compatible" content="IE=EmulateIE7" />
+
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link rel="shortcut icon" type="image/x-icon" href="/public/icon/favicon.ico" />
+<!-- 通用css -->
+
+<link href="/publish/csen/css/common.css" rel="stylesheet" type="text/css" />
+<link href="/publish/csen/css/grid.css" rel="stylesheet" type="text/css" />
+<!-- 引入jquery1.4 -->
+<script src="/public/jquery/jquery-1.4.min.js" type="text/javascript"></script>
+<script language="javascript" type="text/javascript">
+/*
+*截取信息简介
+*summaryStr:String 信息简介
+*lengTh:int 截取的长度
+*/
+ function cutSummary(summaryStr,lengTh){
+   if(summaryStr.length>lengTh){
+     summaryStr=summaryStr.substring(0,lengTh)+"...";
+   }
+   document.write(summaryStr);
+ }
+/*
+*jQuery:所有外域链接在新窗口打开
+*/
+$(document).ready(function() {
+ $("a[href*='http://']:not([href*='"+location.hostname+"']),[href*='https://']:not([href*='"+location.hostname+"'])")
+ .addClass("external")
+ .attr("target","_blank")
+});
+</script>
+
+    
+   
+   
+
+   
+
+  <title>
+Department of Computer Science and Technology
+</title><link href="/publish/csen/css/style_second.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<SCRIPT language="JavaScript" src="/public/plugin/source/global.js"></SCRIPT>
+<!-- 导航下拉菜单 -->
+<link type="text/css" rel="stylesheet" href="/public/plugin/source/nav/css/mt_dropdown.css" />
+
+<SCRIPT language="JavaScript" src="/public/plugin/source/nav/js/mt_dropdownc.min.js"></SCRIPT>
+
+<SCRIPT language="JavaScript" src="/public/plugin/source/nav/js/mt_dropdown_initialize.min.js"></SCRIPT>
+
+<script language="JavaScript">
+
+<!--
+
+function MM_openBrWindow(theURL,winName,features) { //v2.0
+
+  window.open(theURL,winName,features);
+
+}
+$(document).ready(function(){
+
+  init();
+
+});
+
+//-->
+</script>
+
+
+<!-- 导航下拉菜单 --><SCRIPT language="JavaScript" src="/public/plugin/source/global_twain.js"></SCRIPT>
+
+ <!--container开始处-->
+ <div  id="container">
+  <!--header开始处-->
+ 
+<div id="logo">
+    <a href=http://www.tsinghua.edu.cn title="清华大学"></a>
+   </div>
+   <!--logo结束处-->
+   <!--header_mid开始处-->
+   <div id="header_mid">
+    <h1>计算机科学与技术系</h1>
+    <p>Department of Computer Science and Technology</p>
+   </div>
+   <!--header_mid结束处-->
+   <!--header_r开始处-->
+   <div id="header_r">
+    <ul>
+     <li><a href="/publish/cs/index.html" title="计算机科学与技术系中文网">中文版</a></li>
+     <li><a href="http://www.tsinghua.edu.cn">清华主页</a></li>
+     <li>search</li>
+     <li class="set_border">
+     <form id="searchForm" action="#" method="post" target="_blank">
+
+
+<input type="hidden" id="searchVpath" name="vpath" value=""/>
+     <input type="text" name="Q"  class="txt" tabindex="1" />
+     </form>
+</li>
+    </ul>
+   </div>
+   <!--header_r结束处-->  <!--header结束处-->
+  <!--nav开始处-->
+
+<SCRIPT language="JavaScript">
+function initMenuData(){
+if (mtDropDown.isSupported()) {
+var ms = new mtDropDownSet(mtDropDown.direction.down, 0, 0, mtDropDown.reference.bottomLeft);
+var menu4885 = ms.addMenu(document.getElementById("menu_4885"));
+menu4885.addItem("Introduction","/publish/csen/4892/index.html","");
+        menu4885.addItem("History","/publish/csen/4893/index.html","");
+        menu4885.addItem("Department News","/publish/csen/4894/index.html","");
+        var menu4886 = ms.addMenu(document.getElementById("menu_4886"));
+menu4886.addItem("Undergraduate Programs","/publish/csen/4901/index.html","");
+        var subMenu4886_0 = menu4886.addMenu(menu4886.items[0]);
+       subMenu4886_0.addItem("Student Admission","/publish/csen/4901/index.html","");
+    subMenu4886_0.addItem("Curriculum","/publish/csen/4902/index.html","");
+    subMenu4886_0.addItem("Special Programs","/publish/csen/4903/index.html","");
+    subMenu4886_0.addItem("Extracurricular Activities","/publish/csen/4904/index.html","");
+      menu4886.addItem("Master Program","/publish/csen/4905/index.html","");
+        var subMenu4886_1 = menu4886.addMenu(menu4886.items[1]);
+       subMenu4886_1.addItem("Student Admission","/publish/csen/4905/index.html","");
+    subMenu4886_1.addItem("Curriculum","/publish/csen/4906/index.html","");
+      menu4886.addItem("Ph.D Program","/publish/csen/4907/index.html","");
+        var subMenu4886_2 = menu4886.addMenu(menu4886.items[2]);
+       subMenu4886_2.addItem("Student Admission","/publish/csen/4907/index.html","");
+    subMenu4886_2.addItem("Curriculum","/publish/csen/4908/index.html","");
+    subMenu4886_2.addItem("Academic Exchange Program","/publish/csen/4909/index.html","");
+      menu4886.addItem("International Student Program","/publish/csen/4910/index.html","");
+        var subMenu4886_3 = menu4886.addMenu(menu4886.items[3]);
+       subMenu4886_3.addItem("Student Admission","/publish/csen/4910/index.html","");
+    subMenu4886_3.addItem("Curriculum","/publish/csen/4911/index.html","");
+    subMenu4886_3.addItem("Events","/publish/csen/4912/index.html","");
+      menu4886.addItem("Educational Achievement","/publish/csen/4899/index.html","");
+        menu4886.addItem("Teaching Lab","/publish/csen/4900/index.html","");
+        var menu4887 = ms.addMenu(document.getElementById("menu_4887"));
+menu4887.addItem("Research Areas","/publish/csen/4915/index.html","");
+        var subMenu4887_0 = menu4887.addMenu(menu4887.items[0]);
+       subMenu4887_0.addItem("Computer Systems","/publish/csen/4915/index.html","");
+    subMenu4887_0.addItem("Computer Networks","/publish/csen/4916/index.html","");
+    subMenu4887_0.addItem("Information Processing","/publish/csen/4917/index.html","");
+    subMenu4887_0.addItem("Computer Vision & Media Computing","/publish/csen/4918/index.html","");
+    subMenu4887_0.addItem("Data,Knowledge & Software Engineering","/publish/csen/4919/index.html","");
+    subMenu4887_0.addItem("Pervasive Computing","/publish/csen/4920/index.html","");
+    subMenu4887_0.addItem("Electronic Design Automation","/publish/csen/4921/index.html","");
+      menu4887.addItem("Labs/Insititutions","/publish/csen/4914/index.html","");
+        var menu4888 = ms.addMenu(document.getElementById("menu_4888"));
+menu4888.addItem("CAS & CAE members","/publish/csen/4922/index.html","");
+        menu4888.addItem("Full Professor","/publish/csen/4923/index.html","");
+        menu4888.addItem("Associate Professor","/publish/csen/4924/index.html","");
+        menu4888.addItem("Assistant Professor","/publish/csen/4925/index.html","");
+        menu4888.addItem("Visiting chair professor groups","/publish/csen/4926/index.html","");
+        var menu4889 = ms.addMenu(document.getElementById("menu_4889"));
+menu4889.addItem("Lectures","/publish/csen/4927/index.html","");
+        menu4889.addItem("Job Opportunity","/publish/csen/4928/index.html","");
+        mtDropDown.renderAll();
+}
+} 
+</SCRIPT>
+<div id="nav">
+    <ul>
+      <li><a href="/publish/csen/index.html">Home</a></li>
+      <li id="menu_4885"><a href="/publish/csen/4892/index.html">About</a></li>
+      <li id="menu_4886"><a href="/publish/csen/4886/index.html">Education</a></li>
+      <li id="menu_4887"><a href="/publish/csen/4887/index.html">Research</a></li>
+      <li id="menu_4888"><a href="/publish/csen/4922/index.html">Faculty</a></li>
+      <li id="menu_4889"><a href="/publish/csen/4927/index.html">Resource</a></li>
+      <li id="menu_4890"><a href="/publish/csen/4890/index.html">Contact</a></li>
+    </ul>
+   </div>
+<script language="JavaScript">initMenuData();</script>  <!--nav结束处-->
+  <!--s_content开始处-->
+  <div id="s_content">
+   <!--detail_2开始处-->
+   <div class="detail_2">
+            
+            <!-- c_top start -->
+<ul class="nav_01"><li>Your Location：</li><li><a href="/publish/csen/index.html">Home</a> &nbsp;&gt;&nbsp;</li><li>Teacher&nbsp;&gt;&nbsp;</li><li>Content</li><li><a href="javascript:history.go(-1);" class="returnPre">Go back</a></li>
+</ul>
+            <!-- c_bottom end -->
+            
+            <!-- start -->
+            <div class="box_detail">
+                   <!--s2_right_con开始处-->
+                             <div id="s2_right_con">
+<img src="/publish/csen/4623/20101226104412516277601/20101226104444982739095.jpg" />
+<ul>
+    <li id="teacher-name"><strong>Bo ZHANG</strong></li>
+    <li id="teacher-title">Professor</li>
+    <li id="teacher-department">Department of Computer Science and Technology</li>
+    <li id="teacher-time">Joined Department: 1958</li>
+    <li class="teacher-contact"><span class="contact-title">Email:</span><span class="contact-content"><a onfocus="undefined" href="mailto:dcszb@tsinghua.edu.cn">dcszb@tsinghua.edu.cn</a></span></li>
+    <li class="teacher-contact"><span class="contact-title">URL:</span><a href="http://www.csai.tsinghua.edu.cn/personal_homepage/zhang_bo/index.html">http://www.csai.tsinghua.edu.cn/personal_homepage/zhang_bo/index.html</a></li>
+    <li class="teacher-contact"><span class="contact-title">Phone:</span><span class="contact-content">:+86-10-62773875</span></li>
+    <li class="teacher-contact"><span class="contact-title">Fax:</span><span class="contact-content">:+86-10-62782266</span></li>
+</ul>
+<h4>Education background</h4>
+<p>Bachelor of Automatic Control, Tsinghua University, Beijing, China, 1958.</p>
+ <h4>Social service</h4>
+<p>China Cognitive Science Federation: Vice President (2010-);</p>
+<p>&nbsp;</p>
+<p>Member of Technical Advisory Board, Microsoft Research Asia (1997-);</p>
+<p>&nbsp;</p>
+<p>Member of Technical Advisory Board, Fujian Provincial Government (2005-).</p>
+<h4>Areas of Research Interests/ Research Projects</h4>
+<p>Artificial Intelligence</p>
+<p>Pattern Recognition</p>
+<h4>Research Status</h4>
+<p>Research outputs of mine and the group I lead majorly fall into the following three fields:</p>
+<p>In Artificial Intelligence, collaborating with Professor Ling Zhang, I have proposed a problem solving theory based on quotient space, which has been successfully applied to areas such as heuristic search, fuzzy analysis and reasoning, and robotic task and motion planning. Based on this theory, we have extended our research and presented several new algorithms for multi-granular computing and hierarchical problem solving, which are proven to be effective in reducing computational complexities.</p>
+<p>In Artificial Neural Networks, we have quantitatively analyzed the behavior and characteristics of probabilistic logic neuron (PLN) networks, and presented a programming-based learning algorithm of neural networks with feedback connections and a structural learning algorithm of feed-forward neural networks. Compared with traditional search-based algorithms, our new learning algorithms not only have a solid theoretical basis, but also provide immediate support to designing the structure of neural networks.</p>
+<p>In Machine Learning, we have investigated the structural prediction learning theory and its applications, and presented a new learning algorithm-Maximum Entropy Discrimination Markov Networks, which has been applied to tasks of mining web pages' structure, and image retrieval and classification.</p>
+<p>&nbsp;</p>
+<h4>Honors And Awards</h4>
+<p>Member of Chinese Academy of Sciences (1995-);</p>
+<p>National Natural Science Award, Third Class-Theory and Application of Hierarchical Problem Solving in Artificial Intelligence (1995);</p>
+<p>Science and Technology Progress Award by Ministry of Education, First Class-Theory of Heuristic Search (1987);</p>
+<p>Science and Technology Progress Award by Ministry of Electronic Industry, First Class-Theory of Robotic Planning and its Control Technique (1993);</p>
+<p>Science and Technology Progress Award by Ministry of Education, Second Class-Theory and Applications of Spatial (Motion) Planning (1991).</p>
+<h4>Academic Achievement</h4>
+<p>[1] Bo Zhang and Ling Zhang, Hierarchy and statistical heuristic search, Future Generation Computer Systems (Netherlands), 6(1), pp. 43-47, 1990.</p>
+<p>[2] Bo Zhang, Ling Zhang, et al, A quantitative analysis of behaviors of the PLN network, Neural Networks, 5, pp.639-644, 1992.</p>
+<p>[3] Bo Zhang, Ling Zhang, et al, Programming based learning algorithms of neural networks with self-feedback connections, IEEE Transaction on Neural Networks, 6(3), pp.771-775, 1995.</p>
+<p>[4] Bo Zhang, Ling Zhang, et al, The complexity of learning in PLN networks, Neural Networks, 8(2), pp221-228, 1995.</p>
+<p>[5] Ling Zhang, Bo Zhang, et al, Generating and coding of fractal graphs by neural network and mathematical morphology methods, IEEE Transaction on Neural Networks, 7(2), pp.400-407, 1996.</p>
+<p>[6] Ling Zhang and Bo Zhang, A geometrical representation of McCulloch-Pitts neural model and its applications, IEEE Trans. on Neural Networks, 10(4), pp.925-929, 1999.</p>
+<p>[7] Feng Jing, Mingjing Li, Hong-Jiang Zhang, Bo Zhang, An Efficient and Effective Region-based Image Retrieval Framework, IEEE Transaction on Image Processing, vol.13, no.5,, pp.699-709, May 2004.</p>
+<p>[8] Feng Jing, Mingjing Li, Hong-Jiang Zhang, Bo Zhang, A Unified Framework for Image Retrieval Using Keyword and Visual Features, IEEE Transaction on Image Processing, Vol. 14, No. 7 , pp. 979-989, 2005.</p>
+<p>[9] L. Zhang and Bo Zhang, Fuzzy Reasoning Model under Quotient Space Structure, Information Sciences, vol.173, issue 4, pp.353-364, June 2005.</p>
+<p>[10] L. Zhang and Bo Zhang, The structure analysis of fuzzy sets, International Journal of Approximate Reasoning, 40, pp. 92-108, 2005.</p>
+<p>[11] Jun Zhu, Zaiqing Nie, Bo Zhang, and Ji-Rong Wen. Dynamic Hierarchical Markov Random Fields and their Application to Web Data Extraction. The 24th International Conference on Machine Learning (ICML), Corvalis, Oregon, USA, June 20-24, 2007.</p>
+<p>[12] Jun Zhu, Zaiqing Nie, Bo Zhang, Ji-Rong Wen, Dynamic Hierarchical Markov Random Fields for Integrated Web Data Extraction, Journal of Machine Learning Research, vol. 9, pp.1583-1614, 2008.</p>
+<p>[13] Jun Zhu, Eric P. Xing, and Bo Zhang. Laplace Maximum Margin Markov Networks. The 25th International Conference on Machine Learning (ICML), Helsinki, Finland, July 5-9, 2008.</p>
+<p>[14] Ling Zhang, Bo Zhang, The theory and application of tolerance relations, International Journal of Granular Computing, Rough Sets and Intelligent Systems, Vol.1, No. 2, pp.179 -189, 2009.</p>
+<p>[15] Bo Zhang and Ling Zhang, Theory and Applications of Problem Solving, Elsevier Science Publishers B. V., North-Holland-Amsterdam, London, New York, Tokyo, 1992.</p>
+<p>&nbsp;</p>
+                  </div>
+     <!--s2_right_con结束处-->            </div>
+            <!-- end -->
+                                       
+       </div>
+   <!--detail_2结束处--> 
+  </div>
+  <!--s_content结束处-->
+  <!--footer开始处-->
+
+<div id="footer">
+ <p class="copy">Copyright &copy;2009-2011&nbsp;Department of Computer Science and Technology &nbsp;All Rights Reserved</p>
+</div>  <!--footer结束处-->
+ </div>
+ <!--contaienr结束处-->
+</body>
+</html>

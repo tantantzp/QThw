@@ -1,0 +1,278 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"><head>
+<!-- IE8 兼容 -->
+<meta http-equiv="X-UA-Compatible" content="IE=EmulateIE7" />
+
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link rel="shortcut icon" type="image/x-icon" href="/public/icon/favicon.ico" />
+<!-- 通用css -->
+
+<link href="/publish/csen/css/common.css" rel="stylesheet" type="text/css" />
+<link href="/publish/csen/css/grid.css" rel="stylesheet" type="text/css" />
+<!-- 引入jquery1.4 -->
+<script src="/public/jquery/jquery-1.4.min.js" type="text/javascript"></script>
+<script language="javascript" type="text/javascript">
+/*
+*截取信息简介
+*summaryStr:String 信息简介
+*lengTh:int 截取的长度
+*/
+ function cutSummary(summaryStr,lengTh){
+   if(summaryStr.length>lengTh){
+     summaryStr=summaryStr.substring(0,lengTh)+"...";
+   }
+   document.write(summaryStr);
+ }
+/*
+*jQuery:所有外域链接在新窗口打开
+*/
+$(document).ready(function() {
+ $("a[href*='http://']:not([href*='"+location.hostname+"']),[href*='https://']:not([href*='"+location.hostname+"'])")
+ .addClass("external")
+ .attr("target","_blank")
+});
+</script>
+
+    
+   
+   
+
+   
+
+  <title>
+Department of Computer Science and Technology
+</title><link href="/publish/csen/css/style_second.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<SCRIPT language="JavaScript" src="/public/plugin/source/global.js"></SCRIPT>
+<!-- 导航下拉菜单 -->
+<link type="text/css" rel="stylesheet" href="/public/plugin/source/nav/css/mt_dropdown.css" />
+
+<SCRIPT language="JavaScript" src="/public/plugin/source/nav/js/mt_dropdownc.min.js"></SCRIPT>
+
+<SCRIPT language="JavaScript" src="/public/plugin/source/nav/js/mt_dropdown_initialize.min.js"></SCRIPT>
+
+<script language="JavaScript">
+
+<!--
+
+function MM_openBrWindow(theURL,winName,features) { //v2.0
+
+  window.open(theURL,winName,features);
+
+}
+$(document).ready(function(){
+
+  init();
+
+});
+
+//-->
+</script>
+
+
+<!-- 导航下拉菜单 --><SCRIPT language="JavaScript" src="/public/plugin/source/global_twain.js"></SCRIPT>
+
+ <!--container开始处-->
+ <div  id="container">
+  <!--header开始处-->
+ 
+<div id="logo">
+    <a href=http://www.tsinghua.edu.cn title="清华大学"></a>
+   </div>
+   <!--logo结束处-->
+   <!--header_mid开始处-->
+   <div id="header_mid">
+    <h1>计算机科学与技术系</h1>
+    <p>Department of Computer Science and Technology</p>
+   </div>
+   <!--header_mid结束处-->
+   <!--header_r开始处-->
+   <div id="header_r">
+    <ul>
+     <li><a href="/publish/cs/index.html" title="计算机科学与技术系中文网">中文版</a></li>
+     <li><a href="http://www.tsinghua.edu.cn">清华主页</a></li>
+     <li>search</li>
+     <li class="set_border">
+     <form id="searchForm" action="#" method="post" target="_blank">
+
+
+<input type="hidden" id="searchVpath" name="vpath" value=""/>
+     <input type="text" name="Q"  class="txt" tabindex="1" />
+     </form>
+</li>
+    </ul>
+   </div>
+   <!--header_r结束处-->  <!--header结束处-->
+  <!--nav开始处-->
+
+<SCRIPT language="JavaScript">
+function initMenuData(){
+if (mtDropDown.isSupported()) {
+var ms = new mtDropDownSet(mtDropDown.direction.down, 0, 0, mtDropDown.reference.bottomLeft);
+var menu4885 = ms.addMenu(document.getElementById("menu_4885"));
+menu4885.addItem("Introduction","/publish/csen/4892/index.html","");
+        menu4885.addItem("History","/publish/csen/4893/index.html","");
+        menu4885.addItem("Department News","/publish/csen/4894/index.html","");
+        var menu4886 = ms.addMenu(document.getElementById("menu_4886"));
+menu4886.addItem("Undergraduate Programs","/publish/csen/4901/index.html","");
+        var subMenu4886_0 = menu4886.addMenu(menu4886.items[0]);
+       subMenu4886_0.addItem("Student Admission","/publish/csen/4901/index.html","");
+    subMenu4886_0.addItem("Curriculum","/publish/csen/4902/index.html","");
+    subMenu4886_0.addItem("Special Programs","/publish/csen/4903/index.html","");
+    subMenu4886_0.addItem("Extracurricular Activities","/publish/csen/4904/index.html","");
+      menu4886.addItem("Master Program","/publish/csen/4905/index.html","");
+        var subMenu4886_1 = menu4886.addMenu(menu4886.items[1]);
+       subMenu4886_1.addItem("Student Admission","/publish/csen/4905/index.html","");
+    subMenu4886_1.addItem("Curriculum","/publish/csen/4906/index.html","");
+      menu4886.addItem("Ph.D Program","/publish/csen/4907/index.html","");
+        var subMenu4886_2 = menu4886.addMenu(menu4886.items[2]);
+       subMenu4886_2.addItem("Student Admission","/publish/csen/4907/index.html","");
+    subMenu4886_2.addItem("Curriculum","/publish/csen/4908/index.html","");
+    subMenu4886_2.addItem("Academic Exchange Program","/publish/csen/4909/index.html","");
+      menu4886.addItem("International Student Program","/publish/csen/4910/index.html","");
+        var subMenu4886_3 = menu4886.addMenu(menu4886.items[3]);
+       subMenu4886_3.addItem("Student Admission","/publish/csen/4910/index.html","");
+    subMenu4886_3.addItem("Curriculum","/publish/csen/4911/index.html","");
+    subMenu4886_3.addItem("Events","/publish/csen/4912/index.html","");
+      menu4886.addItem("Educational Achievement","/publish/csen/4899/index.html","");
+        menu4886.addItem("Teaching Lab","/publish/csen/4900/index.html","");
+        var menu4887 = ms.addMenu(document.getElementById("menu_4887"));
+menu4887.addItem("Research Areas","/publish/csen/4915/index.html","");
+        var subMenu4887_0 = menu4887.addMenu(menu4887.items[0]);
+       subMenu4887_0.addItem("Computer Systems","/publish/csen/4915/index.html","");
+    subMenu4887_0.addItem("Computer Networks","/publish/csen/4916/index.html","");
+    subMenu4887_0.addItem("Information Processing","/publish/csen/4917/index.html","");
+    subMenu4887_0.addItem("Computer Vision & Media Computing","/publish/csen/4918/index.html","");
+    subMenu4887_0.addItem("Data,Knowledge & Software Engineering","/publish/csen/4919/index.html","");
+    subMenu4887_0.addItem("Pervasive Computing","/publish/csen/4920/index.html","");
+    subMenu4887_0.addItem("Electronic Design Automation","/publish/csen/4921/index.html","");
+      menu4887.addItem("Labs/Insititutions","/publish/csen/4914/index.html","");
+        var menu4888 = ms.addMenu(document.getElementById("menu_4888"));
+menu4888.addItem("CAS & CAE members","/publish/csen/4922/index.html","");
+        menu4888.addItem("Full Professor","/publish/csen/4923/index.html","");
+        menu4888.addItem("Associate Professor","/publish/csen/4924/index.html","");
+        menu4888.addItem("Assistant Professor","/publish/csen/4925/index.html","");
+        menu4888.addItem("Visiting chair professor groups","/publish/csen/4926/index.html","");
+        var menu4889 = ms.addMenu(document.getElementById("menu_4889"));
+menu4889.addItem("Lectures","/publish/csen/4927/index.html","");
+        menu4889.addItem("Job Opportunity","/publish/csen/4928/index.html","");
+        mtDropDown.renderAll();
+}
+} 
+</SCRIPT>
+<div id="nav">
+    <ul>
+      <li><a href="/publish/csen/index.html">Home</a></li>
+      <li id="menu_4885"><a href="/publish/csen/4892/index.html">About</a></li>
+      <li id="menu_4886"><a href="/publish/csen/4886/index.html">Education</a></li>
+      <li id="menu_4887"><a href="/publish/csen/4887/index.html">Research</a></li>
+      <li id="menu_4888"><a href="/publish/csen/4922/index.html">Faculty</a></li>
+      <li id="menu_4889"><a href="/publish/csen/4927/index.html">Resource</a></li>
+      <li id="menu_4890"><a href="/publish/csen/4890/index.html">Contact</a></li>
+    </ul>
+   </div>
+<script language="JavaScript">initMenuData();</script>  <!--nav结束处-->
+  <!--s_content开始处-->
+  <div id="s_content">
+   <!--detail_2开始处-->
+   <div class="detail_2">
+            
+            <!-- c_top start -->
+<ul class="nav_01"><li>Your Location：</li><li><a href="/publish/csen/index.html">Home</a> &nbsp;&gt;&nbsp;</li><li>Teacher&nbsp;&gt;&nbsp;</li><li>Content</li><li><a href="javascript:history.go(-1);" class="returnPre">Go back</a></li>
+</ul>
+            <!-- c_bottom end -->
+            
+            <!-- start -->
+            <div class="box_detail">
+                   <!--s2_right_con开始处-->
+                             <div id="s2_right_con">
+<img src="/publish/csen/4623/20101224200159502450204/20101224200238675799988.png" />
+<ul>
+    <li id="teacher-name"><strong>Mingsheng YING</strong></li>
+    <li id="teacher-title">Professor</li>
+    <li id="teacher-department">Department of Computer Science and Technology</li>
+    <li id="teacher-time">Joined Department: 1992</li>
+    <li class="teacher-contact"><span class="contact-title"><span class="contact-title">Email:</span><span class="contact-content"><a onfocus="undefined" href="mailto:yingmsh@tsinghua.edu.cn">yingmsh@tsinghua.edu.cn</a></span></span></li>
+    <li class="teacher-contact"><span class="contact-title"><span class="contact-title">URL:</span><span class="contact-content"><a onfocus="undefined" href="http://cs.tsinghua.edu.cn/~yingmsh">http://cs.tsinghua.edu.cn/~yingmsh</a></span></span></li>
+    <li class="teacher-contact"><span class="contact-title"><span class="contact-title">Phone:</span><span class="contact-content">+86-10-62779625</span></span></li>
+    <li class="teacher-contact"><span class="contact-title"><span class="contact-title">Fax:</span><span class="contact-content">+86-10-62782266</span></span></li>
+</ul>
+<h4>Education background</h4>
+<p align="left">Diploma of Mathematics, Fuzhou Normal College, Jiangxi, China, 1981.</p>
+ <h4>Social service</h4>
+<p>State Key Laboratory of Intelligent Technology and Systems: Chair of Academic Committee (2002-);</p>
+<p>Artificial Intelligence Journal: Member of Editorial Board (2008-).</p>
+<h4>Areas of Research Interests/ Research Projects</h4>
+<p align="left">Quantum Computation</p>
+<p>Semantics of Programming Languages, Logics in AI</p>
+<p>National Natural Science Foundation of China: Quantum Programming Methodologies (2008-2011).</p>
+<h4>Research Status</h4>
+<p>1. <strong>Topology in Process Algebras</strong>. Process algebras are among the most successful models of concurrent systems. One of the central notions of process algebras is bisimulation. However, it cannot be used to describe the approximate behaviour of concurrent systems. I proposed a new theory of topology in process algebras in order to describe the approximate correctness and evolution process of concurrent systems.</p>
+<p>2. <strong>Floyd-Hoare Logic for Quantum Programs</strong>. Floyd-Hoare logic is a foundation of axiomatic semantics of classical programs, and it provides effective proof techniques for reasoning about the correctness of classical programs. To offer similar techniques for quantum program verification and to build a logical foundation of programming methodology for quantum computers, I developed a full-fledged Hoare logic for both partial and total correctness of quantum programs. In particular, the (relative) completeness of this logic is proved. The proof techniques are quite different from those for classical programs and need mathematical tools.</p>
+<h4>Honors And Awards</h4>
+<p align="left">National Natural Sciences Award, Second Class-Non-Classical Computation: Formal Models and Logical Foundations (2008);</p>
+<p>Natural Sciences Award by Ministry of Education, First Class-Formal Methods for Complex Computer Systems and their Logical Foundations (2004);</p>
+<p>China Association of Science and Technology: Young Scientists Award (1994).</p>
+<h4>Academic Achievement</h4>
+<p>[1] M. S. Ying, Quantum computation, quantum theory and AI (Invited Field Review), Artificial Intelligence, 174(2010)162-176.</p>
+<p>[2] H. Zhang and M. S. Ying, Decidable fragments of first-order language under stable model semantics and circumscription, Proc. of the 24th AAAI Conference on Artificial Intelligence (AAAI-10), 2010.</p>
+<p>[3] W. M. Liu, X. T. Zhang, S. J. Li and M. S. Ying, Reasoning about cardinal directions between extended objects, Artificial Intelligence, (In Press, Available online 15 June 2010).</p>
+<p>[4] M. S. Ying, R. Y. Duan, Y. Feng and Z. F. Ji, Predicate transformer semantics of quantum programs (Invited Chapter), in S. Gay and I. Mackie (eds.), Semantic Techniques in Quantum Computation, Cambridge University Press, 2010, Cambridge, pp.311-360.</p>
+<p>[5] M. S. Ying and Y. Feng, An algebraic language for distributed quantum computing, IEEE Transactions on Computers, 58(2009)728-743.</p>
+<p>[6] M. S. Ying, Y. Feng, R. Y. Duan and Z. F. Ji, An algebra of quantum processes, ACM Transactions on Computational Logic, 10(2009) art. no. 19.</p>
+<p>[7] R. Y. Duan, Y. Feng, X. Yu and M. S. Ying, Distinguishability of quantum states by separable operations, IEEE Transactions on Information Theory, 55(2009)1320-1330.</p>
+<p>[8] R. Y. Duan, Y. Feng and M. S. Ying, Perfect distinguishability of quantum operations, Physical Review Letters, 103(2009) art. no. 210501.</p>
+<p>[9] Z. F. Ji, G. M. Wang, R. Y. Duan, Y. Feng and M. S. Ying, Parameter estimation of quantum channels, IEEE Transactions on Information Theory, 54(2008)5172-5185.</p>
+<p>[10] R. Y. Duan, Y. Feng and M. S. Ying, Local distinguishability of multipartite unitary operations, Physical Review Letters, 100(2008) art. No. 020503.</p>
+<p>[11] S. J. Li and M. S. Ying, Soft constraint abstraction based on semiring homomorphism, Theoretical Computer Science, 403(2008)192-201.</p>
+<p>[12] X. T. Zhang, W. M. Liu, S. J. Li and M. S. Ying, Reasoning with cardinal directions: An efficient algorithm, in: Proc. of the 23rd AAAI Conference on Artificial Intelligence (AAAI-08), 2008, pp. 387-392.</p>
+<p>[13] M. S. Ying, Quantum logic and automata theory (Invited Chapter), in: D. Gabbay, D. Lehmann and K. Engesser (eds), Handbook of Quantum Logic and Quantum Structures, Elsevier, 2007, Amsterdam, pp.619-754.</p>
+<p>[14] Y. Feng, R. Y. Duan, Z. F. Ji and M. S. Ying, Proof rules for correctness of quantum programs, Theoretical Computer Science, 386(2007)151-166.</p>
+<p>[15] Y. Feng, R. Y. Duan, Z. F. Ji and M. S. Ying, Probabilistic bisimulations for quantum processes, Information and Computation, 104(2007)152-158.</p>
+<p>[16] R. Y. Duan, Y. Feng and M. S. Ying, Entanglement is not necessary for perfect discrimination between unitary operations, Physical Review Letters, 98(10)(2007), art. No. 100503.</p>
+<p>[17] L. R. Xia, J. Lang and M. S. Ying, Strongly decomposable voting rules on multi-attribute domains, in: Proceedings, 22nd National Conference on Artificial Intelligence (AAAI'07).</p>
+<p>[18] M. S. Ying, Linguistic quantifiers modeled by Sugeno integrals, Artificial Intelligence, 170(6-7)(2006), 581-606.</p>
+<p>[19] Z. F. Ji, Y. Feng, R. Y. Duan and M. S. Ying, Identification and distance measures of measurement apparatus, Physical Review Letters, 96(20)(2006), art. No. 200401.</p>
+<p>[20] R. Y. Duan, Y. Feng and M. S. Ying, Partial recovery of quantum entanglement, IEEE Transactions on Information Theory, 52(7)(2006), 3080-3104.</p>
+<p>[21] Y. Z. Cao and M. S. Ying, Similarity-based supervisory control of discrete-event systems, IEEE Transactions on Automatic Control, 51 (2)(2006), 325-330.</p>
+<p>[22] M. S. Ying, A theory of computation based on quantum logic (I), Theoretical Computer Science, 344(2-3)(2005) 134-207.</p>
+<p>[23] M. S. Ying, Pi-calculus with noisy channels, Acta Informatica, 41(9)(2005), 525-593.</p>
+<p>[24] M. S. Ying, Knowledge transformation and fusion for system diagnosis, Artificial Intelligence, 163(1)(2005)1-45.</p>
+<p>[25] Y. Feng, R. Y. Duan and M. S. Ying, Catalyst-assisted probabilistic entanglement transformations, IEEE Transactions on Information Theory, 51(3)(2005), 1090-1101.</p>
+<p>[26] X. M. Sun, R. Y. Duan, and M. S. Ying, The existence of quantum entanglement catalysts, IEEE Transactions on Information Theory, 51(1)(2005), 75-80.</p>
+<p>[27] S. J. Li and M. S. Ying, Generalized region calculus, Artificial Intelligence, 160(1-2)(2004), 1-34.</p>
+<p>[28] D. W. Qiu and M. S. Ying, Characterization of quantum automata, Theoretical Computer Science, 312(2-3) (2004)479-489.</p>
+<p>[29] M. S. Ying, Reasoning about probabilistic sequential programs in a probabilistic logic, Acta Informatica, 39(5) (2003), 318-389.</p>
+<p>[30] S. J. Li and M. S. Ying, Region connection calculus: its models and composition table, Artificial Intelligence, 145(1-2)(2003), 121-146.</p>
+<p>[31] M. S. Ying, Bisimulation indexes and their applications, Theoretical Computer Science, 275(1-2) (2002), 1-68.</p>
+<p>[32] M. S. Ying, Additive models for probabilistic processes, Theoretical Computer Science, 275(1-2) (2002), 481-519.</p>
+<p>[33] M. S. Ying and H. Q. Wang, A lattice-theoretical model of consequences, conjectures and hypotheses, Artificial Intelligence, 139(2) (2002), 253-267.</p>
+<p>[34] M. S. Ying, Topology in Process Calculus: Approximate Correctness and Infinite Evolution of Concurrent Programs (Research Monograph), Springer-Verlag, New York, February 2001.</p>
+<p>[35] M. S. Ying, M. Wirsing, Recursive equations in higher-order process calculi, Theoretical Computer Science, 266(1-2) (2001), 389-352.</p>
+<p>[36] M. S. Ying, Weak confluence and -inertness, Theoretical Computer Science, 238(1-2)( 2000), 465-475.</p>
+<p>[37] L. Biacino, G. Gerla and M. S. Ying, Approximate reasoning based on similarity, Mathematical Logic Quarterly, 46(1)(2000), 77-86.</p>
+<p>[38] M. S. Ying, A shorter proof to uniqueness of solutions of equations, Theoretical Computer Science, 216(1-2) (1999), 395-397.</p>
+<p>[39] M. S. Ying, When is the ideal completion of abstract basis algebraic, Theoretical Computer Science, 159(2) (1996), 355-356.</p>
+<p>[40] M. S. Ying, A logic for approximate reasoning, The Journal of Symbolic Logic, 59(3)(1994), 830-837.</p>
+<p>[41] M. S. Ying, The fundamental theorem of ultraproduct in Pavelka's logic, Zeitschr. f. math. Logik und Grundlagen d. Math., 38(3)(1992), 197-201.</p>
+<p>[42] M. S. Ying, Compactness, the Lowenheim-Skolem property and the direct product of lattices of truth values, Zeitschr. f. math. Logik und Grundlagen d. Math., 38(5-6)(1992), 521-524.</p>
+<p>[43] M. S. Ying, Deduction theorem for many-valued inference, Zeitschr. f. math. Logik und Grundlagen d. Math., 37(6)(1991), 533-537.</p>
+<p>[44] M. S. Ying, On a class of non-causal triangle functions, Mathematical Proceedings of Cambridge Philosophical Society, 106(3)(1989), 467-469.</p>
+                  </div>
+     <!--s2_right_con结束处-->            </div>
+            <!-- end -->
+                                       
+       </div>
+   <!--detail_2结束处--> 
+  </div>
+  <!--s_content结束处-->
+  <!--footer开始处-->
+
+<div id="footer">
+ <p class="copy">Copyright &copy;2009-2011&nbsp;Department of Computer Science and Technology &nbsp;All Rights Reserved</p>
+</div>  <!--footer结束处-->
+ </div>
+ <!--contaienr结束处-->
+</body>
+</html>

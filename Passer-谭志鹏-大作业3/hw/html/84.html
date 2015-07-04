@@ -1,0 +1,250 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"><head>
+<!-- IE8 兼容 -->
+<meta http-equiv="X-UA-Compatible" content="IE=EmulateIE7" />
+
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link rel="shortcut icon" type="image/x-icon" href="/public/icon/favicon.ico" />
+<!-- 通用css -->
+
+<link href="/publish/csen/css/common.css" rel="stylesheet" type="text/css" />
+<link href="/publish/csen/css/grid.css" rel="stylesheet" type="text/css" />
+<!-- 引入jquery1.4 -->
+<script src="/public/jquery/jquery-1.4.min.js" type="text/javascript"></script>
+<script language="javascript" type="text/javascript">
+/*
+*截取信息简介
+*summaryStr:String 信息简介
+*lengTh:int 截取的长度
+*/
+ function cutSummary(summaryStr,lengTh){
+   if(summaryStr.length>lengTh){
+     summaryStr=summaryStr.substring(0,lengTh)+"...";
+   }
+   document.write(summaryStr);
+ }
+/*
+*jQuery:所有外域链接在新窗口打开
+*/
+$(document).ready(function() {
+ $("a[href*='http://']:not([href*='"+location.hostname+"']),[href*='https://']:not([href*='"+location.hostname+"'])")
+ .addClass("external")
+ .attr("target","_blank")
+});
+</script>
+
+    
+   
+   
+
+   
+
+  <title>
+Department of Computer Science and Technology
+</title><link href="/publish/csen/css/style_second.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<SCRIPT language="JavaScript" src="/public/plugin/source/global.js"></SCRIPT>
+<!-- 导航下拉菜单 -->
+<link type="text/css" rel="stylesheet" href="/public/plugin/source/nav/css/mt_dropdown.css" />
+
+<SCRIPT language="JavaScript" src="/public/plugin/source/nav/js/mt_dropdownc.min.js"></SCRIPT>
+
+<SCRIPT language="JavaScript" src="/public/plugin/source/nav/js/mt_dropdown_initialize.min.js"></SCRIPT>
+
+<script language="JavaScript">
+
+<!--
+
+function MM_openBrWindow(theURL,winName,features) { //v2.0
+
+  window.open(theURL,winName,features);
+
+}
+$(document).ready(function(){
+
+  init();
+
+});
+
+//-->
+</script>
+
+
+<!-- 导航下拉菜单 --><SCRIPT language="JavaScript" src="/public/plugin/source/global_twain.js"></SCRIPT>
+
+ <!--container开始处-->
+ <div  id="container">
+  <!--header开始处-->
+ 
+<div id="logo">
+    <a href=http://www.tsinghua.edu.cn title="清华大学"></a>
+   </div>
+   <!--logo结束处-->
+   <!--header_mid开始处-->
+   <div id="header_mid">
+    <h1>计算机科学与技术系</h1>
+    <p>Department of Computer Science and Technology</p>
+   </div>
+   <!--header_mid结束处-->
+   <!--header_r开始处-->
+   <div id="header_r">
+    <ul>
+     <li><a href="/publish/cs/index.html" title="计算机科学与技术系中文网">中文版</a></li>
+     <li><a href="http://www.tsinghua.edu.cn">清华主页</a></li>
+     <li>search</li>
+     <li class="set_border">
+     <form id="searchForm" action="#" method="post" target="_blank">
+
+
+<input type="hidden" id="searchVpath" name="vpath" value=""/>
+     <input type="text" name="Q"  class="txt" tabindex="1" />
+     </form>
+</li>
+    </ul>
+   </div>
+   <!--header_r结束处-->  <!--header结束处-->
+  <!--nav开始处-->
+
+<SCRIPT language="JavaScript">
+function initMenuData(){
+if (mtDropDown.isSupported()) {
+var ms = new mtDropDownSet(mtDropDown.direction.down, 0, 0, mtDropDown.reference.bottomLeft);
+var menu4885 = ms.addMenu(document.getElementById("menu_4885"));
+menu4885.addItem("Introduction","/publish/csen/4892/index.html","");
+        menu4885.addItem("History","/publish/csen/4893/index.html","");
+        menu4885.addItem("Department News","/publish/csen/4894/index.html","");
+        var menu4886 = ms.addMenu(document.getElementById("menu_4886"));
+menu4886.addItem("Undergraduate Programs","/publish/csen/4901/index.html","");
+        var subMenu4886_0 = menu4886.addMenu(menu4886.items[0]);
+       subMenu4886_0.addItem("Student Admission","/publish/csen/4901/index.html","");
+    subMenu4886_0.addItem("Curriculum","/publish/csen/4902/index.html","");
+    subMenu4886_0.addItem("Special Programs","/publish/csen/4903/index.html","");
+    subMenu4886_0.addItem("Extracurricular Activities","/publish/csen/4904/index.html","");
+      menu4886.addItem("Master Program","/publish/csen/4905/index.html","");
+        var subMenu4886_1 = menu4886.addMenu(menu4886.items[1]);
+       subMenu4886_1.addItem("Student Admission","/publish/csen/4905/index.html","");
+    subMenu4886_1.addItem("Curriculum","/publish/csen/4906/index.html","");
+      menu4886.addItem("Ph.D Program","/publish/csen/4907/index.html","");
+        var subMenu4886_2 = menu4886.addMenu(menu4886.items[2]);
+       subMenu4886_2.addItem("Student Admission","/publish/csen/4907/index.html","");
+    subMenu4886_2.addItem("Curriculum","/publish/csen/4908/index.html","");
+    subMenu4886_2.addItem("Academic Exchange Program","/publish/csen/4909/index.html","");
+      menu4886.addItem("International Student Program","/publish/csen/4910/index.html","");
+        var subMenu4886_3 = menu4886.addMenu(menu4886.items[3]);
+       subMenu4886_3.addItem("Student Admission","/publish/csen/4910/index.html","");
+    subMenu4886_3.addItem("Curriculum","/publish/csen/4911/index.html","");
+    subMenu4886_3.addItem("Events","/publish/csen/4912/index.html","");
+      menu4886.addItem("Educational Achievement","/publish/csen/4899/index.html","");
+        menu4886.addItem("Teaching Lab","/publish/csen/4900/index.html","");
+        var menu4887 = ms.addMenu(document.getElementById("menu_4887"));
+menu4887.addItem("Research Areas","/publish/csen/4915/index.html","");
+        var subMenu4887_0 = menu4887.addMenu(menu4887.items[0]);
+       subMenu4887_0.addItem("Computer Systems","/publish/csen/4915/index.html","");
+    subMenu4887_0.addItem("Computer Networks","/publish/csen/4916/index.html","");
+    subMenu4887_0.addItem("Information Processing","/publish/csen/4917/index.html","");
+    subMenu4887_0.addItem("Computer Vision & Media Computing","/publish/csen/4918/index.html","");
+    subMenu4887_0.addItem("Data,Knowledge & Software Engineering","/publish/csen/4919/index.html","");
+    subMenu4887_0.addItem("Pervasive Computing","/publish/csen/4920/index.html","");
+    subMenu4887_0.addItem("Electronic Design Automation","/publish/csen/4921/index.html","");
+      menu4887.addItem("Labs/Insititutions","/publish/csen/4914/index.html","");
+        var menu4888 = ms.addMenu(document.getElementById("menu_4888"));
+menu4888.addItem("CAS & CAE members","/publish/csen/4922/index.html","");
+        menu4888.addItem("Full Professor","/publish/csen/4923/index.html","");
+        menu4888.addItem("Associate Professor","/publish/csen/4924/index.html","");
+        menu4888.addItem("Assistant Professor","/publish/csen/4925/index.html","");
+        menu4888.addItem("Visiting chair professor groups","/publish/csen/4926/index.html","");
+        var menu4889 = ms.addMenu(document.getElementById("menu_4889"));
+menu4889.addItem("Lectures","/publish/csen/4927/index.html","");
+        menu4889.addItem("Job Opportunity","/publish/csen/4928/index.html","");
+        mtDropDown.renderAll();
+}
+} 
+</SCRIPT>
+<div id="nav">
+    <ul>
+      <li><a href="/publish/csen/index.html">Home</a></li>
+      <li id="menu_4885"><a href="/publish/csen/4892/index.html">About</a></li>
+      <li id="menu_4886"><a href="/publish/csen/4886/index.html">Education</a></li>
+      <li id="menu_4887"><a href="/publish/csen/4887/index.html">Research</a></li>
+      <li id="menu_4888"><a href="/publish/csen/4922/index.html">Faculty</a></li>
+      <li id="menu_4889"><a href="/publish/csen/4927/index.html">Resource</a></li>
+      <li id="menu_4890"><a href="/publish/csen/4890/index.html">Contact</a></li>
+    </ul>
+   </div>
+<script language="JavaScript">initMenuData();</script>  <!--nav结束处-->
+  <!--s_content开始处-->
+  <div id="s_content">
+   <!--detail_2开始处-->
+   <div class="detail_2">
+            
+            <!-- c_top start -->
+<ul class="nav_01"><li>Your Location：</li><li><a href="/publish/csen/index.html">Home</a> &nbsp;&gt;&nbsp;</li><li>Teacher&nbsp;&gt;&nbsp;</li><li>Content</li><li><a href="javascript:history.go(-1);" class="returnPre">Go back</a></li>
+</ul>
+            <!-- c_bottom end -->
+            
+            <!-- start -->
+            <div class="box_detail">
+                   <!--s2_right_con开始处-->
+                             <div id="s2_right_con">
+<img src="/publish/csen/4623/20101224195943214124523/20101224200018686223379.jpg" />
+<ul>
+    <li id="teacher-name"><strong>Shiqiang YANG</strong></li>
+    <li id="teacher-title">Professor</li>
+    <li id="teacher-department">Department of Computer Science and Technology</li>
+    <li id="teacher-time">Joined Department: 1977</li>
+    <li class="teacher-contact"><span class="contact-title">Email:</span><span class="contact-content"><a onfocus="undefined" href="mailto:yangshq@tsinghua.edu.cn">yangshq@tsinghua.edu.cn</a></span></li>
+    <li class="teacher-contact"><span class="contact-title">URL:</span><span class="contact-content"><a onfocus="undefined" href="http://media.cs.tsinghua.edu.cn/~yangsq">http://media.cs.tsinghua.edu.cn/~yangsq</a></span></li>
+    <li class="teacher-contact"><span class="contact-title">Phone:</span><span class="contact-content">010-62771978</span></li>
+    <li class="teacher-contact"><span class="contact-title">Fax:</span><span class="contact-content">010-62771138</span></li>
+</ul>
+<h4>Education background</h4>
+<p align="left">Bachelor of Computer Science, Tsinghua University, Beijing, China, 1977;</p>
+<p>Master of Computer Science, Tsinghua University, Beijing, China, 1983.</p>
+ <h4>Social service</h4>
+<p align="left">Department of Computer Science &amp; Technology, Tsinghua University: Chair (2003-);</p>
+<p>China Computing Federation: Chair of Multimedia Technical Committee (2004-);</p>
+<p>&quot;Tsinghua-Microsoft&quot; Key Joint Lab, Ministry of Education: Co-Chair (1999-);</p>
+<p>IEEE Senior Member (2009-);</p>
+<p>ACM MM, ICME, MMM: Chair, Technical Program Committee Member.</p>
+<h4>Areas of Research Interests/ Research Projects</h4>
+<p align="left">Multimedia Information Processing</p>
+<p>Web Social Network Analysis</p>
+<p align="left">National Natural Science Foundation of China: Research on Theory and Methods of Web Social Network (2010-2013);</p>
+<p>National Basic Research Program of China (The 973 Program): Intelligent Processing of Visual Media (2007-2010).</p>
+<h4>Research Status</h4>
+<p align="left">My research group addressed multimedia information analysis in the early years, covering most of the key techniques including video/image compression and codec, media streaming and transmission, distributed multimedia system, content-based image/video retrieval, etc. With the rapid development of social media, we integrate Internet users' behavior with web information, and address the issue of user modeling in social network and the diffusion mechanism of social media in social network.</p>
+<p>In recent years, we've undertaken a lot of national key research projects from NSFC, National Basic Research Program of China (973), National 863 High-Tech Program, etc. We've published more than 100 research papers. Some of our 30+ alumni have received Excellent Ph.D. Dissertation Award from China Computer Federation (CCF). In addition, several research papers have been awarded or nominated as Best Paper by international transactions and conferences, including IEEE T-CSVT, ICASSP, GlobalComm, etc. Among them, the heuristic scheduling algorithm we proposed for media processing on multi-core processor architecture is awarded as the Best Paper of IEEE T-CSVT in 2009.</p>
+<p>The research achievements of our group have been widely adopted in various fields and industries. Our P2P streaming media system-GridMdia-was adopted by China Central TV (CCTV) in 2004, which is one of the largest TV networks in the world.</p>
+<h4>Honors And Awards</h4>
+<p align="left">IEEE T-CSVT 2009: Best Paper Award (2009);</p>
+<p>Science and Technology Progress Award by Ministry of Education, Second Class-Large-Scale E-Learning System (2005).</p>
+<h4>Academic Achievement</h4>
+<p align="left">[1] Y. Pang, L. F. Sun, J. T. Wen, F. Y. Zhang, W. D. Hu, W. Feng, and S. Q. Yang. A framework for heuristic scheduling for parallel processing on multi-core architecture - a case study with multi-view video coding (MVC). IEEE Trans. Circuit System and Video Technology, vol. 19, no. 11, pp. 1658-1666, 2009. (IEEE T-CSVT 2009: Best Paper Award)</p>
+<p>[2] P. Cui, L. F. Sun, F. Wang, and S. Q. Yang. Contextual mixture tracking. IEEE Trans. Multimedia, vol. 11, no. 2, pp. 333-341, 2009.</p>
+<p>[3] M Zhang, Y. Q. Xiong, Q. Zhang, and S. Q. Yang. Optimizing the throughput of data-driven peer-to-peer streaming. IEEE Trans. Parallel and Distributed System, Jan, vol. 20, no. 1, pp. 97-110, 2009.</p>
+<p>[4] J. G. Luo, Q. Zhang, Y. Tang, and S. Q. Yang. A trace-driven approach to evaluate the scalability of P2P-based video-on-demand service. IEEE Trans. Parallel and Distributed Systems, vol. 20, no. 1, pp. 59-70, 2009.</p>
+<p>[5] M. Zhang, Q. Zhang, and S. Q. Yang. Understanding the power of pull-based streaming protocol: can we do better . IEEE Journal on Selected Areas in Communications, vol. 25, no. 8, pp. 1678-1694, 2007.</p>
+<p>[6] P. Cui, Z. Q. Liu, L. F. Sun, and S. Q. Yang. Hierarchical visual event pattern mining and its applications. Data Mining and Knowledge Discovery, to appear.</p>
+<p>[7] M. Zhang, Q. Zhang, L. F. Sun, and S. Q. Yang. Understanding the power of pull-based P2P live streaming and doing even better. ACM SIGCOMM, 2007.</p>
+<p>[8] L. Liu, L. F. Sun, Y. Rui, Y. Shi, S. Q. Yang. Web video topic discovery and tracking via bipartite graph reinforcement model. International Conference on World Wide Web (WWW2008), 2008.</p>
+<p>[9] P. Cui, F. Wang, L. F. Sun, and S. Q. Yang. A joint matrix factorization approach to unsupervised action categorization,IEEE International Conference on Data Mining (ICDM2008), 2008.</p>
+<p>[10] L. Liu, Y. Rui, L. F. Sun, B. Yang, J. W. Zhang, and S. Q. Yang. Topic mining on web-shared videos. IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP 2008), 2008. (Best Student Paper Final List)</p>
+<!--replace end-->
+                  </div>
+     <!--s2_right_con结束处-->            </div>
+            <!-- end -->
+                                       
+       </div>
+   <!--detail_2结束处--> 
+  </div>
+  <!--s_content结束处-->
+  <!--footer开始处-->
+
+<div id="footer">
+ <p class="copy">Copyright &copy;2009-2011&nbsp;Department of Computer Science and Technology &nbsp;All Rights Reserved</p>
+</div>  <!--footer结束处-->
+ </div>
+ <!--contaienr结束处-->
+</body>
+</html>

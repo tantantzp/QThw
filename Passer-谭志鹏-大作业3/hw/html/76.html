@@ -1,0 +1,288 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"><head>
+<!-- IE8 兼容 -->
+<meta http-equiv="X-UA-Compatible" content="IE=EmulateIE7" />
+
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link rel="shortcut icon" type="image/x-icon" href="/public/icon/favicon.ico" />
+<!-- 通用css -->
+
+<link href="/publish/csen/css/common.css" rel="stylesheet" type="text/css" />
+<link href="/publish/csen/css/grid.css" rel="stylesheet" type="text/css" />
+<!-- 引入jquery1.4 -->
+<script src="/public/jquery/jquery-1.4.min.js" type="text/javascript"></script>
+<script language="javascript" type="text/javascript">
+/*
+*截取信息简介
+*summaryStr:String 信息简介
+*lengTh:int 截取的长度
+*/
+ function cutSummary(summaryStr,lengTh){
+   if(summaryStr.length>lengTh){
+     summaryStr=summaryStr.substring(0,lengTh)+"...";
+   }
+   document.write(summaryStr);
+ }
+/*
+*jQuery:所有外域链接在新窗口打开
+*/
+$(document).ready(function() {
+ $("a[href*='http://']:not([href*='"+location.hostname+"']),[href*='https://']:not([href*='"+location.hostname+"'])")
+ .addClass("external")
+ .attr("target","_blank")
+});
+</script>
+
+    
+   
+   
+
+   
+
+  <title>
+Department of Computer Science and Technology
+</title><link href="/publish/csen/css/style_second.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<SCRIPT language="JavaScript" src="/public/plugin/source/global.js"></SCRIPT>
+<!-- 导航下拉菜单 -->
+<link type="text/css" rel="stylesheet" href="/public/plugin/source/nav/css/mt_dropdown.css" />
+
+<SCRIPT language="JavaScript" src="/public/plugin/source/nav/js/mt_dropdownc.min.js"></SCRIPT>
+
+<SCRIPT language="JavaScript" src="/public/plugin/source/nav/js/mt_dropdown_initialize.min.js"></SCRIPT>
+
+<script language="JavaScript">
+
+<!--
+
+function MM_openBrWindow(theURL,winName,features) { //v2.0
+
+  window.open(theURL,winName,features);
+
+}
+$(document).ready(function(){
+
+  init();
+
+});
+
+//-->
+</script>
+
+
+<!-- 导航下拉菜单 --><SCRIPT language="JavaScript" src="/public/plugin/source/global_twain.js"></SCRIPT>
+
+ <!--container开始处-->
+ <div  id="container">
+  <!--header开始处-->
+ 
+<div id="logo">
+    <a href=http://www.tsinghua.edu.cn title="清华大学"></a>
+   </div>
+   <!--logo结束处-->
+   <!--header_mid开始处-->
+   <div id="header_mid">
+    <h1>计算机科学与技术系</h1>
+    <p>Department of Computer Science and Technology</p>
+   </div>
+   <!--header_mid结束处-->
+   <!--header_r开始处-->
+   <div id="header_r">
+    <ul>
+     <li><a href="/publish/cs/index.html" title="计算机科学与技术系中文网">中文版</a></li>
+     <li><a href="http://www.tsinghua.edu.cn">清华主页</a></li>
+     <li>search</li>
+     <li class="set_border">
+     <form id="searchForm" action="#" method="post" target="_blank">
+
+
+<input type="hidden" id="searchVpath" name="vpath" value=""/>
+     <input type="text" name="Q"  class="txt" tabindex="1" />
+     </form>
+</li>
+    </ul>
+   </div>
+   <!--header_r结束处-->  <!--header结束处-->
+  <!--nav开始处-->
+
+<SCRIPT language="JavaScript">
+function initMenuData(){
+if (mtDropDown.isSupported()) {
+var ms = new mtDropDownSet(mtDropDown.direction.down, 0, 0, mtDropDown.reference.bottomLeft);
+var menu4885 = ms.addMenu(document.getElementById("menu_4885"));
+menu4885.addItem("Introduction","/publish/csen/4892/index.html","");
+        menu4885.addItem("History","/publish/csen/4893/index.html","");
+        menu4885.addItem("Department News","/publish/csen/4894/index.html","");
+        var menu4886 = ms.addMenu(document.getElementById("menu_4886"));
+menu4886.addItem("Undergraduate Programs","/publish/csen/4901/index.html","");
+        var subMenu4886_0 = menu4886.addMenu(menu4886.items[0]);
+       subMenu4886_0.addItem("Student Admission","/publish/csen/4901/index.html","");
+    subMenu4886_0.addItem("Curriculum","/publish/csen/4902/index.html","");
+    subMenu4886_0.addItem("Special Programs","/publish/csen/4903/index.html","");
+    subMenu4886_0.addItem("Extracurricular Activities","/publish/csen/4904/index.html","");
+      menu4886.addItem("Master Program","/publish/csen/4905/index.html","");
+        var subMenu4886_1 = menu4886.addMenu(menu4886.items[1]);
+       subMenu4886_1.addItem("Student Admission","/publish/csen/4905/index.html","");
+    subMenu4886_1.addItem("Curriculum","/publish/csen/4906/index.html","");
+      menu4886.addItem("Ph.D Program","/publish/csen/4907/index.html","");
+        var subMenu4886_2 = menu4886.addMenu(menu4886.items[2]);
+       subMenu4886_2.addItem("Student Admission","/publish/csen/4907/index.html","");
+    subMenu4886_2.addItem("Curriculum","/publish/csen/4908/index.html","");
+    subMenu4886_2.addItem("Academic Exchange Program","/publish/csen/4909/index.html","");
+      menu4886.addItem("International Student Program","/publish/csen/4910/index.html","");
+        var subMenu4886_3 = menu4886.addMenu(menu4886.items[3]);
+       subMenu4886_3.addItem("Student Admission","/publish/csen/4910/index.html","");
+    subMenu4886_3.addItem("Curriculum","/publish/csen/4911/index.html","");
+    subMenu4886_3.addItem("Events","/publish/csen/4912/index.html","");
+      menu4886.addItem("Educational Achievement","/publish/csen/4899/index.html","");
+        menu4886.addItem("Teaching Lab","/publish/csen/4900/index.html","");
+        var menu4887 = ms.addMenu(document.getElementById("menu_4887"));
+menu4887.addItem("Research Areas","/publish/csen/4915/index.html","");
+        var subMenu4887_0 = menu4887.addMenu(menu4887.items[0]);
+       subMenu4887_0.addItem("Computer Systems","/publish/csen/4915/index.html","");
+    subMenu4887_0.addItem("Computer Networks","/publish/csen/4916/index.html","");
+    subMenu4887_0.addItem("Information Processing","/publish/csen/4917/index.html","");
+    subMenu4887_0.addItem("Computer Vision & Media Computing","/publish/csen/4918/index.html","");
+    subMenu4887_0.addItem("Data,Knowledge & Software Engineering","/publish/csen/4919/index.html","");
+    subMenu4887_0.addItem("Pervasive Computing","/publish/csen/4920/index.html","");
+    subMenu4887_0.addItem("Electronic Design Automation","/publish/csen/4921/index.html","");
+      menu4887.addItem("Labs/Insititutions","/publish/csen/4914/index.html","");
+        var menu4888 = ms.addMenu(document.getElementById("menu_4888"));
+menu4888.addItem("CAS & CAE members","/publish/csen/4922/index.html","");
+        menu4888.addItem("Full Professor","/publish/csen/4923/index.html","");
+        menu4888.addItem("Associate Professor","/publish/csen/4924/index.html","");
+        menu4888.addItem("Assistant Professor","/publish/csen/4925/index.html","");
+        menu4888.addItem("Visiting chair professor groups","/publish/csen/4926/index.html","");
+        var menu4889 = ms.addMenu(document.getElementById("menu_4889"));
+menu4889.addItem("Lectures","/publish/csen/4927/index.html","");
+        menu4889.addItem("Job Opportunity","/publish/csen/4928/index.html","");
+        mtDropDown.renderAll();
+}
+} 
+</SCRIPT>
+<div id="nav">
+    <ul>
+      <li><a href="/publish/csen/index.html">Home</a></li>
+      <li id="menu_4885"><a href="/publish/csen/4892/index.html">About</a></li>
+      <li id="menu_4886"><a href="/publish/csen/4886/index.html">Education</a></li>
+      <li id="menu_4887"><a href="/publish/csen/4887/index.html">Research</a></li>
+      <li id="menu_4888"><a href="/publish/csen/4922/index.html">Faculty</a></li>
+      <li id="menu_4889"><a href="/publish/csen/4927/index.html">Resource</a></li>
+      <li id="menu_4890"><a href="/publish/csen/4890/index.html">Contact</a></li>
+    </ul>
+   </div>
+<script language="JavaScript">initMenuData();</script>  <!--nav结束处-->
+  <!--s_content开始处-->
+  <div id="s_content">
+   <!--detail_2开始处-->
+   <div class="detail_2">
+            
+            <!-- c_top start -->
+<ul class="nav_01"><li>Your Location：</li><li><a href="/publish/csen/index.html">Home</a> &nbsp;&gt;&nbsp;</li><li>Teacher&nbsp;&gt;&nbsp;</li><li>Content</li><li><a href="javascript:history.go(-1);" class="returnPre">Go back</a></li>
+</ul>
+            <!-- c_bottom end -->
+            
+            <!-- start -->
+            <div class="box_detail">
+                   <!--s2_right_con开始处-->
+                             <div id="s2_right_con">
+<img src="/publish/csen/4623/20101224193039440369874/20101224193133423607469.jpg" />
+<ul>
+    <li id="teacher-name"><strong>Fuchun SUN</strong></li>
+    <li id="teacher-title">Professor</li>
+    <li id="teacher-department">Department of Computer Science and Technology</li>
+    <li id="teacher-time">Joined Department: 1998</li>
+    <li class="teacher-contact"><span class="contact-title">Email:</span><span class="contact-content"><a onfocus="undefined" href="mailto:fcsun@tsinghua.edu.cn">fcsun@tsinghua.edu.cn</a></span></li>
+    <li class="teacher-contact"><span class="contact-title">URL:</span><span class="contact-content"><a onfocus="undefined" href="http://www.cs.tsinghua.edu.cn/web/WorkersDetail.aspx?Workerid=54">http://www.cs.tsinghua.edu.cn/web/WorkersDetail.aspx?Workerid=54</a></span></li>
+    <li class="teacher-contact"><span class="contact-title">Phone:</span><span class="contact-content">+86-10-62796858</span></li>
+    <li class="teacher-contact"><span class="contact-title">Fax:</span><span class="contact-content">+86-10-62782266</span></li>
+</ul>
+<h4>Education background</h4>
+<p>Bachelor of Automation, Institute of Naval Aeronautical Engineering, Beijing, China, 1986;</p>
+<p>Master of Automation, Institute of Naval Aeronautical Engineering, Beijing, China, 1989;</p>
+<p>Ph. D. in Computer Science &amp; Technology, Tsinghua University, Beijing, China, 1997.</p>
+ <h4>Social service</h4>
+<p>Tsinghua University: Assistant Director of Office of Scientific R&amp;D;</p>
+<p>State Key Laboratory of Intelligent Technology and Systems: Deputy Director;</p>
+<p>IEEE: Senior Member;</p>
+<p>Chinese Association of Artificial Intelligence: Council Member;</p>
+<p>Chinese Association for Artificial Intelligence: Deputy Director and Secretary-General of the Intelligent Control and Management Society;</p>
+<p>IEEE Control System Society: Member of the Technical Committee on Intelligent Control</p>
+<p>Mechatronics, IEEE Trans. on Neural Networks, Soft Computing: Associate Editor;</p>
+<p>Chinese Journal of Intelligent Technology: Associate Editor;</p>
+<p>Information Science: Guest Editor;</p>
+<p>Science in China: Guest Editor.</p>
+<h4>Areas of Research Interests/ Research Projects</h4>
+<p>Intelligent Control and Robotics, Guidance and Control for Mobile Robots &amp; Spacecrafts</p>
+<p>Networked Control Systems</p>
+<p>Information Sensing and Processing in Artificial Cognitive Systems</p>
+<p>National Natural Science Foundation of China: Robust Routing Algorithms and Simulations for Multi-Layered Satellite Network (2009-2010);</p>
+<p>National Natural Science Foundation of China: Modeling and Intelligent Autonomous Control of Near-Space Hypersonic Vehicle (2008-2010);</p>
+<p>National 863 High-Tech Program: Real-Time Modeling and Navigation of Mobile Robots in Dynamic Environment (2008-2010);</p>
+<p>National Basic Research Program of China (The 973 Program): Knowledge Inference and Multi-Modal Interaction of Unstructured Information (2007-2011);</p>
+<p>National Natural Science Funds for Distinguished Young Scholars: Modeling, Planning and Control of Dual-Armed Space Robots (2007-2010);</p>
+<p>National Natural Science Foundation of China: Multi-Objective Robust Control through Fuzzy Singularly Perturbed Model and its Applications (2005-2007);</p>
+<p>National Natural Science Foundation: Research on High-Precision and High-Stability Intelligent Control of Spacecrafts (2005-2007);</p>
+<p>National Basic Research Program of China (The 973 Program): Theories and Techniques of Real-Time Intelligent Control and Optimization for Complex Manufacturing Process (2003-2008);</p>
+<p>National Natural Science Foundation of China: Dynamic Neuro-Fuzzy Control of Multi-Link Flexible Robots and its Experimental Research (2001-2003);</p>
+<p>National Distinguished Doctoral Dissertation Foundation: Dynamic Neuro-Fuzzy Modeling and Control of Flexible-Link Manipulators (2001-2005).</p>
+<h4>Research Status</h4>
+<p>I have been focused on neuro-fuzzy modeling, and control and filtering of nonlinear systems for over ten years. Supported by National Science Foundation of China, National Basic Research Program (973), National 863 High-Tech Program and Advanced Defensive Research Project, series of research achievements have been achieved in stable neuro-fuzzy adaptive control and robust control of nonlinear systems, and filtering and control of Markovian Jump Systems. Significant achievements are listed as follows:</p>
+<p>1. Stable Neuro-Fuzzy Adaptive Control of Nonlinear Systems. I have proposed a novel design idea of neural network-variable structure control. I have also developed systematic design approaches to the sampled-data adaptive control of (rigid/flexible link) robotic manipulators and a class of nonlinear systems. Those theoretical results have been verified by experiments. Representative paper of this research, <em>&quot;Neural Network-based Adaptive Controller Design of Robotic Manipulators with an Observer&quot;</em>, was awarded the first prize of the 18th Choon-Gang academic awards (Korea) in 2003.</p>
+<p>2. Control and Filtering of Multi-Scale Nonlinear Systems and Markov Jump Systems.</p>
+<p>A large class of practical plants, including flexible manipulators, flying wing aircrafts, catalytic reduction towers and large flexible space structures, can be described by multiple scale models with small perturbation parameters. I have proposed and proved the existence and sufficiency of approximation of multi-scale nonlinear systems using fuzzy singularly perturbed model (FSPM). I have also indicated the necessary condition of the universal approximator with a given precision. The adaptive and robust control approaches are developed based on both dependent and independent perturbation parameter solutions, which could obtain a significant control precision. Furthermore, effective methods are developed to address the saturation effect and incomplete measurable states in practical systems. I was invited to give a plenary speech in IEEE Intelligent System Design and Applications 2006 on this topic.</p>
+<p>3. Application Researches. Since I joined Tsinghua University in 2001, I have supervised 20 master and 15 Ph.D students. Our research are related to some of the most important applications of neuro-fuzzy control methods in rigid and flexible-link manipulators, nonlinear systems, internetworked systems, space robots, etc. As of the experimental verification of our theoretical results, we have constructed two flexible-link robot test-beds and a teleoperation system for space on-orbit services. I have published 2 monographs, and filed 8 patent applications (3 authorized).</p>
+<h4>Honors And Awards</h4>
+<p>National Natural Science Funds for Distinguished Young Scholars (2006);</p>
+<p>New Century Talents Award by Ministry of Education (2004);</p>
+<p>National Science and Technology Progress Award, Second Class (2002);</p>
+<p>18th Choon-Gang Academic Awards (Korea) (2003);</p>
+<p>Science and Technology Progress Award by City of Beijing, Second Class (2004).</p>
+<p>National Distinguished Doctoral Dissertation (2000).</p>
+<h4>Academic Achievement</h4>
+<p>[1] Fuchun Sun, Zengqi Sun, Bo Zhang. Manipulator adaptive control neural network theory and method. Higher Education Press, Beijing, 2005(in Chinese).</p>
+<p>[2] F. C. Sun and F. G. Wu. Chapter 8: A discrete-time jump fuzzy system approach to networked control system design. In Networked Control Systems: Theory and Applications,Eds. Fei-YueWang &amp; Derong Liu, West Publishing Company: March 2008.</p>
+<p>[3] F. C. Sun, Y. Tan and C. Wang. Special issue on pattern recognition and information processing using neural networks. Soft Computing, 2010, 14(2): 101-102.</p>
+<p>[4] L. Lee and F. C. Sun. The direct adaptive control based on the singularly perturbed model with the unknown consequence. International Journal of Control Automation &amp; Systems, 2010, 8(2): 38-243.&nbsp;</p>
+<p>[5] H. Q. Wang and F. C. Sun. An unbiased LSSVM model for classification and regression. Soft Computing, 2010, 14(2): 171-180.</p>
+<p>[6] N. Chen, F. C.Sun and L. G, Ding. An adaptive PNN-DS approach to classification using multi-sensor information fusion. Neural Computing &amp; Applications, 2009, 18(5):455-467.</p>
+<p>[7] H. Wu, F. C. Sun and H. P. Liu. Fuzzy particle filtering for uncertain systems. IEEE Trans. Fuzzy Systems, 2008, 16(5):114-119.</p>
+<p>[8] F. C. Sun, L. Li, H. X. Li and H. P. Liu. Neuro-fuzzy dynamic-inversion- based adaptive control for robotic manipulators-discrete time case. IEEE Trans. On Industrial Electronics, 2007, 54(3): 1342-1351.</p>
+<p>[9] W. Hao, and F. C. Sun. Adaptive kriging control of discrete-time nonlinear systems. IEE Proceedings- Control Theory and Applications, 2007, 1(3):646-656.</p>
+<p>[10] Y. G. Tang, F. C. Sun and Z. Q. Sun. Neural network control of flexible-link manipulators using sliding mode. Neurocomputing, 2006, 70:288-295.</p>
+<p>[11] F. C. Sun, Z. Q. Sun and H. X. Li. Stable adaptive controller design of robotic manipulators via neuro-fuzzy dynamic inversion. Journal of Robotic Systems, 2005, 2005, 22(12):809-819.</p>
+<p>[12] F. C. Sun, H. P. Liu and K. Z. He. Reduced-order H？？ filtering for linear systems with Markovian jump parameters. Systems and Control Letters, 2005,54(8):739-746.</p>
+<p><a id="OLE_LINK5" onfocus="undefined" name="OLE_LINK5">[13] H. P. Liu, F. C. Sun and Z. Q. Sun. Stability analysis and synthesis of fuzzy singularly perturbed systems. IEEE Trans. on Fuzzy Systems, 2005, 13(2):273-284</a>.</p>
+<p>[14] F. C. Sun, H. P. Liu and Z. Q. Sun. Comments on 'Constrained controller design of discrete Takagi-Sugeno fuzzy models'. Fuzzy Sets and Systems, 2004, 146(2): 473-476.</p>
+<p>[15]H. P. Liu, F. C. Sun, K. Z. He and Z. Q. Sun. Design of reduced-order H？？ filter for Markovian jump linear systems with time-delay. IEEE Trans. on Circuits and Systems, Part II ---- Express Briefs, 2004, 51(11):607-612.</p>
+<p>[16] F. C. Sun, Z. Q. Sun and L. Li. Adaptive dynamic neuro-fuzzy controller design of robotic manipulators. Fuzzy Sets and Systems, 2003, 134(1): 117-133.</p>
+<p>[17]F. C. Sun and Z. Q. Sun. Hybrid neuro-fuzzy adaptive control for flexible-link manipulators. International Journal of Fuzzy Systems, 2003, 5(2): 89-97.</p>
+<p>[18] F. C. Sun, H. X. Li and L. Li. Robot discrete adaptive control based on dynamic inversion using dynamical neural networks. Automatica, 2002, 38(11): 1977-1983.</p>
+<p>[19] F. C. Sun, Z. Q. Sun and P. Y. Woo. Neural network-based adaptive controller design of robot manipulators with an observer. IEEE Trans. on Neural Networks, 2001, 12(1): 54-67.</p>
+<p>[20] F. C. Sun, Z. Q. Sun, Y. B. Chen and R. J. Zhang. Neural adaptive tracking controller for robot manipulators with unknown dynamics. IEE Proceedings, Part D: Control Theory and Applications, 2000, 147(3): 366-370.</p>
+<p>[21] F. C. Sun, Z. Q. Sun and F. Gary. An adaptive fuzzy controller based on sliding mode for robot manipulators. IEEE Trans. on Systems, Man, and Cybernetics. (Part B: Cybernetics), 1999, 29(5): 661-667.</p>
+<p>[22] F. C. Sun, Z. Q. Sun, Y. Y. Zhu and W. J. Lu. Stable neuro-adaptive control for robots with unknown dynamics. Journal of Intelligent and Robotic Systems. 1999, 26(1): 91-100.</p>
+<p>[23] F. C. Sun and Z. Q. Sun. Robot adaptive control based on dynamic inversion using dynamical neural networks. Machine Intelligence and Robot Control, 1999, 1(2): 71-78.</p>
+<p>[24] F. C. Sun, Z. Q. Sun, and P. Y. Woo. Stable neural network-based adaptive control for sampled-data nonlinear systems. IEEE Trans. on Neural Networks, 1998, 9(5): 956-968.</p>
+<p>[25] F. C. Sun, Z. Q. Sun, M. H. Guo and R.J. Zhang. A stable neural network-based adaptive controller for robot manipulators. International Journal of Intelligent and Robotic systems, 1998, 2(3): 413-432.</p>
+<p>[26] F. C. Sun and Z. Q. Sun. Stable sampled-data adaptive control of robots using neural network models. Journal of Intelligent and Robotic Systems. 1997, 20( 2): 131-155.</p>
+<p>[27]H. Wu, F. C. Sun, Z. Q. Sun and L. C. Wu. Optimal trajectory planning of a flexible dual-arm space robot with vibration reduction. Journal of Intelligent and Robotic Systems, 2004, 40(2):147-163.</p>
+<p>[28] N. Zhao and F. C. Sun. Comments on 'Fuzzy control design for nonlinear singularly perturbed systems with pole placement constraints:&nbsp;an LMI approach'. IEEE Trans. on Systems, Man and Cybernetics, 2004, 34(6):2422.</p>
+                  </div>
+     <!--s2_right_con结束处-->            </div>
+            <!-- end -->
+                                       
+       </div>
+   <!--detail_2结束处--> 
+  </div>
+  <!--s_content结束处-->
+  <!--footer开始处-->
+
+<div id="footer">
+ <p class="copy">Copyright &copy;2009-2011&nbsp;Department of Computer Science and Technology &nbsp;All Rights Reserved</p>
+</div>  <!--footer结束处-->
+ </div>
+ <!--contaienr结束处-->
+</body>
+</html>
